@@ -10,13 +10,8 @@ import { Reveal } from "@/components/ui/Reveal";
 import { AppleIcon } from "@/components/ui/AppleIcon";
 import { PlayStoreIcon } from "@/components/ui/PlayStoreIcon";
 import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/constants";
-import {
-  FeedMock,
-  WorkoutMock,
-  PartyMock,
-  CardioMock,
-  RewardsMock,
-} from "@/components/mocks/ScreenMocks";
+import { WorkoutMock, PartyMock, CardioMock } from "@/components/mocks/ScreenMocks";
+import { AppScreenshot } from "@/components/ui/AppScreenshot";
 import type { Dictionary } from "@/dictionaries";
 
 const PARTICLES = [
@@ -118,7 +113,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
 
             <Float duration={5.5} delay={0}>
               <PhoneFrame size="lg" className="z-10">
-                <FeedMock />
+                <AppScreenshot src="/screenshots/feed.png" alt="Pulse feed screen" />
               </PhoneFrame>
             </Float>
 
@@ -130,7 +125,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
 
             <Float duration={7} delay={0.6} className="hidden xl:block">
               <PhoneFrame size="sm" className="-ml-10 mb-10 rotate-[14deg] opacity-80 blur-[0.5px]">
-                <RewardsMock />
+                <AppScreenshot src="/screenshots/pulse-live.png" alt="Pulse Live screen" />
               </PhoneFrame>
             </Float>
           </div>

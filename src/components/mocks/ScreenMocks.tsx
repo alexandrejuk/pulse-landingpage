@@ -1,10 +1,10 @@
-import { Flame, Heart, MapPin, Zap, Check, Users, Trophy, Star, Award } from "lucide-react";
+import { Zap, MapPin, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-/** Lightweight CSS/SVG stand-ins for real app screenshots (none exist yet).
- * Each mock renders inside a <PhoneFrame> and mirrors a real Pulse screen
- * using the same tokens as the mobile app (purple accents, dark surfaces).
- * Replace with actual screenshots via next/image once captured. */
+/** Lightweight CSS/SVG stand-ins for screens without a real screenshot yet
+ * (workout session, party lobby, generic cardio). Each mock renders inside a
+ * <PhoneFrame> and mirrors a real Pulse screen using the same tokens as the
+ * mobile app. Replace with an <AppScreenshot> once a real capture exists. */
 
 function StatusBar() {
   return (
@@ -26,55 +26,6 @@ function Avatar({ className, ring }: { className?: string; ring?: boolean }) {
         className
       )}
     />
-  );
-}
-
-export function FeedMock() {
-  return (
-    <div className="flex h-full flex-col bg-background">
-      <StatusBar />
-      <div className="flex items-center justify-between px-4 pb-3">
-        <span className="text-sm font-extrabold text-white">Feed</span>
-        <Heart size={14} className="text-white/50" />
-      </div>
-      <div className="mx-3 overflow-hidden rounded-2xl border border-white/10 bg-surface">
-        <div className="flex items-center gap-2 p-3">
-          <Avatar className="h-8 w-8" />
-          <div className="flex-1">
-            <div className="h-2 w-20 rounded-full bg-white/80" />
-            <div className="mt-1.5 h-1.5 w-14 rounded-full bg-white/25" />
-          </div>
-          <div className="rounded-full bg-white/10 px-2 py-1 text-[8px] font-bold text-white/60">PUBLIC</div>
-        </div>
-        <div className="relative mx-3 h-32 overflow-hidden rounded-xl bg-gradient-to-br from-primary-light/40 via-primary/30 to-deep-purple/60">
-          <div className="absolute bottom-2 left-2 flex items-center gap-1 rounded-full bg-black/40 px-2 py-1">
-            <Zap size={10} className="fill-achievement text-achievement" />
-            <span className="text-[9px] font-bold text-white">+120 XP</span>
-          </div>
-        </div>
-        <div className="flex items-center gap-2 p-3">
-          <div className="flex -space-x-2">
-            <Avatar className="h-5 w-5 ring-2 ring-surface" />
-            <Avatar className="h-5 w-5 ring-2 ring-surface" />
-            <Avatar className="h-5 w-5 ring-2 ring-surface" />
-          </div>
-          <span className="text-[9px] font-semibold text-white/50">+24 reactions</span>
-        </div>
-      </div>
-      <div className="mx-3 mt-3 overflow-hidden rounded-2xl border border-white/10 bg-surface p-3">
-        <div className="flex items-center gap-2">
-          <Avatar className="h-8 w-8" />
-          <div className="flex-1">
-            <div className="h-2 w-24 rounded-full bg-white/80" />
-            <div className="mt-1.5 h-1.5 w-16 rounded-full bg-white/25" />
-          </div>
-        </div>
-        <div className="mt-3 flex gap-2">
-          <div className="h-14 flex-1 rounded-lg bg-white/5" />
-          <div className="h-14 flex-1 rounded-lg bg-white/5" />
-        </div>
-      </div>
-    </div>
   );
 }
 
@@ -197,43 +148,6 @@ export function CardioMock() {
             <div className="text-[7px] font-bold uppercase text-white/40">{l}</div>
           </div>
         ))}
-      </div>
-    </div>
-  );
-}
-
-export function RewardsMock() {
-  const badges = [Trophy, Star, Award, Flame];
-  return (
-    <div className="flex h-full flex-col bg-background px-4">
-      <StatusBar />
-      <div className="mt-2 flex items-center justify-between">
-        <span className="text-sm font-extrabold text-white">Level 24</span>
-        <div className="flex items-center gap-1 rounded-full bg-streak/15 px-2 py-1">
-          <Flame size={10} className="text-streak" />
-          <span className="text-[9px] font-bold text-streak">18</span>
-        </div>
-      </div>
-      <div className="mt-3 h-2 overflow-hidden rounded-full bg-white/10">
-        <div className="h-full w-2/3 rounded-full bg-gradient-to-r from-achievement to-streak" />
-      </div>
-      <span className="mt-1 text-[8px] font-semibold text-white/40">2,340 / 3,500 XP</span>
-      <div className="mt-4 grid grid-cols-2 gap-2">
-        {badges.map((Icon, i) => (
-          <div
-            key={i}
-            className="flex flex-col items-center gap-1 rounded-xl border border-white/10 bg-surface py-3"
-          >
-            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-primary-light to-deep-purple">
-              <Icon size={14} className="text-white" />
-            </div>
-            <div className="h-1.5 w-10 rounded-full bg-white/20" />
-          </div>
-        ))}
-      </div>
-      <div className="mt-3 flex items-center justify-center gap-1 rounded-xl border border-white/10 bg-surface py-2">
-        <Users size={11} className="text-primary-light" />
-        <span className="text-[9px] font-semibold text-white/60">Crew rank #3</span>
       </div>
     </div>
   );

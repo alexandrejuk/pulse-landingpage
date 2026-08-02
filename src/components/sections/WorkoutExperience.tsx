@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { GradientBlob } from "@/components/ui/GradientBlob";
-import { WorkoutMock, CardioMock } from "@/components/mocks/ScreenMocks";
+import { AppScreenshot } from "@/components/ui/AppScreenshot";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [ListChecks, BookOpen, Timer, HeartPulse];
@@ -57,12 +57,12 @@ export function WorkoutExperience({ dict }: { dict: Dictionary["workoutExperienc
           <div className="relative flex justify-center">
             <Float duration={7} delay={0.3} className="absolute -right-4 top-10 hidden sm:block">
               <PhoneFrame size="sm" className="rotate-[10deg] opacity-90">
-                <CardioMock />
+                <AppScreenshot src="/screenshots/cardio-detail.png" alt="Pulse cardio setup screen" />
               </PhoneFrame>
             </Float>
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
-                <WorkoutMock />
+                <AppScreenshot src="/screenshots/cardio-list.png" alt="Pulse cardio selection screen" />
               </PhoneFrame>
             </Float>
           </div>
