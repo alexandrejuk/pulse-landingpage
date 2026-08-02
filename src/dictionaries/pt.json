@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Pulse — Treine Junto. Evolua Junto.",
+    "description": "O app de fitness social onde os treinos viram experiências compartilhadas. Monte sua Crew, complete treinos ao vivo, ganhe XP, desbloqueie conquistas e mantenha a consistência juntos."
+  },
+  "nav": {
+    "links": [
+      { "label": "Fitness Social", "href": "#social-fitness" },
+      { "label": "Gamificação", "href": "#gamification" },
+      { "label": "Live Cardio", "href": "#live-cardio" },
+      { "label": "Planos", "href": "#pricing" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "download": "Baixar Pulse"
+  },
+  "hero": {
+    "eyebrow": "FITNESS SOCIAL, REINVENTADO",
+    "titleLine1": "Treine Junto.",
+    "titleLine2": "Evolua Junto.",
+    "subtitle": "O app de fitness social onde os treinos viram experiências compartilhadas. Monte sua Crew, complete treinos ao vivo, ganhe XP, desbloqueie conquistas e mantenha a consistência juntos.",
+    "appStore": "Baixar na App Store",
+    "playStore": "Baixar no Google Play",
+    "watchDemo": "Ver Demonstração"
+  },
+  "socialFitness": {
+    "eyebrow": "Por que o Pulse",
+    "title": "Isso não é só mais um app de treino.",
+    "description": "Dezenas de apps prometem treinos personalizados. O Pulse é construído em torno de uma ideia diferente — treinar junto te leva mais longe.",
+    "features": [
+      { "title": "Crew", "description": "Treine com amigos. Monte uma crew que te mantém responsável, todos os dias." },
+      { "title": "Party Workout", "description": "Prontos juntos. Treinam juntos. Ganham mais XP quando toda a crew aparece." },
+      { "title": "Live Cardio", "description": "Corra, caminhe ou pedale junto em tempo real — não importa a distância." },
+      { "title": "Feed", "description": "Compartilhe seus treinos e celebre o progresso em um feed feito para fitness." }
+    ]
+  },
+  "gamification": {
+    "eyebrow": "Gamificação",
+    "title": "Progresso que parece um jogo.",
+    "description": "Cada treino ganha XP. Cada streak gera momentum. Cada conquista vale a pena comemorar — com sua Crew acompanhando.",
+    "steps": ["XP", "Subir de Nível", "Conquistas", "Streak", "Ranking", "Recompensas"]
+  },
+  "workoutExperience": {
+    "eyebrow": "Experiência de Treino",
+    "title": "Feito para quem realmente treina.",
+    "description": "Uma interface de treino premium, pensada para que nada fique entre você e a próxima repetição.",
+    "highlights": [
+      { "title": "Planos de treino personalizados", "description": "Programas que se adaptam aos seus objetivos, experiência e equipamentos — sem achismo." },
+      { "title": "Instruções de exercício", "description": "Instruções claras e guiadas para cada movimento, para você treinar sempre com confiança." },
+      { "title": "Timer de descanso integrado", "description": "Timers automáticos entre séries mantêm seu treino fluindo sem precisar olhar o relógio." },
+      { "title": "Rastreamento inteligente de cardio", "description": "Distância, ritmo e calorias rastreados com precisão, tanto ao ar livre quanto indoor." }
+    ]
+  },
+  "liveCardio": {
+    "eyebrow": "Live Cardio",
+    "title": "Treinem juntos, mesmo estando longe.",
+    "description": "Corra, caminhe ou pedale em tempo real com sua Crew — veja a posição, o ritmo e o progresso de cada um acontecendo ao vivo.",
+    "live": "AO VIVO",
+    "nearby": "3 membros da crew por perto",
+    "distanceLabel": "distância",
+    "leaderboardTitle": "Ranking ao vivo",
+    "leaderboard": [
+      { "name": "Marina S.", "pace": "4:52 /km" },
+      { "name": "Você", "pace": "5:08 /km" },
+      { "name": "Diego R.", "pace": "5:19 /km" }
+    ],
+    "nextEvent": "Próximo evento",
+    "nextEventDetail": "Sprint final em 0:45"
+  },
+  "workoutParty": {
+    "eyebrow": "Workout Party",
+    "title": "Todo mundo entra. Todo mundo começa junto.",
+    "description": "Abra uma lobby, convide sua Crew e veja todo mundo se marcar como pronto. Quando a contagem regressiva zerar, a party inteira treina o mesmo treino em sincronia — ganhando um bônus de XP compartilhado por aparecer junto.",
+    "lobbyLabel": "Party Lobby",
+    "lobbyName": "Crew de Perna",
+    "players": [
+      { "name": "Marina", "ready": true },
+      { "name": "Diego", "ready": true },
+      { "name": "Você", "ready": true },
+      { "name": "Kaique", "ready": false }
+    ],
+    "bonus": "+30% de bônus de XP na party",
+    "steps": [
+      "Jogadores entram na lobby em tempo real",
+      "O status de pronto sincroniza instantaneamente entre a party",
+      "Uma contagem regressiva sincronizada inicia o treino para todos",
+      "Terminar juntos desbloqueia um bônus de XP compartilhado"
+    ]
+  },
+  "feed": {
+    "eyebrow": "Feed",
+    "title": "Cada treino vira uma lembrança.",
+    "description": "Sessões de cardio, recordes de força, conquistas, subidas de nível, parties completas — seu feed guarda cada vitória que vale a pena compartilhar."
+  },
+  "feedCards": {
+    "cardio": { "distance": "5,2", "distanceUnit": "km", "time": "28:14", "timeUnit": "tempo", "calories": "312", "caloriesUnit": "cal" },
+    "workoutPhoto": { "xp": "+140 XP", "reactions": "+18 reações" },
+    "achievement": { "label": "Conquista desbloqueada", "title": "100 Treinos" },
+    "levelUp": { "label": "Subiu de nível", "title": "Nível 24 alcançado" },
+    "party": { "completed": "Party completa", "streaks": "4 streaks estendidas" }
+  },
+  "achievements": {
+    "eyebrow": "Conquistas",
+    "title": "Marcos que valem a pena perseguir.",
+    "description": "Cada badge marca uma conquista real — e sua Crew vê no momento em que você desbloqueia.",
+    "badges": ["100 Treinos", "Streak de 30 Dias", "Primeira Party Workout", "Corrida de 10 km", "Nível 50", "Mestre da Consistência"]
+  },
+  "stats": {
+    "items": [
+      { "value": 4200000, "suffix": "+", "label": "XP conquistado pela comunidade" },
+      { "value": 128000, "suffix": "+", "label": "Treinos completados" },
+      { "value": 6400, "suffix": "+", "label": "Crews criadas" },
+      { "value": 98, "suffix": "%", "label": "Treinariam com o Pulse de novo" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Amado pelos primeiros usuários",
+    "title": "Treinar é diferente quando é junto.",
+    "items": [
+      { "quote": "O Party Workout mudou como nosso grupo treina. A gente aparece mais porque sabe que os outros estão esperando na lobby.", "name": "Marina Souza", "role": "Crew de 6, São Paulo" },
+      { "quote": "O Live Cardio deixou minhas corridas de manhã sociais de novo. Disputar o ritmo dos amigos em tempo real motiva muito mais que correr sozinho.", "name": "Diego Ramos", "role": "Treinando para maratona" },
+      { "quote": "As streaks e o XP me mantiveram consistente pela primeira vez em anos. Ver as conquistas da minha Crew me empurra a continuar.", "name": "Kaique Alves", "role": "Streak de 6 meses" }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Planos",
+    "title": "Grátis para começar. Premium quando quiser mais.",
+    "description": "Sem paywall no que faz o Pulse social. O Premium é para quem busca performance extra.",
+    "plans": [
+      {
+        "name": "Grátis",
+        "price": "R$0",
+        "period": "para sempre",
+        "description": "Tudo que você precisa para começar a treinar com sua Crew.",
+        "features": ["Planos de treino personalizados", "Live Cardio com sua Crew", "Lobbies de Party Workout", "XP, streaks e conquistas", "Feed social"],
+        "cta": "Começar Grátis",
+        "badge": ""
+      },
+      {
+        "name": "Premium",
+        "price": "R$49,90",
+        "period": "/mês",
+        "description": "Desbloqueie toda a profundidade da inteligência de treino do Pulse.",
+        "features": ["Melhorias ilimitadas com IA no plano", "Analytics avançado de performance", "Conquistas premium exclusivas", "Acesso prioritário a novos recursos", "Tudo do plano Grátis"],
+        "cta": "Assinar Premium",
+        "badge": "Mais popular"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Perguntas, respondidas.",
+    "items": [
+      { "q": "Como funciona o Party Workout?", "a": "Abra uma lobby, convide sua Crew e todos se marcam como prontos. Quando a contagem regressiva termina, a party inteira começa o mesmo treino junto e ganha um bônus de XP compartilhado por terminar em grupo." },
+      { "q": "Posso treinar sozinho?", "a": "Com certeza. Todo recurso — planos personalizados, rastreamento de cardio, conquistas — funciona sozinho. Os recursos sociais como Crew, Party Workout e Live Cardio estão lá quando você quiser." },
+      { "q": "Como funciona o Live Cardio?", "a": "Comece uma corrida, caminhada ou pedalada e convide sua Crew para entrar em tempo real. Vocês vão ver a posição, ritmo e progresso uns dos outros em um mapa ao vivo compartilhado até a sessão terminar." },
+      { "q": "Posso usar smartwatches?", "a": "Integrações com smartwatches e wearables estão no nosso roadmap. Por enquanto, o Pulse rastreia suas sessões com precisão usando o GPS e os sensores do seu celular." },
+      { "q": "O Pulse é grátis?", "a": "Sim. Todos os recursos sociais e de gamificação — Crew, Party Workout, Live Cardio, XP, streaks e conquistas — são grátis. O Premium adiciona melhorias com IA no plano e analytics avançado." }
+    ]
+  },
+  "finalCta": {
+    "title": "Pronto para evoluir seu fitness?",
+    "description": "Baixe o Pulse hoje e transforme seu próximo treino em uma experiência compartilhada.",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "footer": {
+    "tagline": "O app de fitness social onde treinar vira uma experiência compartilhada.",
+    "groups": [
+      { "title": "Legal", "links": [{ "label": "Política de Privacidade", "href": "#" }, { "label": "Termos", "href": "#" }] },
+      { "title": "Suporte", "links": [{ "label": "Central de Ajuda", "href": "#" }, { "label": "Contato", "href": "#" }] },
+      { "title": "Comunidade", "links": [{ "label": "Instagram", "href": "#" }, { "label": "TikTok", "href": "#" }, { "label": "Discord", "href": "#" }] }
+    ],
+    "rights": "Todos os direitos reservados.",
+    "madeFor": "Feito para quem treina junto."
+  }
+}

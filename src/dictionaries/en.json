@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Pulse — Train Together. Level Up Together.",
+    "description": "The social fitness app where workouts become shared experiences. Build your Crew, complete live workouts, earn XP, unlock achievements and stay consistent together."
+  },
+  "nav": {
+    "links": [
+      { "label": "Social Fitness", "href": "#social-fitness" },
+      { "label": "Gamification", "href": "#gamification" },
+      { "label": "Live Cardio", "href": "#live-cardio" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "FAQ", "href": "#faq" }
+    ],
+    "download": "Download Pulse"
+  },
+  "hero": {
+    "eyebrow": "SOCIAL FITNESS, REINVENTED",
+    "titleLine1": "Train Together.",
+    "titleLine2": "Level Up Together.",
+    "subtitle": "The social fitness app where workouts become shared experiences. Build your Crew, complete live workouts, earn XP, unlock achievements and stay consistent together.",
+    "appStore": "Download on App Store",
+    "playStore": "Download on Google Play",
+    "watchDemo": "Watch Demo"
+  },
+  "socialFitness": {
+    "eyebrow": "Why Pulse",
+    "title": "This is not another workout app.",
+    "description": "Dozens of apps promise personalized training plans. Pulse is built around a different idea — training together makes you go further.",
+    "features": [
+      { "title": "Crew", "description": "Train with friends. Build a crew that keeps you accountable, every single day." },
+      { "title": "Party Workout", "description": "Ready together. Train together. Earn more XP when your whole crew shows up." },
+      { "title": "Live Cardio", "description": "Run, walk or cycle together in real time — no matter how far apart you are." },
+      { "title": "Feed", "description": "Share your workouts and celebrate progress with a feed built for fitness." }
+    ]
+  },
+  "gamification": {
+    "eyebrow": "Gamification",
+    "title": "Progress that feels like a game.",
+    "description": "Every workout earns XP. Every streak builds momentum. Every achievement is worth celebrating — with your Crew watching.",
+    "steps": ["XP", "Level Up", "Achievements", "Streak", "Leaderboard", "Rewards"]
+  },
+  "workoutExperience": {
+    "eyebrow": "Workout Experience",
+    "title": "Built for people who actually train.",
+    "description": "A premium workout UI, engineered so nothing gets between you and the next rep.",
+    "highlights": [
+      { "title": "Personalized workout plans", "description": "Programs that adapt to your goals, experience and equipment — no guesswork." },
+      { "title": "Exercise instructions", "description": "Clear, guided instructions for every movement so you always train with confidence." },
+      { "title": "Rest timer, built in", "description": "Automatic rest timers between sets keep your session flowing without checking a clock." },
+      { "title": "Smart cardio tracking", "description": "Distance, pace and calories tracked precisely for outdoor and indoor cardio alike." }
+    ]
+  },
+  "liveCardio": {
+    "eyebrow": "Live Cardio",
+    "title": "Train together, even when you're apart.",
+    "description": "Run, walk or cycle in real time with your Crew — see each other's position, pace and progress as it happens.",
+    "live": "LIVE",
+    "nearby": "3 crew members nearby",
+    "distanceLabel": "distance",
+    "leaderboardTitle": "Live leaderboard",
+    "leaderboard": [
+      { "name": "Marina S.", "pace": "4:52 /km" },
+      { "name": "You", "pace": "5:08 /km" },
+      { "name": "Diego R.", "pace": "5:19 /km" }
+    ],
+    "nextEvent": "Next broadcast event",
+    "nextEventDetail": "Final sprint in 0:45"
+  },
+  "workoutParty": {
+    "eyebrow": "Workout Party",
+    "title": "Everyone joins. Everyone starts together.",
+    "description": "Open a lobby, invite your Crew, and watch everyone mark themselves ready. Once the countdown hits zero, the whole party trains the same workout in sync — earning a shared XP bonus for showing up together.",
+    "lobbyLabel": "Party Lobby",
+    "lobbyName": "Leg Day Crew",
+    "players": [
+      { "name": "Marina", "ready": true },
+      { "name": "Diego", "ready": true },
+      { "name": "You", "ready": true },
+      { "name": "Kaique", "ready": false }
+    ],
+    "bonus": "+30% XP party bonus",
+    "steps": [
+      "Players join the lobby in real time",
+      "Ready status syncs instantly across the party",
+      "A synchronized countdown starts the workout for everyone",
+      "Finishing together unlocks a shared XP bonus"
+    ]
+  },
+  "feed": {
+    "eyebrow": "Feed",
+    "title": "Every workout becomes a memory.",
+    "description": "Cardio sessions, lifting PRs, achievements, level ups, party completions — your feed captures every win worth sharing."
+  },
+  "feedCards": {
+    "cardio": { "distance": "5.2", "distanceUnit": "km", "time": "28:14", "timeUnit": "time", "calories": "312", "caloriesUnit": "cal" },
+    "workoutPhoto": { "xp": "+140 XP", "reactions": "+18 reactions" },
+    "achievement": { "label": "Achievement unlocked", "title": "100 Workouts" },
+    "levelUp": { "label": "Level up", "title": "Level 24 reached" },
+    "party": { "completed": "Party completed", "streaks": "4 streaks extended" }
+  },
+  "achievements": {
+    "eyebrow": "Achievements",
+    "title": "Milestones worth chasing.",
+    "description": "Every badge marks a real accomplishment — and your Crew sees it the moment you unlock it.",
+    "badges": ["100 Workouts", "30 Day Streak", "First Party Workout", "10 km Run", "Level 50", "Consistency Master"]
+  },
+  "stats": {
+    "items": [
+      { "value": 4200000, "suffix": "+", "label": "XP earned by the community" },
+      { "value": 128000, "suffix": "+", "label": "Workouts completed" },
+      { "value": 6400, "suffix": "+", "label": "Crews created" },
+      { "value": 98, "suffix": "%", "label": "Would train with Pulse again" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Loved by early users",
+    "title": "Training feels different together.",
+    "items": [
+      { "quote": "Party Workout changed how our whole group trains. We show up more because we know everyone else is waiting in the lobby.", "name": "Marina Souza", "role": "Crew of 6, São Paulo" },
+      { "quote": "Live Cardio made my morning runs social again. Racing my friends' pace in real time is way more motivating than a solo run.", "name": "Diego Ramos", "role": "Marathon in training" },
+      { "quote": "The streaks and XP kept me consistent for the first time in years. Seeing my Crew's achievements pushes me to keep going.", "name": "Kaique Alves", "role": "6-month streak" }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Free to start. Premium when you're ready.",
+    "description": "No paywalls on what makes Pulse social. Premium is for those chasing extra performance.",
+    "plans": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "period": "forever",
+        "description": "Everything needed to start training with your Crew.",
+        "features": ["Personalized workout plans", "Live Cardio with your Crew", "Party Workout lobbies", "XP, streaks & achievements", "Social feed"],
+        "cta": "Get Started Free",
+        "badge": ""
+      },
+      {
+        "name": "Premium",
+        "price": "$9.99",
+        "period": "/month",
+        "description": "Unlock the full depth of Pulse's training intelligence.",
+        "features": ["Unlimited AI plan improvements", "Advanced performance analytics", "Exclusive premium achievements", "Priority access to future features", "Everything in Free"],
+        "cta": "Go Premium",
+        "badge": "Most popular"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions, answered.",
+    "items": [
+      { "q": "How does Party Workout work?", "a": "Open a lobby, invite your Crew, and everyone marks themselves ready. Once the countdown ends, the whole party starts the same workout together and earns a shared XP bonus for finishing as a group." },
+      { "q": "Can I train alone?", "a": "Absolutely. Every feature — personalized plans, cardio tracking, achievements — works solo. Social features like Crew, Party Workout and Live Cardio are there whenever you want them." },
+      { "q": "How does Live Cardio work?", "a": "Start a run, walk or ride and invite your Crew to join in real time. You'll see each other's position, pace and progress on a shared live map until the session ends." },
+      { "q": "Can I use smartwatches?", "a": "Smartwatch and wearable integrations are on our roadmap. For now, Pulse tracks your sessions precisely using your phone's GPS and sensors." },
+      { "q": "Is Pulse free?", "a": "Yes. All social and gamification features — Crew, Party Workout, Live Cardio, XP, streaks and achievements — are free. Premium adds AI plan improvements and advanced analytics." }
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to level up your fitness?",
+    "description": "Download Pulse today and turn your next workout into a shared experience.",
+    "appStore": "App Store",
+    "playStore": "Google Play"
+  },
+  "footer": {
+    "tagline": "The social fitness app where training becomes a shared experience.",
+    "groups": [
+      { "title": "Legal", "links": [{ "label": "Privacy Policy", "href": "#" }, { "label": "Terms", "href": "#" }] },
+      { "title": "Support", "links": [{ "label": "Help Center", "href": "#" }, { "label": "Contact", "href": "#" }] },
+      { "title": "Community", "links": [{ "label": "Instagram", "href": "#" }, { "label": "TikTok", "href": "#" }, { "label": "Discord", "href": "#" }] }
+    ],
+    "rights": "All rights reserved.",
+    "madeFor": "Made for people who train together."
+  }
+}
