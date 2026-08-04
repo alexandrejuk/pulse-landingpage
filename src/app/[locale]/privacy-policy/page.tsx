@@ -41,11 +41,6 @@ export default function PrivacyPolicyPage() {
           address, crash logs, and analytics events (e.g. via Google Analytics) describing how you
           interact with the Service.
         </li>
-        <li>
-          <strong>Payment data:</strong> if you subscribe to PulseUp Premium, payment is processed
-          by the App Store, Google Play, or a third-party payment processor — we do not store your
-          full card details.
-        </li>
       </ul>
 
       <h2>2. How We Use Your Information</h2>

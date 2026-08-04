@@ -37,8 +37,7 @@ export default function TermsOfUsePage() {
       <p>
         PulseUp is a social fitness app that lets you plan and track workouts, train live with
         others (Live Cardio, Party Workout), build a training crew, and earn XP, streaks, and
-        achievements. Some features are free; others are available only with a PulseUp Premium
-        subscription. We may add, change, or remove features at any time.
+        achievements. PulseUp is free to use. We may add, change, or remove features at any time.
       </p>
 
       <h2>4. Health and Fitness Disclaimer</h2>
@@ -50,14 +49,7 @@ export default function TermsOfUsePage() {
         recommended or logged through it, at your own risk.
       </p>
 
-      <h2>5. Subscriptions (PulseUp Premium)</h2>
-      <ul>
-        <li>Premium subscriptions are billed through the App Store or Google Play, on a recurring basis, until cancelled.</li>
-        <li>Prices and included features may change; we will notify you of material changes to an active subscription.</li>
-        <li>Cancellations, refunds, and billing disputes are handled by the store through which you subscribed, subject to their policies.</li>
-      </ul>
-
-      <h2>6. User Content and Conduct</h2>
+      <h2>5. User Content and Conduct</h2>
       <p>
         You retain ownership of the content you post (workouts, photos, comments, and other
         social content), but you grant PulseUp a worldwide, non-exclusive, royalty-free license to
@@ -71,21 +63,21 @@ export default function TermsOfUsePage() {
       </ul>
       <p>We may remove content or suspend accounts that violate these Terms.</p>
 
-      <h2>7. Intellectual Property</h2>
+      <h2>6. Intellectual Property</h2>
       <p>
         The Service, including its design, features, and PulseUp trademarks and logos, is owned
         by PulseUp and protected by intellectual property laws. Except for the license granted to
         use the Service, no rights are transferred to you.
       </p>
 
-      <h2>8. Termination</h2>
+      <h2>7. Termination</h2>
       <p>
         You may stop using the Service and delete your account at any time. We may suspend or
         terminate your access if you violate these Terms or if required to protect the Service or
         other users.
       </p>
 
-      <h2>9. Disclaimers and Limitation of Liability</h2>
+      <h2>8. Disclaimers and Limitation of Liability</h2>
       <p>
         The Service is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo;, without
         warranties of any kind, express or implied. To the maximum extent permitted by law,
@@ -94,21 +86,21 @@ export default function TermsOfUsePage() {
         performing exercises tracked or suggested through the app.
       </p>
 
-      <h2>10. Governing Law</h2>
+      <h2>9. Governing Law</h2>
       <p>
         These Terms are governed by the laws of the Federative Republic of Brazil, without regard
         to conflict-of-law principles, unless mandatory local law in your jurisdiction provides
         otherwise.
       </p>
 
-      <h2>11. Changes to These Terms</h2>
+      <h2>10. Changes to These Terms</h2>
       <p>
         We may update these Terms from time to time. Continued use of the Service after changes
         take effect constitutes acceptance of the revised Terms. We will update the &ldquo;Last
         updated&rdquo; date above whenever we do.
       </p>
 
-      <h2>12. Contact Us</h2>
+      <h2>11. Contact Us</h2>
       <p>
         If you have questions about these Terms, contact us at{" "}
         <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
