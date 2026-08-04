@@ -1,3 +1,5 @@
+[![pulse-landing CI/CD](https://github.com/alexandrejuk/pulse-landingpage/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/alexandrejuk/pulse-landingpage/actions/workflows/ci-cd.yml)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
