@@ -15,6 +15,11 @@ export function FinalCta({ dict }: { dict: Dictionary["finalCta"] }) {
           <GradientBlob className="left-1/2 top-1/2 h-[500px] w-[700px] -translate-x-1/2 -translate-y-1/2 bg-primary/40" />
           <div className="relative z-10">
             <Reveal>
+              <p className="mb-4 whitespace-pre-line text-balance text-sm font-bold uppercase tracking-wide text-primary-light">
+                {dict.tagline}
+              </p>
+            </Reveal>
+            <Reveal delay={0.04}>
               <h2 className="text-balance text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl">
                 {dict.title}
               </h2>
