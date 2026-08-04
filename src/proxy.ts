@@ -27,10 +27,17 @@ export function proxy(request: NextRequest) {
   );
   if (pathnameHasLocale) return NextResponse.next();
 
+  // Rewrite (not redirect): Google's OAuth verification crawler and other
+  // simple compliance checkers don't follow redirects, so a 307 to /en left
+  // them seeing an empty response at the bare domain -- misread as "no
+  // privacy policy link" and "behind a login page". A rewrite serves the
+  // localized content directly at the original URL (/, /privacy-policy, ...)
+  // with no extra hop, while /en, /pt, /es remain real, directly-linkable
+  // pages for explicit language switching and canonical SEO URLs.
   const locale = getPreferredLocale(request);
   const url = request.nextUrl.clone();
   url.pathname = `/${locale}${pathname}`;
-  return NextResponse.redirect(url);
+  return NextResponse.rewrite(url);
 }
 
 export const config = {
