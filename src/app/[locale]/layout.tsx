@@ -44,13 +44,18 @@ export async function generateMetadata({
     },
     description: dict.meta.description,
     keywords: [
-      "PulseUp",
-      "social fitness app",
       "fitness app",
-      "workout with friends",
-      "live cardio",
-      "party workout",
-      "gamified fitness",
+      "workout app",
+      "workout tracker",
+      "workout plans",
+      "exercise tracker",
+      "cardio tracking",
+      "running tracker",
+      "gym workouts",
+      "personal trainer",
+      "fitness coaching",
+      "social fitness",
+      "workout programs",
     ],
     alternates: {
       canonical: `${siteUrl}/${locale}`,
@@ -69,9 +74,6 @@ export async function generateMetadata({
       title: dict.meta.title,
       description: dict.meta.description,
       images: ["/og-image.png"],
-    },
-    icons: {
-      icon: "/favicon.ico",
     },
   };
 }

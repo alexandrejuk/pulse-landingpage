@@ -1,48 +1,97 @@
 {
   "meta": {
-    "title": "PulseUp — Train Together. Evolve Together.",
-    "description": "The social fitness app where workouts become shared experiences. Build your Crew, complete live workouts, earn XP, unlock achievements and stay consistent together."
+    "title": "PulseUp — Workout Tracker, Social Fitness & Coaching App",
+    "description": "PulseUp is a fitness app for personalized workout plans, gym and cardio tracking, live training with friends, and personal trainer program management."
   },
   "nav": {
     "links": [
-      { "label": "Social Fitness", "href": "#social-fitness" },
-      { "label": "Gamification", "href": "#gamification" },
-      { "label": "Live Cardio", "href": "#live-cardio" },
+      { "label": "What is PulseUp", "href": "#what-is-pulseup" },
+      { "label": "Features", "href": "#features" },
       { "label": "For Coaches", "href": "#for-coaches" },
       { "label": "FAQ", "href": "#faq" }
     ],
     "download": "Download PulseUp"
   },
   "hero": {
-    "eyebrow": "SOCIAL FITNESS, REINVENTED",
-    "titleLine1": "The world is training right now.",
-    "titleLine2": "Join in.",
-    "subtitle": "Train Together. Evolve Together.",
+    "eyebrow": "FITNESS APP FOR TRAINING & COACHING",
+    "titleLine1": "PulseUp is a social fitness app for",
+    "titleLine2": "personalized workouts, live training and coach management.",
+    "subtitle": "Create personalized workout plans, track gym workouts and cardio sessions, train with friends in real time, earn XP and achievements, and let personal trainers manage athletes from one platform.",
     "appStore": "Download on App Store",
     "playStore": "Download on Google Play",
     "watchDemo": "Watch Demo"
   },
+  "whatIsPulseUp": {
+    "title": "What is PulseUp?",
+    "intro": "PulseUp is a fitness platform designed for both individuals and personal trainers.",
+    "forUsersTitle": "With PulseUp, users can:",
+    "forUsersItems": [
+      "Follow personalized workout programs",
+      "Track strength workouts",
+      "Track running, walking and cycling sessions",
+      "View exercise instructions",
+      "Monitor progress over time",
+      "Earn XP, achievements and streaks",
+      "Train together with friends",
+      "Share workouts with their community"
+    ],
+    "forCoachesTitle": "Personal trainers can:",
+    "forCoachesItems": [
+      "Create workout templates",
+      "Build fully customized programs",
+      "Assign programs to students",
+      "Track athlete progress",
+      "Manage multiple students from one dashboard"
+    ]
+  },
   "socialFitness": {
     "eyebrow": "Why PulseUp",
-    "title": "This is not another workout app.",
-    "description": "Dozens of apps promise personalized training plans. PulseUp is built around a different idea — training together makes you go further.",
+    "title": "One app for training, tracking and coaching.",
+    "description": "PulseUp combines personalized workout planning, workout tracking, cardio tracking, social fitness, gamification and coaching tools in one application.",
     "features": [
-      { "title": "Crew", "description": "Train with friends. Build a crew that keeps you accountable, every single day." },
-      { "title": "Party Workout", "description": "Ready together. Train together. Earn more XP when your whole crew shows up." },
-      { "title": "Live Cardio", "description": "Run, walk or cycle together in real time — no matter how far apart you are." },
-      { "title": "Feed", "description": "Share your workouts and celebrate progress with a feed built for fitness." }
+      { "title": "Crew", "description": "Create or join a Crew — a small group of friends training together and keeping each other accountable." },
+      { "title": "Party Workout", "description": "Start a synchronized workout session that your whole Crew joins and completes together in real time." },
+      { "title": "Live Cardio", "description": "Track a run, walk or ride live and see your Crew's position, pace and distance on a shared map." },
+      { "title": "Feed", "description": "Post workouts, cardio sessions and achievements to a social feed your Crew and followers can see." }
+    ]
+  },
+  "featureGrid": {
+    "eyebrow": "Everything You Need",
+    "title": "One fitness app, every training tool.",
+    "description": "Personalized workout plans, cardio tracking, gamification, social training and personal trainer tools — all in a single application.",
+    "items": [
+      "Personalized Workout Plans",
+      "Exercise Library",
+      "Exercise Instructions",
+      "Workout Tracking",
+      "Running, Walking & Cycling Tracking",
+      "Rest Timers",
+      "Progress History",
+      "XP & Levels",
+      "Achievements",
+      "Streaks",
+      "Leaderboards",
+      "Live Cardio",
+      "Party Workout",
+      "Social Feed",
+      "Personal Trainer Dashboard",
+      "Program Templates",
+      "Student Management",
+      "Apple Health Integration",
+      "Health Connect Integration",
+      "Nearby Gyms"
     ]
   },
   "gamification": {
     "eyebrow": "Gamification",
-    "title": "Progress that feels like a game.",
-    "description": "Every workout earns XP. Every streak builds momentum. Every achievement is worth celebrating — with your Crew watching.",
+    "title": "Track your progress with XP, levels, streaks and achievements.",
+    "description": "Every completed workout earns XP toward your level. Consecutive training days build a streak, and reaching a milestone unlocks an achievement you can share with your Crew.",
     "steps": ["XP", "Level Up", "Achievements", "Streak", "Leaderboard", "Rewards"]
   },
   "workoutExperience": {
-    "eyebrow": "Workout Experience",
-    "title": "Built for people who actually train.",
-    "description": "A premium workout UI, engineered so nothing gets between you and the next rep.",
+    "eyebrow": "Workout Tracking",
+    "title": "Workout tracking built for real training sessions.",
+    "description": "Log sets, reps and weight for every exercise, follow built-in rest timers between sets, and track outdoor or indoor cardio with precise distance, pace and calorie data.",
     "highlights": [
       { "title": "Personalized workout plans", "description": "Programs that adapt to your goals, experience and equipment — no guesswork." },
       { "title": "Exercise instructions", "description": "Clear, guided instructions for every movement so you always train with confidence." },
@@ -55,7 +104,7 @@
   "forCoaches": {
     "eyebrow": "For Personal Trainers",
     "title": "Build programs. Assign them. Track results.",
-    "description": "PulseUp isn't just for training together — it's a real toolkit for coaches managing their students, from a curated template library to a fully custom program.",
+    "description": "PulseUp gives personal trainers a real toolkit for managing students, from a curated template library to a fully custom program builder and student dashboard.",
     "highlights": [
       { "title": "Template library", "description": "Start from a curated catalog organized by goal, experience level and weekly frequency." },
       { "title": "Full customization", "description": "Edit workout names, reorder exercises and adjust sets, reps and rest in a guided step-by-step builder." },
@@ -65,8 +114,8 @@
   },
   "liveCardio": {
     "eyebrow": "Live Cardio",
-    "title": "Train together, even when you're apart.",
-    "description": "Run, walk or cycle in real time with your Crew — see each other's position, pace and progress as it happens.",
+    "title": "Track cardio sessions live and see your Crew's progress in real time.",
+    "description": "Start a run, walk or ride and invite your Crew to join. See each other's position, pace and progress on a shared live map until the session ends.",
     "live": "LIVE",
     "nearby": "3 crew members nearby",
     "distanceLabel": "distance",
@@ -81,8 +130,8 @@
   },
   "workoutParty": {
     "eyebrow": "Workout Party",
-    "title": "Everyone joins. Everyone starts together.",
-    "description": "Open a lobby, invite your Crew, and watch everyone mark themselves ready. Once the countdown hits zero, the whole party trains the same workout in sync — earning a shared XP bonus for showing up together.",
+    "title": "Start a synchronized group workout session.",
+    "description": "Open a Party Workout lobby, invite your Crew, and wait for everyone to mark themselves ready. Once the countdown reaches zero, the whole group starts the same workout together, and everyone who finishes earns a shared XP bonus.",
     "lobbyLabel": "Party Lobby",
     "lobbyName": "Leg Day Crew",
     "players": [
@@ -101,8 +150,8 @@
   },
   "feed": {
     "eyebrow": "Feed",
-    "title": "Every workout becomes a memory.",
-    "description": "Cardio sessions, lifting PRs, achievements, level ups, party completions — your feed captures every win worth sharing."
+    "title": "Share your training on a social feed.",
+    "description": "Post completed cardio sessions, workout photos, achievements and level-ups to a feed your Crew and followers can see and react to."
   },
   "feedCards": {
     "cardio": { "distance": "5.2", "distanceUnit": "km", "time": "28:14", "timeUnit": "time", "calories": "312", "caloriesUnit": "cal" },
@@ -113,8 +162,8 @@
   },
   "achievements": {
     "eyebrow": "Achievements",
-    "title": "Milestones worth chasing.",
-    "description": "Every badge marks a real accomplishment — and your Crew sees it the moment you unlock it.",
+    "title": "Unlock achievements as you reach training milestones.",
+    "description": "PulseUp tracks milestones like workout counts, streaks and distance goals, and awards a badge each time you reach one.",
     "badges": ["100 Workouts", "30 Day Streak", "First Party Workout", "10 km Run", "Level 50", "Consistency Master"]
   },
   "stats": {
@@ -138,10 +187,12 @@
     "eyebrow": "FAQ",
     "title": "Questions, answered.",
     "items": [
+      { "q": "What is PulseUp?", "a": "PulseUp is a fitness app for personalized workout plans, gym and cardio tracking, gamification, social training with friends, and personal trainer program management." },
       { "q": "How does Party Workout work?", "a": "Open a lobby, invite your Crew, and everyone marks themselves ready. Once the countdown ends, the whole party starts the same workout together and earns a shared XP bonus for finishing as a group." },
       { "q": "Can I train alone?", "a": "Absolutely. Every feature — personalized plans, cardio tracking, achievements — works solo. Social features like Crew, Party Workout and Live Cardio are there whenever you want them." },
       { "q": "How does Live Cardio work?", "a": "Start a run, walk or ride and invite your Crew to join in real time. You'll see each other's position, pace and progress on a shared live map until the session ends." },
-      { "q": "Can I use smartwatches?", "a": "Smartwatch and wearable integrations are on our roadmap. For now, PulseUp tracks your sessions precisely using your phone's GPS and sensors." },
+      { "q": "Can personal trainers use PulseUp?", "a": "Yes. Personal trainers get a dedicated dashboard to build workout templates, customize full programs, assign them to one or more students with a defined start and end date, and track athlete progress." },
+      { "q": "Can I use smartwatches?", "a": "Smartwatch and wearable integrations are on our roadmap. For now, PulseUp syncs with Apple Health and Health Connect and tracks your sessions precisely using your phone's GPS and sensors." },
       { "q": "Is PulseUp free?", "a": "Yes. PulseUp is completely free — personalized plans, Crew, Party Workout, Live Cardio, XP, streaks and achievements are all included at no cost." }
     ]
   },
@@ -152,7 +203,7 @@
     "playStore": "Google Play"
   },
   "footer": {
-    "tagline": "The social fitness app where training becomes a shared experience.",
+    "tagline": "PulseUp is a fitness app for personalized workout plans, cardio tracking, social training and personal trainer program management.",
     "groups": [
       { "title": "Legal", "links": [{ "label": "Privacy Policy", "href": "/privacy-policy" }, { "label": "Terms", "href": "/terms-of-use" }] },
       { "title": "Support", "links": [{ "label": "Help Center", "href": "#" }, { "label": "Contact", "href": "#" }] },

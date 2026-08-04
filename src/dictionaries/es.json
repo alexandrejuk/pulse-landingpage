@@ -1,48 +1,97 @@
 {
   "meta": {
-    "title": "PulseUp — Entrena Junto. Evoluciona Junto.",
-    "description": "La app de fitness social donde los entrenamientos se convierten en experiencias compartidas. Crea tu Crew, completa entrenamientos en vivo, gana XP, desbloquea logros y mantén la constancia juntos."
+    "title": "PulseUp — App de Entrenamiento, Fitness Social y Coaching",
+    "description": "PulseUp es una app de fitness para planes de entrenamiento personalizados, seguimiento de entrenamientos y cardio, entrenamiento en vivo con amigos y gestión de programas para entrenadores personales."
   },
   "nav": {
     "links": [
-      { "label": "Fitness Social", "href": "#social-fitness" },
-      { "label": "Gamificación", "href": "#gamification" },
-      { "label": "Live Cardio", "href": "#live-cardio" },
+      { "label": "Qué es PulseUp", "href": "#what-is-pulseup" },
+      { "label": "Funciones", "href": "#features" },
       { "label": "Para Entrenadores", "href": "#for-coaches" },
       { "label": "FAQ", "href": "#faq" }
     ],
     "download": "Descargar PulseUp"
   },
   "hero": {
-    "eyebrow": "FITNESS SOCIAL, REINVENTADO",
-    "titleLine1": "El mundo está entrenando ahora.",
-    "titleLine2": "Entra para participar.",
-    "subtitle": "Entrena Junto. Evoluciona Junto.",
+    "eyebrow": "APP DE ENTRENAMIENTO Y COACHING",
+    "titleLine1": "PulseUp es una app de fitness social para",
+    "titleLine2": "entrenamientos personalizados, entrenamiento en vivo y gestión de entrenadores personales.",
+    "subtitle": "Crea planes de entrenamiento personalizados, registra entrenamientos de gimnasio y sesiones de cardio, entrena con amigos en tiempo real, gana XP y logros, y deja que los entrenadores personales gestionen a sus alumnos desde una sola plataforma.",
     "appStore": "Descargar en App Store",
     "playStore": "Descargar en Google Play",
     "watchDemo": "Ver Demo"
   },
+  "whatIsPulseUp": {
+    "title": "¿Qué es PulseUp?",
+    "intro": "PulseUp es una plataforma de fitness diseñada tanto para personas como para entrenadores personales.",
+    "forUsersTitle": "Con PulseUp, puedes:",
+    "forUsersItems": [
+      "Seguir programas de entrenamiento personalizados",
+      "Registrar entrenamientos de fuerza",
+      "Registrar carreras, caminatas y rutas en bicicleta",
+      "Ver instrucciones de ejercicios",
+      "Monitorear tu progreso a lo largo del tiempo",
+      "Ganar XP, logros y rachas",
+      "Entrenar junto con amigos",
+      "Compartir entrenamientos con tu comunidad"
+    ],
+    "forCoachesTitle": "Los entrenadores personales pueden:",
+    "forCoachesItems": [
+      "Crear plantillas de entrenamiento",
+      "Construir programas totalmente personalizados",
+      "Asignar programas a sus alumnos",
+      "Seguir el progreso de sus alumnos",
+      "Gestionar varios alumnos desde un solo panel"
+    ]
+  },
   "socialFitness": {
     "eyebrow": "Por qué PulseUp",
-    "title": "Esto no es solo otra app de entrenamiento.",
-    "description": "Decenas de apps prometen entrenamientos personalizados. PulseUp se construye alrededor de una idea diferente — entrenar juntos te lleva más lejos.",
+    "title": "Una sola app para entrenar, registrar y hacer coaching.",
+    "description": "PulseUp combina planificación de entrenamiento personalizada, registro de entrenamientos, seguimiento de cardio, fitness social y herramientas de coaching en una sola aplicación.",
     "features": [
-      { "title": "Crew", "description": "Entrena con amigos. Crea un crew que te mantenga responsable, todos los días." },
-      { "title": "Party Workout", "description": "Listos juntos. Entrenan juntos. Ganan más XP cuando todo el crew aparece." },
-      { "title": "Live Cardio", "description": "Corre, camina o pedalea junto en tiempo real — sin importar la distancia." },
-      { "title": "Feed", "description": "Comparte tus entrenamientos y celebra el progreso en un feed hecho para el fitness." }
+      { "title": "Crew", "description": "Crea o únete a un Crew — un pequeño grupo de amigos que entrena junto y se mantiene responsable entre sí." },
+      { "title": "Party Workout", "description": "Inicia una sesión de entrenamiento sincronizada a la que todo tu Crew se une y completa junto, en tiempo real." },
+      { "title": "Live Cardio", "description": "Registra una carrera, caminata o ruta en vivo y mira la posición, ritmo y distancia de tu Crew en un mapa compartido." },
+      { "title": "Feed", "description": "Publica entrenamientos, sesiones de cardio y logros en un feed social que tu Crew y seguidores pueden ver." }
+    ]
+  },
+  "featureGrid": {
+    "eyebrow": "Todo lo que Necesitas",
+    "title": "Una app de fitness, todas las herramientas de entrenamiento.",
+    "description": "Planes de entrenamiento personalizados, seguimiento de cardio, gamificación, entrenamiento social y herramientas para entrenadores personales — todo en una sola aplicación.",
+    "items": [
+      "Planes de Entrenamiento Personalizados",
+      "Biblioteca de Ejercicios",
+      "Instrucciones de Ejercicios",
+      "Registro de Entrenamientos",
+      "Seguimiento de Carrera, Caminata y Ciclismo",
+      "Temporizadores de Descanso",
+      "Historial de Progreso",
+      "XP y Niveles",
+      "Logros",
+      "Rachas",
+      "Clasificaciones",
+      "Live Cardio",
+      "Party Workout",
+      "Feed Social",
+      "Panel del Entrenador Personal",
+      "Plantillas de Programa",
+      "Gestión de Alumnos",
+      "Integración con Apple Health",
+      "Integración con Health Connect",
+      "Gimnasios Cercanos"
     ]
   },
   "gamification": {
     "eyebrow": "Gamificación",
-    "title": "Un progreso que se siente como un juego.",
-    "description": "Cada entrenamiento gana XP. Cada racha genera impulso. Cada logro vale la pena celebrarlo — con tu Crew mirando.",
+    "title": "Sigue tu progreso con XP, niveles, rachas y logros.",
+    "description": "Cada entrenamiento completado gana XP para tu nivel. Los días consecutivos de entrenamiento construyen una racha, y alcanzar un hito desbloquea un logro que puedes compartir con tu Crew.",
     "steps": ["XP", "Subir de Nivel", "Logros", "Racha", "Clasificación", "Recompensas"]
   },
   "workoutExperience": {
-    "eyebrow": "Experiencia de Entrenamiento",
-    "title": "Hecho para quienes de verdad entrenan.",
-    "description": "Una interfaz de entrenamiento premium, pensada para que nada se interponga entre tú y la próxima repetición.",
+    "eyebrow": "Registro de Entrenamientos",
+    "title": "Registro de entrenamiento hecho para sesiones reales.",
+    "description": "Registra series, repeticiones y peso de cada ejercicio, sigue temporizadores de descanso automáticos entre series, y rastrea cardio al aire libre o en interiores con datos precisos de distancia, ritmo y calorías.",
     "highlights": [
       { "title": "Planes de entrenamiento personalizados", "description": "Programas que se adaptan a tus objetivos, experiencia y equipo — sin conjeturas." },
       { "title": "Instrucciones de ejercicios", "description": "Instrucciones claras y guiadas para cada movimiento, para entrenar siempre con confianza." },
@@ -55,7 +104,7 @@
   "forCoaches": {
     "eyebrow": "Para Entrenadores Personales",
     "title": "Crea programas. Asígnalos. Sigue los resultados.",
-    "description": "PulseUp no es solo para entrenar juntos — es una herramienta real para que el entrenador gestione a sus alumnos, desde una biblioteca de plantillas hasta un programa totalmente personalizado.",
+    "description": "PulseUp le da al entrenador personal una herramienta real para gestionar alumnos, desde una biblioteca de plantillas hasta un constructor de programas totalmente personalizado y un panel de alumnos.",
     "highlights": [
       { "title": "Biblioteca de plantillas", "description": "Empieza desde un catálogo curado, organizado por objetivo, nivel de experiencia y frecuencia semanal." },
       { "title": "Personalización completa", "description": "Edita el nombre de los entrenamientos, reordena ejercicios y ajusta series, repeticiones y descanso en un constructor guiado paso a paso." },
@@ -65,8 +114,8 @@
   },
   "liveCardio": {
     "eyebrow": "Live Cardio",
-    "title": "Entrenen juntos, aunque estén lejos.",
-    "description": "Corre, camina o pedalea en tiempo real con tu Crew — mira la posición, el ritmo y el progreso de cada uno mientras sucede.",
+    "title": "Registra sesiones de cardio en vivo y sigue el progreso de tu Crew en tiempo real.",
+    "description": "Empieza a correr, caminar o pedalear e invita a tu Crew a unirse. Mira la posición, ritmo y progreso de cada uno en un mapa en vivo compartido hasta que termine la sesión.",
     "live": "EN VIVO",
     "nearby": "3 miembros del crew cerca",
     "distanceLabel": "distancia",
@@ -81,8 +130,8 @@
   },
   "workoutParty": {
     "eyebrow": "Workout Party",
-    "title": "Todos se unen. Todos empiezan juntos.",
-    "description": "Abre una sala, invita a tu Crew y mira cómo todos se marcan como listos. Cuando la cuenta regresiva llega a cero, toda la party entrena el mismo entrenamiento en sincronía — ganando un bono de XP compartido por presentarse juntos.",
+    "title": "Inicia una sesión de entrenamiento grupal sincronizada.",
+    "description": "Abre una sala de Party Workout, invita a tu Crew, y espera a que todos se marquen como listos. Cuando la cuenta regresiva llega a cero, todo el grupo empieza el mismo entrenamiento junto, y todos los que terminan ganan un bono de XP compartido.",
     "lobbyLabel": "Party Lobby",
     "lobbyName": "Crew de Pierna",
     "players": [
@@ -101,8 +150,8 @@
   },
   "feed": {
     "eyebrow": "Feed",
-    "title": "Cada entrenamiento se convierte en un recuerdo.",
-    "description": "Sesiones de cardio, récords de fuerza, logros, subidas de nivel, parties completadas — tu feed guarda cada victoria que vale la pena compartir."
+    "title": "Comparte tu entrenamiento en un feed social.",
+    "description": "Publica sesiones de cardio completadas, fotos de entrenamiento, logros y subidas de nivel en un feed que tu Crew y seguidores pueden ver y reaccionar."
   },
   "feedCards": {
     "cardio": { "distance": "5.2", "distanceUnit": "km", "time": "28:14", "timeUnit": "tiempo", "calories": "312", "caloriesUnit": "cal" },
@@ -113,8 +162,8 @@
   },
   "achievements": {
     "eyebrow": "Logros",
-    "title": "Hitos que vale la pena perseguir.",
-    "description": "Cada insignia marca un logro real — y tu Crew lo ve en el momento en que lo desbloqueas.",
+    "title": "Desbloquea logros al alcanzar hitos de entrenamiento.",
+    "description": "PulseUp sigue hitos como número de entrenamientos, rachas y metas de distancia, y otorga una insignia cada vez que alcanzas uno.",
     "badges": ["100 Entrenamientos", "Racha de 30 Días", "Primera Party Workout", "Carrera de 10 km", "Nivel 50", "Maestro de la Constancia"]
   },
   "stats": {
@@ -138,10 +187,12 @@
     "eyebrow": "FAQ",
     "title": "Preguntas, respondidas.",
     "items": [
+      { "q": "¿Qué es PulseUp?", "a": "PulseUp es una app de fitness para planes de entrenamiento personalizados, registro de entrenamientos y cardio, gamificación, entrenamiento social con amigos, y gestión de programas para entrenadores personales." },
       { "q": "¿Cómo funciona Party Workout?", "a": "Abre una sala, invita a tu Crew y todos se marcan como listos. Cuando la cuenta regresiva termina, toda la party empieza el mismo entrenamiento junta y gana un bono de XP compartido por terminar en grupo." },
       { "q": "¿Puedo entrenar solo?", "a": "Por supuesto. Cada función — planes personalizados, seguimiento de cardio, logros — funciona en solitario. Las funciones sociales como Crew, Party Workout y Live Cardio están ahí cuando quieras." },
       { "q": "¿Cómo funciona Live Cardio?", "a": "Empieza a correr, caminar o pedalear e invita a tu Crew a unirse en tiempo real. Verán la posición, ritmo y progreso de cada uno en un mapa en vivo compartido hasta que termine la sesión." },
-      { "q": "¿Puedo usar smartwatches?", "a": "Las integraciones con smartwatches y wearables están en nuestra hoja de ruta. Por ahora, PulseUp registra tus sesiones con precisión usando el GPS y los sensores de tu teléfono." },
+      { "q": "¿Los entrenadores personales pueden usar PulseUp?", "a": "Sí. Los entrenadores personales tienen un panel dedicado para crear plantillas de entrenamiento, personalizar programas completos, asignarlos a uno o varios alumnos con fecha de inicio y fin definidas, y seguir el progreso de sus alumnos." },
+      { "q": "¿Puedo usar smartwatches?", "a": "Las integraciones con smartwatches y wearables están en nuestra hoja de ruta. Por ahora, PulseUp se sincroniza con Apple Health y Health Connect y registra tus sesiones con precisión usando el GPS y los sensores de tu teléfono." },
       { "q": "¿PulseUp es gratis?", "a": "Sí. PulseUp es completamente gratis — planes personalizados, Crew, Party Workout, Live Cardio, XP, rachas y logros, todo incluido sin costo." }
     ]
   },
@@ -152,7 +203,7 @@
     "playStore": "Google Play"
   },
   "footer": {
-    "tagline": "La app de fitness social donde entrenar se convierte en una experiencia compartida.",
+    "tagline": "PulseUp es una app de fitness para planes de entrenamiento personalizados, seguimiento de cardio, entrenamiento social y gestión de programas para entrenadores personales.",
     "groups": [
       { "title": "Legal", "links": [{ "label": "Política de Privacidad", "href": "/privacy-policy" }, { "label": "Términos", "href": "/terms-of-use" }] },
       { "title": "Soporte", "links": [{ "label": "Centro de Ayuda", "href": "#" }, { "label": "Contacto", "href": "#" }] },

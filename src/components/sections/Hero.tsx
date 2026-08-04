@@ -57,9 +57,8 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
         </Reveal>
 
         <Reveal delay={0.08}>
-          <h1 className="text-balance text-5xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl">
-            {dict.titleLine1}
-            <br />
+          <h1 className="mx-auto max-w-4xl text-balance text-4xl font-extrabold leading-[1.15] tracking-tight text-white sm:text-5xl md:text-6xl">
+            {dict.titleLine1}{" "}
             <span className="text-gradient">{dict.titleLine2}</span>
           </h1>
         </Reveal>

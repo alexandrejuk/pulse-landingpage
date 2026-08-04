@@ -3,7 +3,9 @@ import { isLocale } from "@/i18n/config";
 import { getDictionary } from "@/dictionaries";
 import { Navbar } from "@/components/sections/Navbar";
 import { Hero } from "@/components/sections/Hero";
+import { WhatIsPulseUp } from "@/components/sections/WhatIsPulseUp";
 import { SocialFitness } from "@/components/sections/SocialFitness";
+import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { Gamification } from "@/components/sections/Gamification";
 import { WorkoutExperience } from "@/components/sections/WorkoutExperience";
 import { ForCoaches } from "@/components/sections/ForCoaches";
@@ -31,7 +33,9 @@ export default async function Home({
       <Navbar locale={locale} dict={dict.nav} />
       <main className="flex-1">
         <Hero dict={dict.hero} />
+        <WhatIsPulseUp dict={dict.whatIsPulseUp} />
         <SocialFitness dict={dict.socialFitness} />
+        <FeatureGrid dict={dict.featureGrid} />
         <Gamification dict={dict.gamification} />
         <WorkoutExperience dict={dict.workoutExperience} />
         <ForCoaches dict={dict.forCoaches} />
