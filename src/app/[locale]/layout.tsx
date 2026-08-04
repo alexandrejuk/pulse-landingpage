@@ -9,7 +9,7 @@ import { getDictionary } from "@/dictionaries";
 // Pulse Landing GA4 property (account "Pulse", account id 403209054, property
 // id 548194152) is created, but the web data stream — and therefore this
 // measurement ID — can't be finalized until the production domain is live.
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_MEASUREMENT_ID = "G-9MVPGGPDF9";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://pulse.app";
+const siteUrl = "https://pulseup.io";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -40,11 +40,11 @@ export async function generateMetadata({
     metadataBase: new URL(siteUrl),
     title: {
       default: dict.meta.title,
-      template: "%s · Pulse",
+      template: "%s · PulseUp",
     },
     description: dict.meta.description,
     keywords: [
-      "Pulse",
+      "PulseUp",
       "social fitness app",
       "fitness app",
       "workout with friends",
@@ -59,10 +59,10 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       url: `${siteUrl}/${locale}`,
-      siteName: "Pulse",
+      siteName: "PulseUp",
       title: dict.meta.title,
       description: dict.meta.description,
-      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Pulse — Social Fitness" }],
+      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "PulseUp — Social Fitness" }],
     },
     twitter: {
       card: "summary_large_image",

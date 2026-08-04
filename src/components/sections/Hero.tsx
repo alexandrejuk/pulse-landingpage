@@ -113,7 +113,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
 
             <Float duration={5.5} delay={0}>
               <PhoneFrame size="lg" className="z-10">
-                <AppScreenshot src="/screenshots/feed.png" alt="Pulse feed screen" />
+                <AppScreenshot src="/screenshots/feed.png" alt="PulseUp feed screen" />
               </PhoneFrame>
             </Float>
 
@@ -125,7 +125,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
 
             <Float duration={7} delay={0.6} className="hidden xl:block">
               <PhoneFrame size="sm" className="-ml-10 mb-10 rotate-[14deg] opacity-80 blur-[0.5px]">
-                <AppScreenshot src="/screenshots/pulse-live.png" alt="Pulse Live screen" />
+                <AppScreenshot src="/screenshots/pulse-live.png" alt="PulseUp Live screen" />
               </PhoneFrame>
             </Float>
           </div>

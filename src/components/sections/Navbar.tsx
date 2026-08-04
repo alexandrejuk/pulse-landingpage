@@ -31,7 +31,7 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav
       )}
     >
       <Container className="flex items-center justify-between">
-        <a href="#top" aria-label="Pulse home">
+        <a href="#top" aria-label="PulseUp home">
           <Logo />
         </a>
 

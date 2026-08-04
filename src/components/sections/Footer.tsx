@@ -37,7 +37,7 @@ export function Footer({ dict }: { dict: Dictionary["footer"] }) {
 
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 sm:flex-row">
           <span className="text-xs text-text-tertiary">
-            © {new Date().getFullYear()} Pulse. {dict.rights}
+            © {new Date().getFullYear()} PulseUp. {dict.rights}
           </span>
           <span className="text-xs text-text-tertiary">{dict.madeFor}</span>
         </div>

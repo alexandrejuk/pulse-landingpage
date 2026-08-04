@@ -57,12 +57,12 @@ export function WorkoutExperience({ dict }: { dict: Dictionary["workoutExperienc
           <div className="relative flex justify-center">
             <Float duration={7} delay={0.3} className="absolute -right-4 top-10 hidden sm:block">
               <PhoneFrame size="sm" className="rotate-[10deg] opacity-90">
-                <AppScreenshot src="/screenshots/cardio-detail.png" alt="Pulse cardio setup screen" />
+                <AppScreenshot src="/screenshots/cardio-detail.png" alt="PulseUp cardio setup screen" />
               </PhoneFrame>
             </Float>
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
-                <AppScreenshot src="/screenshots/cardio-list.png" alt="Pulse cardio selection screen" />
+                <AppScreenshot src="/screenshots/cardio-list.png" alt="PulseUp cardio selection screen" />
               </PhoneFrame>
             </Float>
           </div>

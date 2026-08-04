@@ -5,7 +5,7 @@ export function Logo({ className }: { className?: string }) {
   return (
     <Image
       src="/pulse-logo.png"
-      alt="Pulse"
+      alt="PulseUp"
       width={512}
       height={193}
       priority

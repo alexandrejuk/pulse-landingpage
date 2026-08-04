@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Pulse — Entrena Junto. Sube de Nivel Junto.",
+    "title": "PulseUp — Entrena Junto. Sube de Nivel Junto.",
     "description": "La app de fitness social donde los entrenamientos se convierten en experiencias compartidas. Crea tu Crew, completa entrenamientos en vivo, gana XP, desbloquea logros y mantén la constancia juntos."
   },
   "nav": {
@@ -11,7 +11,7 @@
       { "label": "Planes", "href": "#pricing" },
       { "label": "FAQ", "href": "#faq" }
     ],
-    "download": "Descargar Pulse"
+    "download": "Descargar PulseUp"
   },
   "hero": {
     "eyebrow": "FITNESS SOCIAL, REINVENTADO",
@@ -23,9 +23,9 @@
     "watchDemo": "Ver Demo"
   },
   "socialFitness": {
-    "eyebrow": "Por qué Pulse",
+    "eyebrow": "Por qué PulseUp",
     "title": "Esto no es solo otra app de entrenamiento.",
-    "description": "Decenas de apps prometen entrenamientos personalizados. Pulse se construye alrededor de una idea diferente — entrenar juntos te lleva más lejos.",
+    "description": "Decenas de apps prometen entrenamientos personalizados. PulseUp se construye alrededor de una idea diferente — entrenar juntos te lleva más lejos.",
     "features": [
       { "title": "Crew", "description": "Entrena con amigos. Crea un crew que te mantenga responsable, todos los días." },
       { "title": "Party Workout", "description": "Listos juntos. Entrenan juntos. Ganan más XP cuando todo el crew aparece." },
@@ -109,7 +109,7 @@
       { "value": 4200000, "suffix": "+", "label": "XP ganado por la comunidad" },
       { "value": 128000, "suffix": "+", "label": "Entrenamientos completados" },
       { "value": 6400, "suffix": "+", "label": "Crews creados" },
-      { "value": 98, "suffix": "%", "label": "Volvería a entrenar con Pulse" }
+      { "value": 98, "suffix": "%", "label": "Volvería a entrenar con PulseUp" }
     ]
   },
   "testimonials": {
@@ -124,7 +124,7 @@
   "pricing": {
     "eyebrow": "Planes",
     "title": "Gratis para empezar. Premium cuando quieras más.",
-    "description": "Sin muros de pago en lo que hace social a Pulse. Premium es para quienes buscan un plus de rendimiento.",
+    "description": "Sin muros de pago en lo que hace social a PulseUp. Premium es para quienes buscan un plus de rendimiento.",
     "plans": [
       {
         "name": "Gratis",
@@ -139,7 +139,7 @@
         "name": "Premium",
         "price": "$9.99",
         "period": "/mes",
-        "description": "Desbloquea toda la profundidad de la inteligencia de entrenamiento de Pulse.",
+        "description": "Desbloquea toda la profundidad de la inteligencia de entrenamiento de PulseUp.",
         "features": ["Mejoras ilimitadas del plan con IA", "Analítica avanzada de rendimiento", "Logros premium exclusivos", "Acceso prioritario a futuras funciones", "Todo lo del plan Gratis"],
         "cta": "Pasar a Premium",
         "badge": "Más popular"
@@ -153,20 +153,20 @@
       { "q": "¿Cómo funciona Party Workout?", "a": "Abre una sala, invita a tu Crew y todos se marcan como listos. Cuando la cuenta regresiva termina, toda la party empieza el mismo entrenamiento junta y gana un bono de XP compartido por terminar en grupo." },
       { "q": "¿Puedo entrenar solo?", "a": "Por supuesto. Cada función — planes personalizados, seguimiento de cardio, logros — funciona en solitario. Las funciones sociales como Crew, Party Workout y Live Cardio están ahí cuando quieras." },
       { "q": "¿Cómo funciona Live Cardio?", "a": "Empieza a correr, caminar o pedalear e invita a tu Crew a unirse en tiempo real. Verán la posición, ritmo y progreso de cada uno en un mapa en vivo compartido hasta que termine la sesión." },
-      { "q": "¿Puedo usar smartwatches?", "a": "Las integraciones con smartwatches y wearables están en nuestra hoja de ruta. Por ahora, Pulse registra tus sesiones con precisión usando el GPS y los sensores de tu teléfono." },
-      { "q": "¿Pulse es gratis?", "a": "Sí. Todas las funciones sociales y de gamificación — Crew, Party Workout, Live Cardio, XP, rachas y logros — son gratis. Premium añade mejoras del plan con IA y analítica avanzada." }
+      { "q": "¿Puedo usar smartwatches?", "a": "Las integraciones con smartwatches y wearables están en nuestra hoja de ruta. Por ahora, PulseUp registra tus sesiones con precisión usando el GPS y los sensores de tu teléfono." },
+      { "q": "¿PulseUp es gratis?", "a": "Sí. Todas las funciones sociales y de gamificación — Crew, Party Workout, Live Cardio, XP, rachas y logros — son gratis. Premium añade mejoras del plan con IA y analítica avanzada." }
     ]
   },
   "finalCta": {
     "title": "¿Listo para subir de nivel tu fitness?",
-    "description": "Descarga Pulse hoy y convierte tu próximo entrenamiento en una experiencia compartida.",
+    "description": "Descarga PulseUp hoy y convierte tu próximo entrenamiento en una experiencia compartida.",
     "appStore": "App Store",
     "playStore": "Google Play"
   },
   "footer": {
     "tagline": "La app de fitness social donde entrenar se convierte en una experiencia compartida.",
     "groups": [
-      { "title": "Legal", "links": [{ "label": "Política de Privacidad", "href": "#" }, { "label": "Términos", "href": "#" }] },
+      { "title": "Legal", "links": [{ "label": "Política de Privacidad", "href": "/privacy-policy" }, { "label": "Términos", "href": "/terms-of-use" }] },
       { "title": "Soporte", "links": [{ "label": "Centro de Ayuda", "href": "#" }, { "label": "Contacto", "href": "#" }] },
       { "title": "Comunidad", "links": [{ "label": "Instagram", "href": "#" }, { "label": "TikTok", "href": "#" }, { "label": "Discord", "href": "#" }] }
     ],
