@@ -25,7 +25,18 @@ export default function PrivacyPolicyPage() {
       <ul>
         <li>
           <strong>Account information:</strong> name, email address, username, profile photo, and
-          password (stored in hashed form) when you register.
+          password (stored in hashed form) when you register directly with an email and password.
+        </li>
+        <li>
+          <strong>Google Sign-In:</strong> if you choose to sign in with Google, Google shares your
+          name, email address, profile picture, and a unique account identifier with us so we can
+          create and authenticate your PulseUp account. We do not receive your Google password and
+          do not access any other Google service on your behalf. You can review or revoke
+          PulseUp&rsquo;s access to your Google account at any time in your{" "}
+          <a href="https://myaccount.google.com/permissions" target="_blank" rel="noreferrer">
+            Google Account settings
+          </a>
+          .
         </li>
         <li>
           <strong>Fitness and health data:</strong> workouts, exercises, sets, reps, cardio
@@ -76,11 +87,16 @@ export default function PrivacyPolicyPage() {
         <li>A successor entity in connection with a merger, acquisition, or sale of assets.</li>
       </ul>
 
-      <h2>5. Data Retention</h2>
+      <h2>5. Data Retention and Deletion</h2>
       <p>
         We retain your information for as long as your account is active or as needed to provide
-        the Service. You may request deletion of your account and associated data at any time; see
-        Section 7.
+        the Service. You can delete your account at any time from the app under Settings &gt;
+        Account &gt; Delete Account. Deleting your account immediately deactivates it and
+        anonymizes your email address so it can no longer be used to sign in or identify you.
+        Underlying records (such as workout history and social content) are retained only as
+        needed for legal, security, or operational purposes after deletion. You can request full
+        erasure of any remaining data by contacting us at{" "}
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
       </p>
 
       <h2>6. Data Security</h2>
