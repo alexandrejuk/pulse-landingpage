@@ -8,16 +8,16 @@
       { "label": "Fitness Social", "href": "#social-fitness" },
       { "label": "Gamificação", "href": "#gamification" },
       { "label": "Live Cardio", "href": "#live-cardio" },
-      { "label": "Planos", "href": "#pricing" },
+      { "label": "Para Personal Trainers", "href": "#for-coaches" },
       { "label": "FAQ", "href": "#faq" }
     ],
     "download": "Baixar PulseUp"
   },
   "hero": {
     "eyebrow": "FITNESS SOCIAL, REINVENTADO",
-    "titleLine1": "Treine Junto.",
-    "titleLine2": "Evolua Junto.",
-    "subtitle": "O app de fitness social onde os treinos viram experiências compartilhadas. Monte sua Crew, complete treinos ao vivo, ganhe XP, desbloqueie conquistas e mantenha a consistência juntos.",
+    "titleLine1": "O mundo está treinando agora.",
+    "titleLine2": "Entre para participar.",
+    "subtitle": "Treine Junto. Evolua Junto.",
     "appStore": "Baixar na App Store",
     "playStore": "Baixar no Google Play",
     "watchDemo": "Ver Demonstração"
@@ -47,7 +47,20 @@
       { "title": "Planos de treino personalizados", "description": "Programas que se adaptam aos seus objetivos, experiência e equipamentos — sem achismo." },
       { "title": "Instruções de exercício", "description": "Instruções claras e guiadas para cada movimento, para você treinar sempre com confiança." },
       { "title": "Timer de descanso integrado", "description": "Timers automáticos entre séries mantêm seu treino fluindo sem precisar olhar o relógio." },
-      { "title": "Rastreamento inteligente de cardio", "description": "Distância, ritmo e calorias rastreados com precisão, tanto ao ar livre quanto indoor." }
+      { "title": "Rastreamento inteligente de cardio", "description": "Distância, ritmo e calorias rastreados com precisão, tanto ao ar livre quanto indoor." },
+      { "title": "Apple Health e Health Connect", "description": "Frequência cardíaca, calorias e passos sincronizam automaticamente com Apple Health e Health Connect." },
+      { "title": "Academias perto de você", "description": "Encontre academias próximas e escolha onde treinar, em qualquer lugar." }
+    ]
+  },
+  "forCoaches": {
+    "eyebrow": "Para Personal Trainers",
+    "title": "Monte programas. Atribua. Acompanhe os resultados.",
+    "description": "O PulseUp não é só para treinar junto — é uma ferramenta de verdade para o personal gerenciar seus alunos, de uma biblioteca de templates a um programa totalmente personalizado.",
+    "highlights": [
+      { "title": "Biblioteca de templates", "description": "Comece por um catálogo curado, organizado por objetivo, nível de experiência e frequência semanal." },
+      { "title": "Personalização completa", "description": "Edite o nome dos treinos, reordene exercícios e ajuste séries, repetições e descanso em um construtor guiado passo a passo." },
+      { "title": "Atribua aos alunos", "description": "Envie um programa para um aluno ou vários de uma vez — cada um recebe seu próprio plano independente." },
+      { "title": "Datas de início e fim definidas", "description": "Toda atribuição tem um cronograma claro, para você e seus alunos sempre saberem o que vem a seguir." }
     ]
   },
   "liveCardio": {
@@ -121,31 +134,6 @@
       { "quote": "As streaks e o XP me mantiveram consistente pela primeira vez em anos. Ver as conquistas da minha Crew me empurra a continuar.", "name": "Kaique Alves", "role": "Streak de 6 meses" }
     ]
   },
-  "pricing": {
-    "eyebrow": "Planos",
-    "title": "Grátis para começar. Premium quando quiser mais.",
-    "description": "Sem paywall no que faz o PulseUp social. O Premium é para quem busca performance extra.",
-    "plans": [
-      {
-        "name": "Grátis",
-        "price": "R$0",
-        "period": "para sempre",
-        "description": "Tudo que você precisa para começar a treinar com sua Crew.",
-        "features": ["Planos de treino personalizados", "Live Cardio com sua Crew", "Lobbies de Party Workout", "XP, streaks e conquistas", "Feed social"],
-        "cta": "Começar Grátis",
-        "badge": ""
-      },
-      {
-        "name": "Premium",
-        "price": "R$49,90",
-        "period": "/mês",
-        "description": "Desbloqueie toda a profundidade da inteligência de treino do PulseUp.",
-        "features": ["Melhorias ilimitadas com IA no plano", "Analytics avançado de performance", "Conquistas premium exclusivas", "Acesso prioritário a novos recursos", "Tudo do plano Grátis"],
-        "cta": "Assinar Premium",
-        "badge": "Mais popular"
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Perguntas, respondidas.",
@@ -154,7 +142,7 @@
       { "q": "Posso treinar sozinho?", "a": "Com certeza. Todo recurso — planos personalizados, rastreamento de cardio, conquistas — funciona sozinho. Os recursos sociais como Crew, Party Workout e Live Cardio estão lá quando você quiser." },
       { "q": "Como funciona o Live Cardio?", "a": "Comece uma corrida, caminhada ou pedalada e convide sua Crew para entrar em tempo real. Vocês vão ver a posição, ritmo e progresso uns dos outros em um mapa ao vivo compartilhado até a sessão terminar." },
       { "q": "Posso usar smartwatches?", "a": "Integrações com smartwatches e wearables estão no nosso roadmap. Por enquanto, o PulseUp rastreia suas sessões com precisão usando o GPS e os sensores do seu celular." },
-      { "q": "O PulseUp é grátis?", "a": "Sim. Todos os recursos sociais e de gamificação — Crew, Party Workout, Live Cardio, XP, streaks e conquistas — são grátis. O Premium adiciona melhorias com IA no plano e analytics avançado." }
+      { "q": "O PulseUp é grátis?", "a": "Sim. O PulseUp é totalmente gratuito — planos personalizados, Crew, Party Workout, Live Cardio, XP, streaks e conquistas, tudo incluso sem custo." }
     ]
   },
   "finalCta": {

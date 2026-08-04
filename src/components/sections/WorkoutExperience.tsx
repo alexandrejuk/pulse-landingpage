@@ -1,4 +1,4 @@
-import { ListChecks, BookOpen, Timer, HeartPulse } from "lucide-react";
+import { ListChecks, BookOpen, Timer, HeartPulse, Activity, MapPin } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Reveal } from "@/components/ui/Reveal";
 import { PhoneFrame } from "@/components/ui/PhoneFrame";
@@ -7,7 +7,7 @@ import { GradientBlob } from "@/components/ui/GradientBlob";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
 import type { Dictionary } from "@/dictionaries";
 
-const ICONS = [ListChecks, BookOpen, Timer, HeartPulse];
+const ICONS = [ListChecks, BookOpen, Timer, HeartPulse, Activity, MapPin];
 
 export function WorkoutExperience({ dict }: { dict: Dictionary["workoutExperience"] }) {
   return (

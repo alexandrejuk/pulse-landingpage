@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "PulseUp — Entrena Junto. Sube de Nivel Junto.",
+    "title": "PulseUp — Entrena Junto. Evoluciona Junto.",
     "description": "La app de fitness social donde los entrenamientos se convierten en experiencias compartidas. Crea tu Crew, completa entrenamientos en vivo, gana XP, desbloquea logros y mantén la constancia juntos."
   },
   "nav": {
@@ -8,16 +8,16 @@
       { "label": "Fitness Social", "href": "#social-fitness" },
       { "label": "Gamificación", "href": "#gamification" },
       { "label": "Live Cardio", "href": "#live-cardio" },
-      { "label": "Planes", "href": "#pricing" },
+      { "label": "Para Entrenadores", "href": "#for-coaches" },
       { "label": "FAQ", "href": "#faq" }
     ],
     "download": "Descargar PulseUp"
   },
   "hero": {
     "eyebrow": "FITNESS SOCIAL, REINVENTADO",
-    "titleLine1": "Entrena Junto.",
-    "titleLine2": "Sube de Nivel Junto.",
-    "subtitle": "La app de fitness social donde los entrenamientos se convierten en experiencias compartidas. Crea tu Crew, completa entrenamientos en vivo, gana XP, desbloquea logros y mantén la constancia juntos.",
+    "titleLine1": "El mundo está entrenando ahora.",
+    "titleLine2": "Entra para participar.",
+    "subtitle": "Entrena Junto. Evoluciona Junto.",
     "appStore": "Descargar en App Store",
     "playStore": "Descargar en Google Play",
     "watchDemo": "Ver Demo"
@@ -47,7 +47,20 @@
       { "title": "Planes de entrenamiento personalizados", "description": "Programas que se adaptan a tus objetivos, experiencia y equipo — sin conjeturas." },
       { "title": "Instrucciones de ejercicios", "description": "Instrucciones claras y guiadas para cada movimiento, para entrenar siempre con confianza." },
       { "title": "Temporizador de descanso integrado", "description": "Temporizadores automáticos entre series mantienen tu sesión fluyendo sin mirar el reloj." },
-      { "title": "Seguimiento inteligente de cardio", "description": "Distancia, ritmo y calorías registrados con precisión, tanto al aire libre como en interiores." }
+      { "title": "Seguimiento inteligente de cardio", "description": "Distancia, ritmo y calorías registrados con precisión, tanto al aire libre como en interiores." },
+      { "title": "Apple Health y Health Connect", "description": "Frecuencia cardíaca, calorías y pasos se sincronizan automáticamente con Apple Health y Health Connect." },
+      { "title": "Gimnasios cerca de ti", "description": "Encuentra gimnasios cercanos y elige dónde entrenar, estés donde estés." }
+    ]
+  },
+  "forCoaches": {
+    "eyebrow": "Para Entrenadores Personales",
+    "title": "Crea programas. Asígnalos. Sigue los resultados.",
+    "description": "PulseUp no es solo para entrenar juntos — es una herramienta real para que el entrenador gestione a sus alumnos, desde una biblioteca de plantillas hasta un programa totalmente personalizado.",
+    "highlights": [
+      { "title": "Biblioteca de plantillas", "description": "Empieza desde un catálogo curado, organizado por objetivo, nivel de experiencia y frecuencia semanal." },
+      { "title": "Personalización completa", "description": "Edita el nombre de los entrenamientos, reordena ejercicios y ajusta series, repeticiones y descanso en un constructor guiado paso a paso." },
+      { "title": "Asigna a tus alumnos", "description": "Envía un programa a un alumno o a varios a la vez — cada uno recibe su propio plan independiente." },
+      { "title": "Fechas de inicio y fin definidas", "description": "Cada asignación tiene un cronograma claro, para que tú y tus alumnos siempre sepan qué sigue." }
     ]
   },
   "liveCardio": {
@@ -121,31 +134,6 @@
       { "quote": "Las rachas y el XP me mantuvieron constante por primera vez en años. Ver los logros de mi Crew me impulsa a seguir.", "name": "Kaique Alves", "role": "Racha de 6 meses" }
     ]
   },
-  "pricing": {
-    "eyebrow": "Planes",
-    "title": "Gratis para empezar. Premium cuando quieras más.",
-    "description": "Sin muros de pago en lo que hace social a PulseUp. Premium es para quienes buscan un plus de rendimiento.",
-    "plans": [
-      {
-        "name": "Gratis",
-        "price": "$0",
-        "period": "para siempre",
-        "description": "Todo lo necesario para empezar a entrenar con tu Crew.",
-        "features": ["Planes de entrenamiento personalizados", "Live Cardio con tu Crew", "Salas de Party Workout", "XP, rachas y logros", "Feed social"],
-        "cta": "Empezar Gratis",
-        "badge": ""
-      },
-      {
-        "name": "Premium",
-        "price": "$9.99",
-        "period": "/mes",
-        "description": "Desbloquea toda la profundidad de la inteligencia de entrenamiento de PulseUp.",
-        "features": ["Mejoras ilimitadas del plan con IA", "Analítica avanzada de rendimiento", "Logros premium exclusivos", "Acceso prioritario a futuras funciones", "Todo lo del plan Gratis"],
-        "cta": "Pasar a Premium",
-        "badge": "Más popular"
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Preguntas, respondidas.",
@@ -154,7 +142,7 @@
       { "q": "¿Puedo entrenar solo?", "a": "Por supuesto. Cada función — planes personalizados, seguimiento de cardio, logros — funciona en solitario. Las funciones sociales como Crew, Party Workout y Live Cardio están ahí cuando quieras." },
       { "q": "¿Cómo funciona Live Cardio?", "a": "Empieza a correr, caminar o pedalear e invita a tu Crew a unirse en tiempo real. Verán la posición, ritmo y progreso de cada uno en un mapa en vivo compartido hasta que termine la sesión." },
       { "q": "¿Puedo usar smartwatches?", "a": "Las integraciones con smartwatches y wearables están en nuestra hoja de ruta. Por ahora, PulseUp registra tus sesiones con precisión usando el GPS y los sensores de tu teléfono." },
-      { "q": "¿PulseUp es gratis?", "a": "Sí. Todas las funciones sociales y de gamificación — Crew, Party Workout, Live Cardio, XP, rachas y logros — son gratis. Premium añade mejoras del plan con IA y analítica avanzada." }
+      { "q": "¿PulseUp es gratis?", "a": "Sí. PulseUp es completamente gratis — planes personalizados, Crew, Party Workout, Live Cardio, XP, rachas y logros, todo incluido sin costo." }
     ]
   },
   "finalCta": {

@@ -6,13 +6,13 @@ import { Hero } from "@/components/sections/Hero";
 import { SocialFitness } from "@/components/sections/SocialFitness";
 import { Gamification } from "@/components/sections/Gamification";
 import { WorkoutExperience } from "@/components/sections/WorkoutExperience";
+import { ForCoaches } from "@/components/sections/ForCoaches";
 import { LiveCardio } from "@/components/sections/LiveCardio";
 import { WorkoutParty } from "@/components/sections/WorkoutParty";
 import { FeedShowcase } from "@/components/sections/FeedShowcase";
 import { Achievements } from "@/components/sections/Achievements";
 import { Statistics } from "@/components/sections/Statistics";
 import { Testimonials } from "@/components/sections/Testimonials";
-import { Pricing } from "@/components/sections/Pricing";
 import { Faq } from "@/components/sections/Faq";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { Footer } from "@/components/sections/Footer";
@@ -34,13 +34,13 @@ export default async function Home({
         <SocialFitness dict={dict.socialFitness} />
         <Gamification dict={dict.gamification} />
         <WorkoutExperience dict={dict.workoutExperience} />
+        <ForCoaches dict={dict.forCoaches} />
         <LiveCardio dict={dict.liveCardio} />
         <WorkoutParty dict={dict.workoutParty} />
         <FeedShowcase dict={dict.feed} cardsDict={dict.feedCards} />
         <Achievements dict={dict.achievements} />
         <Statistics dict={dict.stats} />
         <Testimonials dict={dict.testimonials} />
-        <Pricing dict={dict.pricing} />
         <Faq dict={dict.faq} />
         <FinalCta dict={dict.finalCta} />
       </main>

@@ -65,7 +65,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
         </Reveal>
 
         <Reveal delay={0.16}>
-          <p className="mt-7 max-w-2xl text-balance text-lg leading-relaxed text-text-secondary sm:text-xl">
+          <p className="mt-7 max-w-2xl whitespace-pre-line text-balance text-lg leading-relaxed text-text-secondary sm:text-xl">
             {dict.subtitle}
           </p>
         </Reveal>

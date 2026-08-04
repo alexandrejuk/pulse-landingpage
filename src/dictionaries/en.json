@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "PulseUp — Train Together. Level Up Together.",
+    "title": "PulseUp — Train Together. Evolve Together.",
     "description": "The social fitness app where workouts become shared experiences. Build your Crew, complete live workouts, earn XP, unlock achievements and stay consistent together."
   },
   "nav": {
@@ -8,16 +8,16 @@
       { "label": "Social Fitness", "href": "#social-fitness" },
       { "label": "Gamification", "href": "#gamification" },
       { "label": "Live Cardio", "href": "#live-cardio" },
-      { "label": "Pricing", "href": "#pricing" },
+      { "label": "For Coaches", "href": "#for-coaches" },
       { "label": "FAQ", "href": "#faq" }
     ],
     "download": "Download PulseUp"
   },
   "hero": {
     "eyebrow": "SOCIAL FITNESS, REINVENTED",
-    "titleLine1": "Train Together.",
-    "titleLine2": "Level Up Together.",
-    "subtitle": "The social fitness app where workouts become shared experiences. Build your Crew, complete live workouts, earn XP, unlock achievements and stay consistent together.",
+    "titleLine1": "The world is training right now.",
+    "titleLine2": "Join in.",
+    "subtitle": "Train Together. Evolve Together.",
     "appStore": "Download on App Store",
     "playStore": "Download on Google Play",
     "watchDemo": "Watch Demo"
@@ -47,7 +47,20 @@
       { "title": "Personalized workout plans", "description": "Programs that adapt to your goals, experience and equipment — no guesswork." },
       { "title": "Exercise instructions", "description": "Clear, guided instructions for every movement so you always train with confidence." },
       { "title": "Rest timer, built in", "description": "Automatic rest timers between sets keep your session flowing without checking a clock." },
-      { "title": "Smart cardio tracking", "description": "Distance, pace and calories tracked precisely for outdoor and indoor cardio alike." }
+      { "title": "Smart cardio tracking", "description": "Distance, pace and calories tracked precisely for outdoor and indoor cardio alike." },
+      { "title": "Apple Health & Health Connect", "description": "Heart rate, active energy and steps sync automatically with Apple Health and Health Connect." },
+      { "title": "Gyms near you", "description": "Find nearby gyms and pick where you're training next, wherever you are." }
+    ]
+  },
+  "forCoaches": {
+    "eyebrow": "For Personal Trainers",
+    "title": "Build programs. Assign them. Track results.",
+    "description": "PulseUp isn't just for training together — it's a real toolkit for coaches managing their students, from a curated template library to a fully custom program.",
+    "highlights": [
+      { "title": "Template library", "description": "Start from a curated catalog organized by goal, experience level and weekly frequency." },
+      { "title": "Full customization", "description": "Edit workout names, reorder exercises and adjust sets, reps and rest in a guided step-by-step builder." },
+      { "title": "Assign to students", "description": "Send a program to one student or many at once — each gets their own independent plan." },
+      { "title": "Defined start & end dates", "description": "Every assignment has a clear timeline, so you and your students always know what's next." }
     ]
   },
   "liveCardio": {
@@ -121,31 +134,6 @@
       { "quote": "The streaks and XP kept me consistent for the first time in years. Seeing my Crew's achievements pushes me to keep going.", "name": "Kaique Alves", "role": "6-month streak" }
     ]
   },
-  "pricing": {
-    "eyebrow": "Pricing",
-    "title": "Free to start. Premium when you're ready.",
-    "description": "No paywalls on what makes PulseUp social. Premium is for those chasing extra performance.",
-    "plans": [
-      {
-        "name": "Free",
-        "price": "$0",
-        "period": "forever",
-        "description": "Everything needed to start training with your Crew.",
-        "features": ["Personalized workout plans", "Live Cardio with your Crew", "Party Workout lobbies", "XP, streaks & achievements", "Social feed"],
-        "cta": "Get Started Free",
-        "badge": ""
-      },
-      {
-        "name": "Premium",
-        "price": "$9.99",
-        "period": "/month",
-        "description": "Unlock the full depth of PulseUp's training intelligence.",
-        "features": ["Unlimited AI plan improvements", "Advanced performance analytics", "Exclusive premium achievements", "Priority access to future features", "Everything in Free"],
-        "cta": "Go Premium",
-        "badge": "Most popular"
-      }
-    ]
-  },
   "faq": {
     "eyebrow": "FAQ",
     "title": "Questions, answered.",
@@ -154,7 +142,7 @@
       { "q": "Can I train alone?", "a": "Absolutely. Every feature — personalized plans, cardio tracking, achievements — works solo. Social features like Crew, Party Workout and Live Cardio are there whenever you want them." },
       { "q": "How does Live Cardio work?", "a": "Start a run, walk or ride and invite your Crew to join in real time. You'll see each other's position, pace and progress on a shared live map until the session ends." },
       { "q": "Can I use smartwatches?", "a": "Smartwatch and wearable integrations are on our roadmap. For now, PulseUp tracks your sessions precisely using your phone's GPS and sensors." },
-      { "q": "Is PulseUp free?", "a": "Yes. All social and gamification features — Crew, Party Workout, Live Cardio, XP, streaks and achievements — are free. Premium adds AI plan improvements and advanced analytics." }
+      { "q": "Is PulseUp free?", "a": "Yes. PulseUp is completely free — personalized plans, Crew, Party Workout, Live Cardio, XP, streaks and achievements are all included at no cost." }
     ]
   },
   "finalCta": {
