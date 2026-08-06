@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "The terms that govern your use of PulseUp.",
 };
 
-const UPDATED = "August 4, 2026";
+const UPDATED = "August 6, 2026";
 const CONTACT_EMAIL = "legal@pulseup.io";
 
 export default function TermsOfUsePage() {
@@ -63,21 +63,45 @@ export default function TermsOfUsePage() {
       </ul>
       <p>We may remove content or suspend accounts that violate these Terms.</p>
 
-      <h2>6. Intellectual Property</h2>
+      <h2>6. Community Standards</h2>
+      <p>
+        PulseUp has zero tolerance for content or conduct that undermines a safe and respectful
+        community. In addition to the restrictions in Section 5, you agree not to post, share, or
+        engage in:
+      </p>
+      <ul>
+        <li>
+          Hate speech or incitement to hatred, discrimination, or violence based on race,
+          ethnicity, religion, national origin, gender, sexual orientation, disability, or any
+          other characteristic.
+        </li>
+        <li>Threats, glorification, or incitement of violence against any person or group.</li>
+        <li>Nudity or sexually explicit content.</li>
+        <li>
+          Content or behavior that promotes intolerance of any kind, including racial, religious,
+          or social intolerance.
+        </li>
+      </ul>
+      <p>
+        Violations of this section may result in immediate removal of the content, suspension, or
+        permanent termination of your account, at our sole discretion and without prior notice.
+      </p>
+
+      <h2>7. Intellectual Property</h2>
       <p>
         The Service, including its design, features, and PulseUp trademarks and logos, is owned
         by PulseUp and protected by intellectual property laws. Except for the license granted to
         use the Service, no rights are transferred to you.
       </p>
 
-      <h2>7. Termination</h2>
+      <h2>8. Termination</h2>
       <p>
         You may stop using the Service and delete your account at any time. We may suspend or
         terminate your access if you violate these Terms or if required to protect the Service or
         other users.
       </p>
 
-      <h2>8. Disclaimers and Limitation of Liability</h2>
+      <h2>9. Disclaimers and Limitation of Liability</h2>
       <p>
         The Service is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo;, without
         warranties of any kind, express or implied. To the maximum extent permitted by law,
@@ -86,21 +110,21 @@ export default function TermsOfUsePage() {
         performing exercises tracked or suggested through the app.
       </p>
 
-      <h2>9. Governing Law</h2>
+      <h2>10. Governing Law</h2>
       <p>
         These Terms are governed by the laws of the Federative Republic of Brazil, without regard
         to conflict-of-law principles, unless mandatory local law in your jurisdiction provides
         otherwise.
       </p>
 
-      <h2>10. Changes to These Terms</h2>
+      <h2>11. Changes to These Terms</h2>
       <p>
         We may update these Terms from time to time. Continued use of the Service after changes
         take effect constitutes acceptance of the revised Terms. We will update the &ldquo;Last
         updated&rdquo; date above whenever we do.
       </p>
 
-      <h2>11. Contact Us</h2>
+      <h2>12. Contact Us</h2>
       <p>
         If you have questions about these Terms, contact us at{" "}
         <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
