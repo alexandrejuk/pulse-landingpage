@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { GradientBlob } from "@/components/ui/GradientBlob";
-import { CoachMock } from "@/components/mocks/ScreenMocks";
+import { AppScreenshot } from "@/components/ui/AppScreenshot";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [LayoutTemplate, SlidersHorizontal, Users, CalendarRange];
@@ -18,7 +18,7 @@ export function ForCoaches({ dict }: { dict: Dictionary["forCoaches"] }) {
           <div className="relative flex justify-center lg:order-1">
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
-                <CoachMock />
+                <AppScreenshot src="/screenshots/coach.png" alt="PulseUp coach workout templates screen" />
               </PhoneFrame>
             </Float>
           </div>

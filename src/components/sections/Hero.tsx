@@ -1,6 +1,6 @@
 "use client";
 
-import { Play, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { GradientBlob } from "@/components/ui/GradientBlob";
@@ -10,7 +10,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { AppleIcon } from "@/components/ui/AppleIcon";
 import { PlayStoreIcon } from "@/components/ui/PlayStoreIcon";
 import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/constants";
-import { WorkoutMock, PartyMock, CardioMock } from "@/components/mocks/ScreenMocks";
+import { PartyMock, CardioMock } from "@/components/mocks/ScreenMocks";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
 import type { Dictionary } from "@/dictionaries";
 
@@ -63,11 +63,13 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
           </h1>
         </Reveal>
 
-        <Reveal delay={0.16}>
-          <p className="mt-7 max-w-2xl whitespace-pre-line text-balance text-lg leading-relaxed text-text-secondary sm:text-xl">
-            {dict.subtitle}
-          </p>
-        </Reveal>
+        {dict.subtitle && (
+          <Reveal delay={0.16}>
+            <p className="mt-7 max-w-2xl whitespace-pre-line text-balance text-lg leading-relaxed text-text-secondary sm:text-xl">
+              {dict.subtitle}
+            </p>
+          </Reveal>
+        )}
 
         <Reveal delay={0.24}>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
@@ -84,15 +86,6 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
             </Button>
           </div>
         </Reveal>
-
-        <Reveal delay={0.3}>
-          <button className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-text-secondary transition-colors hover:text-white">
-            <span className="flex h-8 w-8 items-center justify-center rounded-full glass">
-              <Play size={12} className="ml-0.5 fill-white text-white" />
-            </span>
-            {dict.watchDemo}
-          </button>
-        </Reveal>
       </Container>
 
       <div className="relative z-10 mt-20 flex items-center justify-center">
@@ -106,7 +99,7 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
 
             <Float duration={6} delay={0.1} className="hidden sm:block">
               <PhoneFrame size="md" className="-mr-6 mb-6 rotate-[-8deg]">
-                <WorkoutMock />
+                <AppScreenshot src="/screenshots/program.png" alt="PulseUp workout detail screen" />
               </PhoneFrame>
             </Float>
 

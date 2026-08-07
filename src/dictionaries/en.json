@@ -14,12 +14,11 @@
   },
   "hero": {
     "eyebrow": "FITNESS APP FOR TRAINING & COACHING",
-    "titleLine1": "PulseUp is a social fitness app for",
-    "titleLine2": "personalized workouts, live training and coach management.",
-    "subtitle": "The world is training right now.\nJoin in.",
+    "titleLine1": "The world is training right now.",
+    "titleLine2": "Join in.",
+    "subtitle": "",
     "appStore": "Download on App Store",
-    "playStore": "Download on Google Play",
-    "watchDemo": "Watch Demo"
+    "playStore": "Download on Google Play"
   },
   "whatIsPulseUp": {
     "title": "What is PulseUp?",
@@ -168,9 +167,9 @@
   },
   "stats": {
     "items": [
-      { "value": 4200000, "suffix": "+", "label": "XP earned by the community" },
-      { "value": 128000, "suffix": "+", "label": "Workouts completed" },
-      { "value": 6400, "suffix": "+", "label": "Crews created" },
+      { "value": 320000, "suffix": "+", "label": "XP earned by the community" },
+      { "value": 8500, "suffix": "+", "label": "Workouts completed" },
+      { "value": 420, "suffix": "+", "label": "Crews created" },
       { "value": 98, "suffix": "%", "label": "Would train with PulseUp again" }
     ]
   },
@@ -197,7 +196,7 @@
     ]
   },
   "finalCta": {
-    "tagline": "The world is training right now.\nJoin in.",
+    "tagline": "PulseUp is a social fitness app for personalized workouts, live training and coach management.",
     "title": "Ready to level up your fitness?",
     "description": "Download PulseUp today and turn your next workout into a shared experience.",
     "appStore": "App Store",

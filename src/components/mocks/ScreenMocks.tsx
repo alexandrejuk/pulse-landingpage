@@ -1,4 +1,4 @@
-import { Zap, MapPin, Check, Users } from "lucide-react";
+import { Zap, MapPin, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 /** Lightweight CSS/SVG stand-ins for screens without a real screenshot yet
@@ -114,57 +114,6 @@ export function PartyMock() {
   );
 }
 
-export function CoachMock() {
-  const chips = [
-    { label: "Strength", active: true },
-    { label: "Hypertrophy", active: false },
-    { label: "Fat Loss", active: false },
-  ];
-  const templates = [
-    { name: "Strength Foundations", level: "Beginner", days: "3x/week" },
-    { name: "Hypertrophy Block", level: "Intermediate", days: "5x/week" },
-  ];
-  return (
-    <div className="flex h-full flex-col bg-background">
-      <StatusBar />
-      <div className="px-4 pb-3">
-        <span className="text-sm font-extrabold text-white">Templates</span>
-      </div>
-      <div className="flex gap-1.5 px-3">
-        {chips.map((chip) => (
-          <div
-            key={chip.label}
-            className={cn(
-              "rounded-full px-2.5 py-1 text-[8px] font-bold",
-              chip.active ? "bg-primary text-white" : "border border-white/10 bg-surface text-white/50"
-            )}
-          >
-            {chip.label}
-          </div>
-        ))}
-      </div>
-      <div className="mx-3 mt-3 flex flex-col gap-2.5">
-        {templates.map((t) => (
-          <div key={t.name} className="rounded-xl border border-white/10 bg-surface p-3">
-            <div className="h-14 w-full rounded-lg bg-gradient-to-br from-primary-light/40 to-deep-purple/40" />
-            <div className="mt-2 h-2 w-3/4 rounded-full bg-white/70" />
-            <div className="mt-2 flex items-center gap-2 text-[8px] font-bold text-white/40">
-              <span>{t.level}</span>
-              <span>·</span>
-              <span>{t.days}</span>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div className="mt-auto p-3">
-        <div className="flex items-center justify-center gap-1.5 rounded-full bg-gradient-to-r from-primary-light to-primary py-2.5 text-[10px] font-bold text-white">
-          <Users size={11} />
-          Assign to students
-        </div>
-      </div>
-    </div>
-  );
-}
 
 export function CardioMock() {
   return (

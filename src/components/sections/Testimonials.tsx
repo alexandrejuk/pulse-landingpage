@@ -1,9 +1,14 @@
+import Image from "next/image";
 import { Star } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { Reveal } from "@/components/ui/Reveal";
 import type { Dictionary } from "@/dictionaries";
+
+// Index-aligned with dict.testimonials.items -- not part of the dictionary
+// itself since the same photo is reused across locales.
+const AVATARS = ["/avatars/marina.jpg", "/avatars/diego.jpg", "/avatars/kaique.jpg"];
 
 export function Testimonials({ dict }: { dict: Dictionary["testimonials"] }) {
   return (
@@ -26,7 +31,9 @@ export function Testimonials({ dict }: { dict: Dictionary["testimonials"] }) {
                   </p>
                 </div>
                 <div className="mt-6 flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-full bg-gradient-to-br from-primary-light to-deep-purple" />
+                  <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-full">
+                    <Image src={AVATARS[i]} alt={t.name} fill className="object-cover" sizes="40px" />
+                  </div>
                   <div>
                     <div className="text-sm font-bold text-white">{t.name}</div>
                     <div className="text-xs text-text-tertiary">{t.role}</div>

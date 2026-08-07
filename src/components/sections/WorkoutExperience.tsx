@@ -65,6 +65,11 @@ export function WorkoutExperience({ dict }: { dict: Dictionary["workoutExperienc
                 <AppScreenshot src="/screenshots/cardio-list.png" alt="PulseUp cardio selection screen" />
               </PhoneFrame>
             </Float>
+            <Float duration={7} delay={0.5} className="absolute -left-4 bottom-10 hidden sm:block">
+              <PhoneFrame size="sm" className="rotate-[-10deg] opacity-90">
+                <AppScreenshot src="/screenshots/workout.png" alt="PulseUp workout completed screen" />
+              </PhoneFrame>
+            </Float>
           </div>
         </Reveal>
       </Container>

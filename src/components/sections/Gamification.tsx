@@ -5,6 +5,9 @@ import { Zap, TrendingUp, Award, Flame, BarChart3, Gift } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
+import { PhoneFrame } from "@/components/ui/PhoneFrame";
+import { Float } from "@/components/ui/Float";
+import { AppScreenshot } from "@/components/ui/AppScreenshot";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [Zap, TrendingUp, Award, Flame, BarChart3, Gift];
@@ -20,6 +23,14 @@ const COLORS = [
 export function Gamification({ dict }: { dict: Dictionary["gamification"] }) {
   return (
     <section id="gamification" className="relative py-28">
+      <div className="absolute right-[4%] top-1/2 hidden -translate-y-1/2 xl:block">
+        <Float duration={6} delay={0.2}>
+          <PhoneFrame size="sm" className="rotate-[8deg] opacity-90">
+            <AppScreenshot src="/screenshots/reward.png" alt="PulseUp rewards screen" />
+          </PhoneFrame>
+        </Float>
+      </div>
+
       <Container>
         <SectionHeading eyebrow={dict.eyebrow} title={dict.title} description={dict.description} />
 

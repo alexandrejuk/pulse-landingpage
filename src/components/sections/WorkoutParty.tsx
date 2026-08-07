@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Zap, Check } from "lucide-react";
 import { Container } from "@/components/ui/Container";
@@ -7,6 +8,10 @@ import { GlassCard } from "@/components/ui/GlassCard";
 import { Reveal } from "@/components/ui/Reveal";
 import { GradientBlob } from "@/components/ui/GradientBlob";
 import type { Dictionary } from "@/dictionaries";
+
+// Index-aligned with dict.workoutParty.players -- not part of the dictionary
+// itself since the same photo is reused across locales.
+const PLAYER_AVATARS = ["/avatars/marina.jpg", "/avatars/diego.jpg", "/avatars/you.jpg", "/avatars/kaique.jpg"];
 
 export function WorkoutParty({ dict }: { dict: Dictionary["workoutParty"] }) {
   return (
@@ -57,13 +62,16 @@ export function WorkoutParty({ dict }: { dict: Dictionary["workoutParty"] }) {
             </div>
 
             <div className="mt-8 grid grid-cols-4 gap-3">
-              {dict.players.map((player) => (
+              {dict.players.map((player, i) => (
                 <div key={player.name} className="flex flex-col items-center gap-2">
                   <div
-                    className={`relative flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-primary-light to-deep-purple ${
+                    className={`relative h-12 w-12 rounded-full ${
                       player.ready ? "ring-2 ring-success ring-offset-2 ring-offset-surface" : "opacity-50"
                     }`}
                   >
+                    <div className="absolute inset-0 overflow-hidden rounded-full">
+                      <Image src={PLAYER_AVATARS[i]} alt={player.name} fill className="object-cover" sizes="48px" />
+                    </div>
                     {player.ready && (
                       <span className="absolute -bottom-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-success ring-2 ring-surface">
                         <Check size={11} className="text-white" />
