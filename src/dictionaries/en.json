@@ -8,7 +8,8 @@
       { "label": "What is PulseUp", "href": "#what-is-pulseup" },
       { "label": "Features", "href": "#features" },
       { "label": "For Coaches", "href": "#for-coaches" },
-      { "label": "FAQ", "href": "#faq" }
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Partners", "href": "/parceiros" }
     ],
     "download": "Download PulseUp"
   },
@@ -211,5 +212,42 @@
     ],
     "rights": "All rights reserved.",
     "madeFor": "Made for people who train together."
+  },
+  "partners": {
+    "meta": {
+      "title": "Partner with PulseUp — Gyms & Businesses",
+      "description": "Bring PulseUp to your gym or business. Tell us about your business and our partnerships team will get in touch."
+    },
+    "eyebrow": "FOR GYMS & PARTNERS",
+    "title": "Bring PulseUp to your gym or business",
+    "description": "Tell us a bit about your business and our partnerships team will get back to you.",
+    "benefits": [
+      { "title": "In-app ads", "description": "Put your brand in front of people training every day on PulseUp." },
+      { "title": "Promotion & content", "description": "Get featured in posts, campaigns and highlights for our community." },
+      { "title": "Events & races", "description": "Run races, challenges and events in partnership with PulseUp and our Crew." }
+    ],
+    "form": {
+      "nameLabel": "Full name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@business.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+1 555 555 5555",
+      "companyLabel": "Gym / business name",
+      "companyPlaceholder": "Fit Plus Gym",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us a bit about the partnership you have in mind",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "consent": "By submitting, you agree to our",
+      "consentLink": "Privacy Policy",
+      "errorRequired": "Please fill in all required fields.",
+      "errorGeneric": "We couldn't send your message right now. Please try again in a few minutes."
+    },
+    "success": {
+      "title": "We've got your message!",
+      "description": "Our team will review it and get back to you soon.",
+      "cta": "Back to home"
+    }
   }
 }

@@ -8,7 +8,8 @@
       { "label": "Qué es PulseUp", "href": "#what-is-pulseup" },
       { "label": "Funciones", "href": "#features" },
       { "label": "Para Entrenadores", "href": "#for-coaches" },
-      { "label": "FAQ", "href": "#faq" }
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Socios", "href": "/parceiros" }
     ],
     "download": "Descargar PulseUp"
   },
@@ -211,5 +212,42 @@
     ],
     "rights": "Todos los derechos reservados.",
     "madeFor": "Hecho para quienes entrenan juntos."
+  },
+  "partners": {
+    "meta": {
+      "title": "Sé socio de PulseUp — Gimnasios y Empresas",
+      "description": "Lleva PulseUp a tu gimnasio o empresa. Cuéntanos sobre tu negocio y nuestro equipo de alianzas se pondrá en contacto."
+    },
+    "eyebrow": "PARA GIMNASIOS Y SOCIOS",
+    "title": "Lleva PulseUp a tu gimnasio o empresa",
+    "description": "Cuéntanos un poco sobre tu negocio y nuestro equipo de alianzas te responderá.",
+    "benefits": [
+      { "title": "Anuncios en la app", "description": "Pon tu marca frente a quienes entrenan todos los días en PulseUp." },
+      { "title": "Promoción y contenido", "description": "Aparece en publicaciones, campañas y destacados para nuestra comunidad." },
+      { "title": "Eventos y carreras", "description": "Organiza carreras, desafíos y eventos en alianza con PulseUp y nuestra Crew." }
+    ],
+    "form": {
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Tu nombre completo",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@empresa.com",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "+34 600 000 000",
+      "companyLabel": "Nombre del gimnasio/empresa",
+      "companyPlaceholder": "Gimnasio Fit Plus",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntanos un poco sobre la alianza que tienes en mente",
+      "submit": "Enviar",
+      "submitting": "Enviando...",
+      "consent": "Al enviar, aceptas nuestra",
+      "consentLink": "Política de Privacidad",
+      "errorRequired": "Completa todos los campos obligatorios.",
+      "errorGeneric": "No pudimos enviar tu mensaje ahora. Intenta de nuevo en unos minutos."
+    },
+    "success": {
+      "title": "¡Recibimos tu mensaje!",
+      "description": "Nuestro equipo lo revisará y se pondrá en contacto pronto.",
+      "cta": "Volver al inicio"
+    }
   }
 }

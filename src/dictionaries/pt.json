@@ -8,7 +8,8 @@
       { "label": "O que é o PulseUp", "href": "#what-is-pulseup" },
       { "label": "Recursos", "href": "#features" },
       { "label": "Para Personal Trainers", "href": "#for-coaches" },
-      { "label": "FAQ", "href": "#faq" }
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Parceiros", "href": "/parceiros" }
     ],
     "download": "Baixar PulseUp"
   },
@@ -211,5 +212,42 @@
     ],
     "rights": "Todos os direitos reservados.",
     "madeFor": "Feito para quem treina junto."
+  },
+  "partners": {
+    "meta": {
+      "title": "Seja parceiro do PulseUp — Academias e Empresas",
+      "description": "Leve o PulseUp para sua academia ou empresa. Conte um pouco sobre seu negócio e nosso time de parcerias vai entrar em contato."
+    },
+    "eyebrow": "PARA ACADEMIAS E PARCEIROS",
+    "title": "Leve o PulseUp para sua academia ou empresa",
+    "description": "Conte um pouco sobre seu negócio e nosso time de parcerias vai retornar o contato.",
+    "benefits": [
+      { "title": "Anúncios no app", "description": "Coloque sua marca na frente de quem treina todos os dias no PulseUp." },
+      { "title": "Divulgação e conteúdo", "description": "Apareça em posts, campanhas e destaques para a nossa comunidade." },
+      { "title": "Eventos e corridas", "description": "Organize corridas, desafios e eventos em parceria com o PulseUp e nossa Crew." }
+    ],
+    "form": {
+      "nameLabel": "Nome completo",
+      "namePlaceholder": "Seu nome completo",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "voce@empresa.com",
+      "phoneLabel": "Telefone",
+      "phonePlaceholder": "(11) 99999-9999",
+      "companyLabel": "Nome da academia/empresa",
+      "companyPlaceholder": "Academia Fit Plus",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Conte um pouco sobre a parceria que você tem em mente",
+      "submit": "Enviar",
+      "submitting": "Enviando...",
+      "consent": "Ao enviar, você concorda com nossa",
+      "consentLink": "Política de Privacidade",
+      "errorRequired": "Preencha todos os campos obrigatórios.",
+      "errorGeneric": "Não foi possível enviar seu contato agora. Tente novamente em alguns minutos."
+    },
+    "success": {
+      "title": "Recebemos seu contato!",
+      "description": "Nosso time vai analisar sua mensagem e retornar em breve.",
+      "cta": "Voltar para a home"
+    }
   }
 }
