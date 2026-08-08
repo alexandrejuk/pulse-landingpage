@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Container } from "@/components/ui/Container";
@@ -9,12 +10,13 @@ import { Button } from "@/components/ui/Button";
 import { LocaleSwitcher } from "@/components/ui/LocaleSwitcher";
 import { APP_STORE_URL } from "@/lib/constants";
 import { cn } from "@/lib/utils";
-import type { Locale } from "@/i18n/config";
+import { locales, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/dictionaries";
 
 export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav"] }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -22,6 +24,12 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // Section anchors (e.g. #features) only exist on the homepage. From any
+  // other page, prefix with "/" so the browser navigates there first and
+  // then jumps to the anchor once it loads.
+  const isHome = pathname === "/" || locales.some((l) => pathname === `/${l}`);
+  const resolveHref = (href: string) => (href.startsWith("#") && !isHome ? `/${href}` : href);
 
   return (
     <header
@@ -31,7 +39,7 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav
       )}
     >
       <Container className="flex items-center justify-between">
-        <a href="#top" aria-label="PulseUp home">
+        <a href={resolveHref("#top")} aria-label="PulseUp home">
           <Logo />
         </a>
 
@@ -39,7 +47,7 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav
           {dict.links.map((link) => (
             <a
               key={link.href}
-              href={link.href}
+              href={resolveHref(link.href)}
               className="text-sm font-medium text-text-secondary transition-colors hover:text-text-primary"
             >
               {link.label}
@@ -79,7 +87,7 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav
               {dict.links.map((link) => (
                 <a
                   key={link.href}
-                  href={link.href}
+                  href={resolveHref(link.href)}
                   onClick={() => setOpen(false)}
                   className="text-base font-medium text-text-secondary hover:text-text-primary"
                 >

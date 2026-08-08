@@ -208,7 +208,7 @@
     "groups": [
       { "title": "Legal", "links": [{ "label": "Política de Privacidad", "href": "/privacy-policy" }, { "label": "Términos", "href": "/terms-of-use" }] },
       { "title": "Soporte", "links": [{ "label": "Centro de Ayuda", "href": "#" }, { "label": "Contacto", "href": "#" }] },
-      { "title": "Comunidad", "links": [{ "label": "Instagram", "href": "#" }, { "label": "TikTok", "href": "#" }, { "label": "Discord", "href": "#" }] }
+      { "title": "Comunidad", "links": [{ "label": "Instagram", "href": "https://www.instagram.com/pulseup.io/" }, { "label": "YouTube", "href": "https://www.youtube.com/channel/UCVLVAJ_vMuJ29xB5lCdWdlA" }, { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61592854919734" }, { "label": "X", "href": "https://x.com/pulseupio" }] }
     ],
     "rights": "Todos los derechos reservados.",
     "madeFor": "Hecho para quienes entrenan juntos."
