@@ -89,21 +89,31 @@ export default function TermsOfUsePage() {
         permanent termination of your account, at our sole discretion and without prior notice.
       </p>
 
-      <h2>7. Intellectual Property</h2>
+      <h2>7. Advertising and Third-Party Ads</h2>
+      <p>
+        PulseUp may display third-party advertisements within the Service. Any ad served is the
+        sole responsibility of the respective advertiser, including the accuracy of the
+        information and the quality and delivery of any advertised products or services. PulseUp
+        is not a party to any transaction between you and an advertiser, does not endorse the
+        advertising content shown, and is not liable for damages arising from your interaction
+        with ads or advertisers.
+      </p>
+
+      <h2>8. Intellectual Property</h2>
       <p>
         The Service, including its design, features, and PulseUp trademarks and logos, is owned
         by PulseUp and protected by intellectual property laws. Except for the license granted to
         use the Service, no rights are transferred to you.
       </p>
 
-      <h2>8. Termination</h2>
+      <h2>9. Termination</h2>
       <p>
         You may stop using the Service and delete your account at any time. We may suspend or
         terminate your access if you violate these Terms or if required to protect the Service or
         other users.
       </p>
 
-      <h2>9. Disclaimers and Limitation of Liability</h2>
+      <h2>10. Disclaimers and Limitation of Liability</h2>
       <p>
         The Service is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo;, without
         warranties of any kind, express or implied. To the maximum extent permitted by law,
@@ -112,21 +122,21 @@ export default function TermsOfUsePage() {
         performing exercises tracked or suggested through the app.
       </p>
 
-      <h2>10. Governing Law</h2>
+      <h2>11. Governing Law</h2>
       <p>
         These Terms are governed by the laws of the Federative Republic of Brazil, without regard
         to conflict-of-law principles, unless mandatory local law in your jurisdiction provides
         otherwise.
       </p>
 
-      <h2>11. Changes to These Terms</h2>
+      <h2>12. Changes to These Terms</h2>
       <p>
         We may update these Terms from time to time. Continued use of the Service after changes
         take effect constitutes acceptance of the revised Terms. We will update the &ldquo;Last
         updated&rdquo; date above whenever we do.
       </p>
 
-      <h2>12. Contact Us</h2>
+      <h2>13. Contact Us</h2>
       <p>
         If you have questions about these Terms, contact us at{" "}
         <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
