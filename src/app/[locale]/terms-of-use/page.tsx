@@ -59,6 +59,8 @@ export default function TermsOfUsePage() {
         <li>Post content that is unlawful, harassing, abusive, or infringes on others&rsquo; rights.</li>
         <li>Impersonate any person or misrepresent your affiliation with any person or entity.</li>
         <li>Interfere with or disrupt the Service, including through automated scraping or reverse engineering.</li>
+        <li>Organize, promote, or take part in gambling, betting, or paid raffles within the Service.</li>
+        <li>Advertise, sell, or otherwise trade any products, services, or content to other users through the Service.</li>
         <li>Use the Service for any purpose that is illegal or prohibited by these Terms.</li>
       </ul>
       <p>We may remove content or suspend accounts that violate these Terms.</p>
