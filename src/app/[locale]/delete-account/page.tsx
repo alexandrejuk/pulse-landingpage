@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { LegalPage } from "@/components/legal/LegalPage";
 
 export const metadata: Metadata = {
@@ -58,7 +59,7 @@ export default function DeleteAccountPage() {
 
       <p>
         For more detail on how we handle your data, see our{" "}
-        <a href="/privacy-policy">Privacy Policy</a>.
+        <Link href="/privacy-policy">Privacy Policy</Link>.
       </p>
     </LegalPage>
   );
