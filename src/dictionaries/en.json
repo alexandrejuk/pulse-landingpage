@@ -33,7 +33,9 @@
       "Monitor progress over time",
       "Earn XP, achievements and streaks",
       "Train together with friends",
-      "Share workouts with their community"
+      "Share workouts with their community",
+      "Chat with their Crew",
+      "Join community challenges"
     ],
     "forCoachesTitle": "Personal trainers can:",
     "forCoachesItems": [
@@ -79,7 +81,9 @@
       "Student Management",
       "Apple Health Integration",
       "Health Connect Integration",
-      "Nearby Gyms"
+      "Nearby Gyms",
+      "Crew Chat",
+      "Community Challenges"
     ]
   },
   "gamification": {

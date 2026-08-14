@@ -19,13 +19,15 @@ import {
   HeartPulse,
   Activity,
   MapPin,
+  MessageCircle,
+  Swords,
 } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import type { Dictionary } from "@/dictionaries";
 
-// Order matches dict.items exactly (20 items) -- keep in sync when editing
+// Order matches dict.items exactly (22 items) -- keep in sync when editing
 // either list.
 const ICONS = [
   ListChecks,
@@ -48,6 +50,8 @@ const ICONS = [
   HeartPulse,
   Activity,
   MapPin,
+  MessageCircle,
+  Swords,
 ];
 
 // A flat, scannable inventory of every feature PulseUp has -- lets a reader

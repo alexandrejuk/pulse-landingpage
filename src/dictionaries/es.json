@@ -33,7 +33,9 @@
       "Monitorear tu progreso a lo largo del tiempo",
       "Ganar XP, logros y rachas",
       "Entrenar junto con amigos",
-      "Compartir entrenamientos con tu comunidad"
+      "Compartir entrenamientos con tu comunidad",
+      "Chatear con tu Crew",
+      "Participar en desafíos de la comunidad"
     ],
     "forCoachesTitle": "Los entrenadores personales pueden:",
     "forCoachesItems": [
@@ -79,7 +81,9 @@
       "Gestión de Alumnos",
       "Integración con Apple Health",
       "Integración con Health Connect",
-      "Gimnasios Cercanos"
+      "Gimnasios Cercanos",
+      "Chat del Crew",
+      "Desafíos de la Comunidad"
     ]
   },
   "gamification": {
