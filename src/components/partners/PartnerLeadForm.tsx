@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import Link from "next/link";
+import { sendGAEvent } from "@next/third-parties/google";
 import { Button } from "@/components/ui/Button";
 import { GlassCard } from "@/components/ui/GlassCard";
 import type { Dictionary } from "@/dictionaries";
@@ -70,6 +71,11 @@ export function PartnerLeadForm({
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error("request_failed");
+      // Only fired once HubSpot actually confirms the lead was created --
+      // this is the one real conversion event on the whole landing page
+      // today, and it's what makes the Google Ads link (shared GA4 property
+      // with the app) mean anything beyond raw pageviews.
+      sendGAEvent("event", "lead_form_submitted", { form: "partners" });
       setStatus("success");
     } catch {
       setStatus("error");
