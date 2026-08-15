@@ -6,10 +6,13 @@ import "../globals.css";
 import { locales, isLocale } from "@/i18n/config";
 import { getDictionary } from "@/dictionaries";
 
-// Pulse Landing GA4 property (account "Pulse", account id 403209054, property
-// id 548194152) is created, but the web data stream — and therefore this
-// measurement ID — can't be finalized until the production domain is live.
-const GA_MEASUREMENT_ID = "G-9MVPGGPDF9";
+// Shares the same GA4 property as the app (account "Pulse", account id
+// 403209054, property id 549937509) instead of the separate landing-only
+// property that was drafted earlier and never finished -- keeping landing
+// traffic and app funnel events (sign_up, workout_completed, etc.) in one
+// place is what makes the Google Ads conversion linkage meaningful across
+// the full acquisition funnel, not just the app-install half of it.
+const GA_MEASUREMENT_ID = "G-KVRWEVKP6Y";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
