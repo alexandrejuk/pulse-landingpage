@@ -5,11 +5,18 @@ import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { GradientBlob } from "@/components/ui/GradientBlob";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
+import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [LayoutTemplate, SlidersHorizontal, Users, CalendarRange];
 
-export function ForCoaches({ dict }: { dict: Dictionary["forCoaches"] }) {
+export function ForCoaches({
+  dict,
+  screenshotVariant,
+}: {
+  dict: Dictionary["forCoaches"];
+  screenshotVariant?: ScreenshotVariant;
+}) {
   return (
     <section id="for-coaches" className="relative py-28">
       <GradientBlob className="left-[-10%] top-1/4 h-[420px] w-[420px] bg-deep-purple/25" />
@@ -18,7 +25,10 @@ export function ForCoaches({ dict }: { dict: Dictionary["forCoaches"] }) {
           <div className="relative flex justify-center lg:order-1">
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
-                <AppScreenshot src="/screenshots/coach.png" alt="PulseUp coach workout templates screen" />
+                <AppScreenshot
+                  src={screenshotSrc("coach.png", screenshotVariant)}
+                  alt="PulseUp coach workout templates screen"
+                />
               </PhoneFrame>
             </Float>
           </div>

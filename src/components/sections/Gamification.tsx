@@ -8,6 +8,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
+import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [Zap, TrendingUp, Award, Flame, BarChart3, Gift];
@@ -20,13 +21,22 @@ const COLORS = [
   "from-neon to-primary",
 ];
 
-export function Gamification({ dict }: { dict: Dictionary["gamification"] }) {
+export function Gamification({
+  dict,
+  screenshotVariant,
+}: {
+  dict: Dictionary["gamification"];
+  screenshotVariant?: ScreenshotVariant;
+}) {
   return (
     <section id="gamification" className="relative py-28">
       <div className="absolute right-[4%] top-1/2 hidden -translate-y-1/2 xl:block">
         <Float duration={6} delay={0.2}>
           <PhoneFrame size="sm" className="rotate-[8deg] opacity-90">
-            <AppScreenshot src="/screenshots/reward.png" alt="PulseUp rewards screen" />
+            <AppScreenshot
+              src={screenshotSrc("reward.png", screenshotVariant)}
+              alt="PulseUp rewards screen"
+            />
           </PhoneFrame>
         </Float>
       </div>
@@ -53,7 +63,7 @@ export function Gamification({ dict }: { dict: Dictionary["gamification"] }) {
                 <Reveal key={label} delay={i * 0.1}>
                   <div className="flex items-center gap-4 lg:flex-col lg:items-center lg:gap-3 lg:text-center">
                     <div
-                      className={`relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gradient-to-br ${COLORS[i]} shadow-[0_0_30px_-6px_rgba(168,85,247,0.7)] ring-4 ring-background`}
+                      className={`relative z-10 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gradient-to-br ${COLORS[i]} shadow-[0_0_30px_-6px_color-mix(in_srgb,var(--color-primary-light)_70%,transparent)] ring-4 ring-background`}
                     >
                       <Icon size={20} className="text-white" />
                     </div>

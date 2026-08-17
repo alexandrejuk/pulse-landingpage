@@ -20,7 +20,7 @@ export function GlassCard({
       transition={{ type: "spring", stiffness: 300, damping: 22 }}
       className={cn(
         "glass relative rounded-3xl p-6",
-        glow && "shadow-[0_0_60px_-20px_rgba(124,58,237,0.55)]",
+        glow && "shadow-[0_0_60px_-20px_color-mix(in_srgb,var(--color-primary)_55%,transparent)]",
         hover && "hover:border-white/20",
         className
       )}

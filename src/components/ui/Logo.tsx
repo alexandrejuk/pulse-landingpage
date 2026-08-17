@@ -1,10 +1,24 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-export function Logo({ className }: { className?: string }) {
+export type LogoVariant = "default" | "coach" | "nutri";
+
+const LOGO_SRC: Record<LogoVariant, string> = {
+  default: "/pulse-logo.png",
+  coach: "/pulse-blue-logo.png",
+  nutri: "/pulse-red-logo.png",
+};
+
+export function Logo({
+  variant = "default",
+  className,
+}: {
+  variant?: LogoVariant;
+  className?: string;
+}) {
   return (
     <Image
-      src="/pulse-logo.png"
+      src={LOGO_SRC[variant]}
       alt="PulseUp"
       width={512}
       height={193}

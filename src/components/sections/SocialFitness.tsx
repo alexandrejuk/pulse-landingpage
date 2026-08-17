@@ -6,6 +6,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
+import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [Users, Zap, Globe2, Heart];
@@ -16,7 +17,13 @@ const COLORS = [
   "from-error to-primary",
 ];
 
-export function SocialFitness({ dict }: { dict: Dictionary["socialFitness"] }) {
+export function SocialFitness({
+  dict,
+  screenshotVariant,
+}: {
+  dict: Dictionary["socialFitness"];
+  screenshotVariant?: ScreenshotVariant;
+}) {
   return (
     <section id="social-fitness" className="relative py-28">
       <Container className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
@@ -49,7 +56,10 @@ export function SocialFitness({ dict }: { dict: Dictionary["socialFitness"] }) {
           <div className="relative flex justify-center">
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
-                <AppScreenshot src="/screenshots/discovery.png" alt="PulseUp discover screen" />
+                <AppScreenshot
+                  src={screenshotSrc("discovery.png", screenshotVariant)}
+                  alt="PulseUp discover screen"
+                />
               </PhoneFrame>
             </Float>
           </div>

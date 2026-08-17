@@ -28,7 +28,7 @@ export function Achievements({ dict }: { dict: Dictionary["achievements"] }) {
               <Reveal key={title} delay={i * 0.06}>
                 <GlassCard className="flex flex-col items-center gap-4 py-8 text-center">
                   <div
-                    className={`flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br ${COLORS[i]} shadow-[0_0_30px_-8px_rgba(168,85,247,0.6)]`}
+                    className={`flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br ${COLORS[i]} shadow-[0_0_30px_-8px_color-mix(in_srgb,var(--color-primary-light)_60%,transparent)]`}
                   >
                     <Icon size={24} className="text-white" />
                   </div>

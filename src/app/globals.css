@@ -29,6 +29,24 @@
   --color-overlay: rgba(5, 5, 7, 0.72);
 }
 
+/* Coach/Nutritionist workspace pages re-theme the brand accent tokens only
+   (same values as pulse-live/src/theme/coachColors.ts and
+   nutritionistColors.ts) -- everything else cascades from the base tokens
+   above, so sections don't need per-theme variants. */
+.theme-coach {
+  --color-primary: #2563eb;
+  --color-primary-light: #3b82f6;
+  --color-neon: #60a5fa;
+  --color-deep-purple: #1e3a8a;
+}
+
+.theme-nutri {
+  --color-primary: #c41818;
+  --color-primary-light: #e14444;
+  --color-neon: #ff6b6b;
+  --color-deep-purple: #4d0a0a;
+}
+
 @theme inline {
   --color-background: var(--color-background);
   --color-background-secondary: var(--color-background-secondary);
@@ -117,7 +135,12 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #c084fc 0%, #7c3aed 60%, #4c1d95 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-neon) 0%,
+    var(--color-primary) 60%,
+    var(--color-deep-purple) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

@@ -124,7 +124,7 @@ export function CardioMock() {
           <path
             d="M20 190 C 60 160, 40 110, 80 90 S 140 40, 120 10"
             fill="none"
-            stroke="#A855F7"
+            style={{ stroke: "var(--color-primary-light)" }}
             strokeWidth="4"
             strokeLinecap="round"
           />

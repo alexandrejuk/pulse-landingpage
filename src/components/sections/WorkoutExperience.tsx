@@ -5,11 +5,18 @@ import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { GradientBlob } from "@/components/ui/GradientBlob";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
+import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [ListChecks, BookOpen, Timer, HeartPulse, Activity, MapPin];
 
-export function WorkoutExperience({ dict }: { dict: Dictionary["workoutExperience"] }) {
+export function WorkoutExperience({
+  dict,
+  screenshotVariant,
+}: {
+  dict: Dictionary["workoutExperience"];
+  screenshotVariant?: ScreenshotVariant;
+}) {
   return (
     <section className="relative py-28">
       <GradientBlob className="right-[-10%] top-1/3 h-[420px] w-[420px] bg-primary/20" />
@@ -57,17 +64,26 @@ export function WorkoutExperience({ dict }: { dict: Dictionary["workoutExperienc
           <div className="relative flex justify-center">
             <Float duration={7} delay={0.3} className="absolute -right-4 top-10 hidden sm:block">
               <PhoneFrame size="sm" className="rotate-[10deg] opacity-90">
-                <AppScreenshot src="/screenshots/cardio-detail.png" alt="PulseUp cardio setup screen" />
+                <AppScreenshot
+                  src={screenshotSrc("cardio-detail.png", screenshotVariant)}
+                  alt="PulseUp cardio setup screen"
+                />
               </PhoneFrame>
             </Float>
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
-                <AppScreenshot src="/screenshots/cardio-list.png" alt="PulseUp cardio selection screen" />
+                <AppScreenshot
+                  src={screenshotSrc("cardio-list.png", screenshotVariant)}
+                  alt="PulseUp cardio selection screen"
+                />
               </PhoneFrame>
             </Float>
             <Float duration={7} delay={0.5} className="absolute -left-4 bottom-10 hidden sm:block">
               <PhoneFrame size="sm" className="rotate-[-10deg] opacity-90">
-                <AppScreenshot src="/screenshots/workout.png" alt="PulseUp workout completed screen" />
+                <AppScreenshot
+                  src={screenshotSrc("workout.png", screenshotVariant)}
+                  alt="PulseUp workout completed screen"
+                />
               </PhoneFrame>
             </Float>
           </div>

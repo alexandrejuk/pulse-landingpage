@@ -48,7 +48,13 @@ export function CardioMomentCard({ dict }: { dict: FeedCardsDict }) {
       </div>
       <div className="relative mx-3 h-28 overflow-hidden rounded-xl bg-[#0d1a12]">
         <svg viewBox="0 0 160 100" className="h-full w-full opacity-90">
-          <path d="M10 90 C 40 70, 30 40, 70 40 S 120 10, 150 20" fill="none" stroke="#A855F7" strokeWidth="3" strokeLinecap="round" />
+          <path
+            d="M10 90 C 40 70, 30 40, 70 40 S 120 10, 150 20"
+            fill="none"
+            style={{ stroke: "var(--color-primary-light)" }}
+            strokeWidth="3"
+            strokeLinecap="round"
+          />
         </svg>
       </div>
       <div className="grid grid-cols-3 gap-1 p-3 text-center">

@@ -53,8 +53,8 @@ export function WorkoutParty({ dict }: { dict: Dictionary["workoutParty"] }) {
                 />
                 <defs>
                   <linearGradient id="partyGradient" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0%" stopColor="#C084FC" />
-                    <stop offset="100%" stopColor="#7C3AED" />
+                    <stop offset="0%" style={{ stopColor: "var(--color-neon)" }} />
+                    <stop offset="100%" style={{ stopColor: "var(--color-primary)" }} />
                   </linearGradient>
                 </defs>
               </svg>

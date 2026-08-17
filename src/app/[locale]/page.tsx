@@ -8,7 +8,6 @@ import { SocialFitness } from "@/components/sections/SocialFitness";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { Gamification } from "@/components/sections/Gamification";
 import { WorkoutExperience } from "@/components/sections/WorkoutExperience";
-import { ForCoaches } from "@/components/sections/ForCoaches";
 import { LiveCardio } from "@/components/sections/LiveCardio";
 import { WorkoutParty } from "@/components/sections/WorkoutParty";
 import { FeedShowcase } from "@/components/sections/FeedShowcase";
@@ -38,7 +37,6 @@ export default async function Home({
         <FeatureGrid dict={dict.featureGrid} />
         <Gamification dict={dict.gamification} />
         <WorkoutExperience dict={dict.workoutExperience} />
-        <ForCoaches dict={dict.forCoaches} />
         <LiveCardio dict={dict.liveCardio} />
         <WorkoutParty dict={dict.workoutParty} />
         <FeedShowcase dict={dict.feed} cardsDict={dict.feedCards} />

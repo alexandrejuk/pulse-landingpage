@@ -7,9 +7,10 @@
     "links": [
       { "label": "What is PulseUp", "href": "#what-is-pulseup" },
       { "label": "Features", "href": "#features" },
-      { "label": "For Coaches", "href": "#for-coaches" },
       { "label": "FAQ", "href": "#faq" },
-      { "label": "Partners", "href": "/parceiros" }
+      { "label": "Partners", "href": "/parceiros" },
+      { "label": "Coach", "href": "/coach", "newTab": true },
+      { "label": "Nutritionist", "href": "/nutri", "newTab": true }
     ],
     "download": "Download PulseUp"
   },
@@ -252,6 +253,213 @@
       "title": "We've got your message!",
       "description": "Our team will review it and get back to you soon.",
       "cta": "Back to home"
+    }
+  },
+  "coachPage": {
+    "meta": {
+      "title": "PulseUp Coach Workspace — Coaching Tools for Personal Trainers",
+      "description": "Manage athletes, build programs from a real exercise database, and track every workout you assigned, right inside PulseUp."
+    },
+    "hero": {
+      "eyebrow": "WORKSPACE FOR PERSONAL TRAINERS",
+      "titleLine1": "Your coaching business,",
+      "titleLine2": "organized in one app.",
+      "subtitle": "Manage athletes, build programs from a real exercise database, and track every workout you assigned — all inside PulseUp.",
+      "appStore": "Download on the App Store",
+      "playStore": "Get it on Google Play"
+    },
+    "whatIs": {
+      "title": "What is the Coach Workspace?",
+      "intro": "The Coach Workspace is PulseUp's area for personal trainers to track their roster of athletes, build training programs, and review every completed session — without leaving the app their athletes already use.",
+      "forUsersTitle": "What your athletes get",
+      "forUsersItems": [
+        "Training programs on their phone, day by day",
+        "A full history of completed workouts",
+        "Fast feedback from their coach on every session"
+      ],
+      "forCoachesTitle": "What you manage",
+      "forCoachesItems": [
+        "A dashboard with your coaching stats",
+        "Every athlete's profile and progress",
+        "Reusable templates by goal",
+        "Professional verification (CREF)"
+      ]
+    },
+    "tracking": {
+      "eyebrow": "TRACKING",
+      "title": "See every athlete's progress in detail",
+      "description": "The dashboard turns your coaching business into numbers, and each athlete's profile shows exactly where they stand in the program.",
+      "features": [
+        { "title": "Coaching stats", "description": "Total athletes, completed workouts, active athletes, and training time, with daily, weekly, and monthly views." },
+        { "title": "Athlete profile", "description": "Level, time under your coaching, completed programs and workouts, current streak, and full history." },
+        { "title": "Session detail", "description": "See exactly what happened set by set — real weight and reps against what was prescribed, plus any cardio logged that day." },
+        { "title": "Direct messaging", "description": "Talk to the athlete in a thread that belongs to your coaching relationship, separate from personal chat." }
+      ]
+    },
+    "featureGrid": {
+      "eyebrow": "FEATURES",
+      "title": "Everything your coaching business needs",
+      "description": "Real tools to build, assign, and track your athletes' training.",
+      "items": [
+        "Coaching dashboard",
+        "Full athlete profile",
+        "Session history",
+        "Templates: my workouts",
+        "Recommended template catalog",
+        "Program creation wizard",
+        "Real exercise database",
+        "Coaching moments",
+        "Direct messaging with athletes",
+        "Verified credentials (CREF)"
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "Build a program in a few steps",
+      "description": "The creation wizard takes you from a blank slate to an assigned program, with a real exercise database at every step.",
+      "steps": ["Program details", "Weekly schedule", "Build each workout", "Add another day", "Review the program", "Assign to athlete"]
+    },
+    "templates": {
+      "eyebrow": "TEMPLATES",
+      "title": "Reuse what already works",
+      "description": "Every program you create becomes a template ready to reuse — and you also get a recommended catalog by goal, experience, and frequency.",
+      "highlights": [
+        { "title": "My workouts", "description": "Every program you create is saved as a template — reuse it without editing a thing." },
+        { "title": "Recommended catalog", "description": "Ready-made templates by goal, experience, and frequency, ready to use as a base." },
+        { "title": "Full preview", "description": "See every workout, exercise, set, and rest period before using or assigning the template." },
+        { "title": "Editable anytime", "description": "Adjust name, exercises, order, reps, and rest before sending it to the athlete." }
+      ]
+    },
+    "moments": {
+      "eyebrow": "MOMENTS",
+      "title": "See the moment your athletes finish a workout",
+      "description": "Whenever an athlete finishes a workout you assigned and shares a photo, it shows up in your Coaching Moments — only yours, never mixed with the app's general feed.",
+      "highlights": [
+        { "title": "Only your coaching business", "description": "Shows only workouts you assigned yourself — not the general feed from other users." },
+        { "title": "Automatic social proof", "description": "Every completion becomes a moment, with no extra effort from you or the athlete." },
+        { "title": "Passive tracking", "description": "A quick way to see who's training, without opening every profile one by one." },
+        { "title": "Straight from the assigned workout", "description": "The moment comes from the actual execution of the program you built." }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Do I need to be a verified personal trainer to use the Coach Workspace?", "a": "Yes. You submit your professional registration (CREF) and its issuing council; verification is reviewed before program creation is unlocked." },
+        { "q": "What happens if my verification gets suspended?", "a": "Existing athletes and programs stay active, but creating new programs is blocked until you're reactivated." },
+        { "q": "Can I edit a template from the recommended catalog before using it?", "a": "Yes. Shared catalog templates always fork into your own copy — editable in name, exercises, order, sets, and rest — before you assign it to an athlete." },
+        { "q": "Do Coaching Moments show workouts from other app users?", "a": "No. Only moments from athletes you personally assigned the workout to show up." }
+      ]
+    },
+    "finalCta": {
+      "tagline": "COACH WORKSPACE",
+      "title": "Bring your coaching business to PulseUp",
+      "description": "Build programs, track every athlete, and review every session — all in one place.",
+      "appStore": "Download on the App Store",
+      "playStore": "Get it on Google Play"
+    }
+  },
+  "nutriPage": {
+    "meta": {
+      "title": "PulseUp Nutritionist Workspace — Meal Plans for Nutritionists",
+      "description": "Build meal plans with calorie and macro targets, automatic per-meal calculations, and reuse any past plan as a template."
+    },
+    "hero": {
+      "eyebrow": "WORKSPACE FOR NUTRITIONISTS",
+      "titleLine1": "Your meal plans,",
+      "titleLine2": "ready in minutes.",
+      "subtitle": "Build plans with calorie and macro targets, automatic per-meal calculations, and reuse any past plan as a template.",
+      "appStore": "Download on the App Store",
+      "playStore": "Get it on Google Play"
+    },
+    "whatIs": {
+      "title": "What is the Nutritionist Workspace?",
+      "intro": "The Nutritionist Workspace is PulseUp's area for nutritionists to build personalized meal plans, with calorie targets, macros, and measurement tracking — right from their phone.",
+      "forUsersTitle": "What your patient gets",
+      "forUsersItems": [
+        "A meal plan broken down by meal, with kcal and macros calculated",
+        "Calorie and macronutrient targets set by you",
+        "Weight, body-fat %, and lean-mass % tracked across plans"
+      ],
+      "forCoachesTitle": "What you build",
+      "forCoachesItems": [
+        "A full meal plan, meal by meal",
+        "Calorie and macro targets with a live preview",
+        "Optional 7-site skin-fold measurements",
+        "Any past plan as a template for a new patient"
+      ]
+    },
+    "tracking": {
+      "eyebrow": "TRACKING",
+      "title": "See each patient's evolution",
+      "description": "Every plan records weight, body-fat %, and lean-mass % at the moment it's created — the plan history becomes a patient evolution chart.",
+      "features": [
+        { "title": "Evolution chart", "description": "Weight, body-fat percentage, and lean-mass percentage, built from the plans created over time." },
+        { "title": "Automatic calorie target", "description": "From the patient's weight, height, age, and sex, the app estimates the plan's calorie target." },
+        { "title": "Optional skin-fold measurements", "description": "Log measurements across 7 sites (triceps, subscapular, suprailiac, abdominal, chest, midaxillary, and thigh) when it makes sense." },
+        { "title": "Macros with a live preview", "description": "Set protein, carb, and fat targets and see the calculated kcal instantly." }
+      ]
+    },
+    "featureGrid": {
+      "eyebrow": "FEATURES",
+      "title": "Everything to build the right plan",
+      "description": "Real tools to create, calculate, and reuse meal plans.",
+      "items": [
+        "Plan creation wizard",
+        "Real food database",
+        "Automatic kcal and macro calculation",
+        "7-site skin-fold measurements",
+        "Personalized calorie target",
+        "Plans as reusable templates",
+        "Patient evolution chart",
+        "Multiple options per meal",
+        "Verified credentials (CRN)"
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "HOW IT WORKS",
+      "title": "Build a plan in a few steps",
+      "description": "The wizard takes you from patient to scheduled plan, with automatic calculations at every step.",
+      "steps": ["Pick the patient", "Weight, height, age, and sex", "Skin folds (optional)", "Macro targets", "Build each meal", "Review and schedule"]
+    },
+    "meals": {
+      "eyebrow": "MEALS",
+      "title": "Every meal, calculated instantly",
+      "description": "Breakfast, lunch, dinner, and snacks — build each meal from a real food database and see kcal, protein, carbs, fat, and sugar calculated automatically.",
+      "highlights": [
+        { "title": "6 meals a day", "description": "Breakfast, morning snack, lunch, afternoon snack, dinner, and evening snack." },
+        { "title": "Real food database", "description": "Pick the food and the serving size — the nutritional calculation comes ready, and it's editable." },
+        { "title": "Multiple options per meal", "description": "Offer more than one option for the same meal, giving the patient flexibility." },
+        { "title": "Review before scheduling", "description": "Compare the target with what's planned, see the macro and skin-fold summary before sending it." }
+      ]
+    },
+    "templates": {
+      "eyebrow": "TEMPLATES",
+      "title": "Every plan becomes a template",
+      "description": "No separate template library — any plan you've already created can be the starting point for the next one, reusing its meals.",
+      "highlights": [
+        { "title": "Never start from zero", "description": "Pick \"Use as template\" on any past plan." },
+        { "title": "Reused meals", "description": "The original plan's meals come ready — just adjust what's different." },
+        { "title": "Patient and metrics set apart", "description": "Weight, height, skin folds, and schedule are always defined fresh for the new patient." },
+        { "title": "Your library grows on its own", "description": "Every plan you create expands your template options for the next appointment." }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Do I need to be a verified nutritionist to use the Workspace?", "a": "Yes. You submit your professional registration (CRN) and its issuing council; verification is reviewed before plan creation is unlocked." },
+        { "q": "Does the app calculate the calorie target automatically?", "a": "Yes, based on the patient's weight, height, age, and sex — and you can adjust macro targets in the next step, with a live kcal preview." },
+        { "q": "Is there a separate diet template library?", "a": "No. Any plan you've already created can become a template for a new patient via \"Use as template\" — only the meals are reused, everything else is defined fresh." },
+        { "q": "Can I track a patient's evolution across plans?", "a": "Yes. Weight, body-fat percentage, and lean-mass percentage are recorded on every plan, forming an evolution history on the patient's profile." }
+      ]
+    },
+    "finalCta": {
+      "tagline": "NUTRITIONIST WORKSPACE",
+      "title": "Bring your meal plans to PulseUp",
+      "description": "Build, calculate, and reuse meal plans — all in one place.",
+      "appStore": "Download on the App Store",
+      "playStore": "Get it on Google Play"
     }
   }
 }

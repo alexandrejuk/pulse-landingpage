@@ -7,9 +7,10 @@
     "links": [
       { "label": "O que é o PulseUp", "href": "#what-is-pulseup" },
       { "label": "Recursos", "href": "#features" },
-      { "label": "Para Personal Trainers", "href": "#for-coaches" },
       { "label": "FAQ", "href": "#faq" },
-      { "label": "Parceiros", "href": "/parceiros" }
+      { "label": "Parceiros", "href": "/parceiros" },
+      { "label": "Coach", "href": "/coach", "newTab": true },
+      { "label": "Nutri", "href": "/nutri", "newTab": true }
     ],
     "download": "Baixar PulseUp"
   },
@@ -252,6 +253,213 @@
       "title": "Recebemos seu contato!",
       "description": "Nosso time vai analisar sua mensagem e retornar em breve.",
       "cta": "Voltar para a home"
+    }
+  },
+  "coachPage": {
+    "meta": {
+      "title": "PulseUp Coach Workspace — Consultoria para Personal Trainers",
+      "description": "Gerencie atletas, monte programas com um banco real de exercícios e acompanhe cada treino que você atribuiu, direto do PulseUp."
+    },
+    "hero": {
+      "eyebrow": "WORKSPACE PARA PERSONAL TRAINERS",
+      "titleLine1": "Sua consultoria,",
+      "titleLine2": "organizada em um só app.",
+      "subtitle": "Gerencie atletas, monte programas com um banco real de exercícios e acompanhe cada treino que você atribuiu — tudo dentro do PulseUp.",
+      "appStore": "Baixar na App Store",
+      "playStore": "Baixar no Google Play"
+    },
+    "whatIs": {
+      "title": "O que é o Coach Workspace?",
+      "intro": "O Coach Workspace é a área do PulseUp feita para personal trainers acompanharem sua base de atletas, criarem programas de treino e revisarem cada sessão concluída — sem sair do app que seus atletas já usam.",
+      "forUsersTitle": "O que seus atletas recebem",
+      "forUsersItems": [
+        "Programas de treino no celular, dia a dia",
+        "Histórico completo de treinos concluídos",
+        "Retorno rápido do coach sobre cada sessão"
+      ],
+      "forCoachesTitle": "O que você gerencia",
+      "forCoachesItems": [
+        "Dashboard com estatísticas da consultoria",
+        "Perfil e progresso de cada atleta",
+        "Templates reutilizáveis por objetivo",
+        "Verificação profissional (CREF)"
+      ]
+    },
+    "tracking": {
+      "eyebrow": "ACOMPANHAMENTO",
+      "title": "Veja o progresso de cada atleta em detalhe",
+      "description": "O Dashboard reúne sua consultoria em números, e o perfil de cada atleta mostra exatamente onde ele está no programa.",
+      "features": [
+        { "title": "Estatísticas da consultoria", "description": "Total de atletas, treinos concluídos, atletas ativos e tempo de treino, com visão diária, semanal e mensal." },
+        { "title": "Perfil de cada atleta", "description": "Nível, tempo de consultoria, programas e treinos concluídos, sequência atual e histórico completo." },
+        { "title": "Detalhe de cada sessão", "description": "Veja série a série o que foi executado — peso e repetições reais comparados ao prescrito, e o cardio registrado no dia." },
+        { "title": "Mensagem direta", "description": "Fale com o atleta em uma conversa própria da consultoria, sem misturar com o chat pessoal." }
+      ]
+    },
+    "featureGrid": {
+      "eyebrow": "RECURSOS",
+      "title": "Tudo que a sua consultoria precisa",
+      "description": "Ferramentas reais para montar, atribuir e acompanhar o treino dos seus atletas.",
+      "items": [
+        "Dashboard da consultoria",
+        "Perfil completo do atleta",
+        "Histórico de sessões",
+        "Templates: meus treinos",
+        "Catálogo de templates recomendados",
+        "Wizard de criação de programa",
+        "Banco real de exercícios",
+        "Momentos da consultoria",
+        "Mensagem direta com o atleta",
+        "Credenciais verificadas (CREF)"
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "COMO FUNCIONA",
+      "title": "Monte um programa em poucos passos",
+      "description": "O assistente de criação leva você do zero ao programa atribuído, com um banco real de exercícios em cada etapa.",
+      "steps": ["Detalhes do programa", "Cronograma semanal", "Monte cada treino", "Adicione mais dias", "Revise o programa", "Atribua ao atleta"]
+    },
+    "templates": {
+      "eyebrow": "TEMPLATES",
+      "title": "Reaproveite o que já funciona",
+      "description": "Toda vez que você cria um programa, ele vira um template pronto pra usar de novo — e você também tem acesso a um catálogo recomendado por objetivo, experiência e frequência.",
+      "highlights": [
+        { "title": "Meus treinos", "description": "Todo programa que você cria fica salvo como template — reutilize sem editar nada." },
+        { "title": "Catálogo recomendado", "description": "Templates prontos por objetivo, experiência e frequência, prontos pra usar como base." },
+        { "title": "Pré-visualização completa", "description": "Veja cada treino, exercício, séries e descanso antes de usar ou atribuir o template." },
+        { "title": "Editável a qualquer momento", "description": "Ajuste nome, exercícios, ordem, repetições e descanso antes de enviar ao atleta." }
+      ]
+    },
+    "moments": {
+      "eyebrow": "MOMENTOS",
+      "title": "Veja quando seus atletas concluem o treino",
+      "description": "Sempre que um atleta termina um treino que você atribuiu e compartilha uma foto, ela aparece nos Momentos da Consultoria — só o que é seu, sem misturar com o feed geral do app.",
+      "highlights": [
+        { "title": "Só da sua consultoria", "description": "Mostra apenas treinos que você mesmo atribuiu — não o feed geral de outros usuários." },
+        { "title": "Prova social automática", "description": "Cada conclusão vira um momento, sem esforço extra pra você ou pro atleta." },
+        { "title": "Acompanhamento passivo", "description": "Uma forma rápida de ver quem está treinando, sem precisar abrir o perfil de cada um." },
+        { "title": "Direto do treino atribuído", "description": "O momento nasce da execução real do programa que você montou." }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Perguntas frequentes",
+      "items": [
+        { "q": "Preciso ser um personal trainer verificado pra usar o Coach Workspace?", "a": "Sim. Você envia seu registro profissional (CREF) e o conselho responsável; a verificação passa por análise antes de liberar a criação de programas." },
+        { "q": "O que acontece se minha verificação for suspensa?", "a": "Atletas e programas já existentes continuam ativos, mas a criação de novos programas fica bloqueada até a reativação." },
+        { "q": "Posso editar um template do catálogo recomendado antes de usar?", "a": "Sim. Templates do catálogo compartilhado sempre viram uma cópia sua — editável em nome, exercícios, ordem, séries e descanso — antes de atribuir a um atleta." },
+        { "q": "Os Momentos da Consultoria mostram treinos de outros usuários do app?", "a": "Não. Só aparecem momentos de atletas que você mesmo atribuiu o treino." }
+      ]
+    },
+    "finalCta": {
+      "tagline": "COACH WORKSPACE",
+      "title": "Leve sua consultoria pro PulseUp",
+      "description": "Monte programas, acompanhe cada atleta e revise cada sessão — tudo em um só lugar.",
+      "appStore": "Baixar na App Store",
+      "playStore": "Baixar no Google Play"
+    }
+  },
+  "nutriPage": {
+    "meta": {
+      "title": "PulseUp Nutritionist Workspace — Planos Alimentares para Nutricionistas",
+      "description": "Monte planos alimentares com metas de calorias e macros, cálculo automático por refeição e reaproveite qualquer plano anterior como modelo."
+    },
+    "hero": {
+      "eyebrow": "WORKSPACE PARA NUTRICIONISTAS",
+      "titleLine1": "Seus planos alimentares,",
+      "titleLine2": "prontos em minutos.",
+      "subtitle": "Monte planos com metas de calorias e macros, cálculo automático por refeição e reaproveite qualquer plano anterior como modelo.",
+      "appStore": "Baixar na App Store",
+      "playStore": "Baixar no Google Play"
+    },
+    "whatIs": {
+      "title": "O que é o Nutritionist Workspace?",
+      "intro": "O Nutritionist Workspace é a área do PulseUp para nutricionistas montarem planos alimentares personalizados, com metas calóricas, macros e acompanhamento de medidas — direto do celular.",
+      "forUsersTitle": "O que seu paciente recebe",
+      "forUsersItems": [
+        "Plano alimentar por refeição, com kcal e macros calculados",
+        "Metas de calorias e macronutrientes definidas por você",
+        "Acompanhamento de peso, %gordura e %massa magra ao longo dos planos"
+      ],
+      "forCoachesTitle": "O que você monta",
+      "forCoachesItems": [
+        "Plano alimentar completo, refeição por refeição",
+        "Meta calórica e de macros com prévia em tempo real",
+        "Dobra cutânea opcional em 7 pontos",
+        "Qualquer plano anterior como modelo pra um novo paciente"
+      ]
+    },
+    "tracking": {
+      "eyebrow": "ACOMPANHAMENTO",
+      "title": "Veja a evolução de cada paciente",
+      "description": "Cada plano registra peso, %gordura e %massa magra no momento da criação — o histórico de planos vira um gráfico de evolução do paciente.",
+      "features": [
+        { "title": "Gráfico de evolução", "description": "Peso, percentual de gordura e de massa magra, montado a partir dos planos criados ao longo do tempo." },
+        { "title": "Meta calórica automática", "description": "A partir de peso, altura, idade e sexo do paciente, o app estima a meta de calorias do plano." },
+        { "title": "Dobra cutânea opcional", "description": "Registre medidas em 7 pontos (tríceps, subescapular, suprailíaca, abdominal, peitoral, axilar média e coxa) quando fizer sentido." },
+        { "title": "Macros com prévia em tempo real", "description": "Defina metas de proteína, carboidrato e gordura e veja o kcal calculado na hora." }
+      ]
+    },
+    "featureGrid": {
+      "eyebrow": "RECURSOS",
+      "title": "Tudo pra montar o plano certo",
+      "description": "Ferramentas reais pra criar, calcular e reaproveitar planos alimentares.",
+      "items": [
+        "Wizard de criação de plano",
+        "Banco real de alimentos",
+        "Cálculo automático de kcal e macros",
+        "Dobra cutânea em 7 pontos",
+        "Meta calórica personalizada",
+        "Planos como modelo reutilizável",
+        "Gráfico de evolução do paciente",
+        "Múltiplas opções por refeição",
+        "Credenciais verificadas (CRN)"
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "COMO FUNCIONA",
+      "title": "Monte um plano em poucos passos",
+      "description": "O assistente leva você do paciente até o plano agendado, com cálculo automático em cada etapa.",
+      "steps": ["Escolha o paciente", "Peso, altura, idade e sexo", "Dobra cutânea (opcional)", "Meta de macros", "Monte cada refeição", "Revise e agende"]
+    },
+    "meals": {
+      "eyebrow": "REFEIÇÕES",
+      "title": "Cada refeição, calculada na hora",
+      "description": "Café da manhã, almoço, janta e lanches — monte cada refeição com um banco real de alimentos e veja o kcal, proteína, carboidrato, gordura e açúcar calculados automaticamente.",
+      "highlights": [
+        { "title": "6 refeições por dia", "description": "Café da manhã, lanche da manhã, almoço, lanche da tarde, janta e ceia." },
+        { "title": "Banco real de alimentos", "description": "Escolha o alimento e a porção — o cálculo nutricional vem pronto, e é editável." },
+        { "title": "Múltiplas opções por refeição", "description": "Ofereça mais de uma opção para a mesma refeição, dando flexibilidade ao paciente." },
+        { "title": "Revisão antes de agendar", "description": "Compare a meta com o planejado, veja o resumo de macros e da dobra cutânea antes de enviar." }
+      ]
+    },
+    "templates": {
+      "eyebrow": "MODELOS",
+      "title": "Todo plano vira um modelo",
+      "description": "Sem uma biblioteca separada de templates — qualquer plano que você já criou pode virar o ponto de partida do próximo, reaproveitando as refeições.",
+      "highlights": [
+        { "title": "Sem criar do zero", "description": "Escolha \"Usar como modelo\" em qualquer plano anterior." },
+        { "title": "Refeições reaproveitadas", "description": "As refeições do plano original vêm prontas — só ajuste o que for diferente." },
+        { "title": "Paciente e métricas à parte", "description": "Peso, altura, dobra cutânea e cronograma são sempre definidos de novo pro novo paciente." },
+        { "title": "Sua biblioteca cresce sozinha", "description": "Cada plano criado amplia suas opções de modelo pro próximo atendimento." }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Perguntas frequentes",
+      "items": [
+        { "q": "Preciso ser nutricionista verificado pra usar o Workspace?", "a": "Sim. Você envia seu registro profissional (CRN) e o conselho responsável; a verificação passa por análise antes de liberar a criação de planos." },
+        { "q": "O app calcula a meta calórica automaticamente?", "a": "Sim, a partir de peso, altura, idade e sexo do paciente — e você pode ajustar as metas de macros na etapa seguinte, com prévia do kcal em tempo real." },
+        { "q": "Existe uma biblioteca separada de templates de dieta?", "a": "Não. Qualquer plano que você já criou pode virar modelo pra um novo paciente através de \"Usar como modelo\" — só as refeições são reaproveitadas, o restante você define de novo." },
+        { "q": "Dá pra acompanhar a evolução do paciente entre planos?", "a": "Sim. Peso, percentual de gordura e de massa magra ficam registrados em cada plano, formando um histórico de evolução no perfil do paciente." }
+      ]
+    },
+    "finalCta": {
+      "tagline": "NUTRITIONIST WORKSPACE",
+      "title": "Leve seus planos alimentares pro PulseUp",
+      "description": "Monte, calcule e reaproveite planos alimentares — tudo em um só lugar.",
+      "appStore": "Baixar na App Store",
+      "playStore": "Baixar no Google Play"
     }
   }
 }

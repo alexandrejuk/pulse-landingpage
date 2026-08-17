@@ -12,6 +12,7 @@ import { PlayStoreIcon } from "@/components/ui/PlayStoreIcon";
 import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/constants";
 import { PartyMock, CardioMock } from "@/components/mocks/ScreenMocks";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
+import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const PARTICLES = [
@@ -25,7 +26,13 @@ const PARTICLES = [
   { top: "30%", left: "70%", size: 2, duration: 8.5, delay: 0.3 },
 ];
 
-export function Hero({ dict }: { dict: Dictionary["hero"] }) {
+export function Hero({
+  dict,
+  screenshotVariant,
+}: {
+  dict: Dictionary["hero"];
+  screenshotVariant?: ScreenshotVariant;
+}) {
   return (
     <section id="top" className="relative overflow-hidden pt-40 pb-24 sm:pt-48">
       <div className="absolute inset-0 bg-grid [mask-image:radial-gradient(ellipse_70%_60%_at_50%_0%,black_10%,transparent_75%)]" />
@@ -99,13 +106,19 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
 
             <Float duration={6} delay={0.1} className="hidden sm:block">
               <PhoneFrame size="md" className="-mr-6 mb-6 rotate-[-8deg]">
-                <AppScreenshot src="/screenshots/program.png" alt="PulseUp workout detail screen" />
+                <AppScreenshot
+                  src={screenshotSrc("program.png", screenshotVariant)}
+                  alt="PulseUp workout detail screen"
+                />
               </PhoneFrame>
             </Float>
 
             <Float duration={5.5} delay={0}>
               <PhoneFrame size="lg" className="z-10">
-                <AppScreenshot src="/screenshots/feed.png" alt="PulseUp feed screen" />
+                <AppScreenshot
+                  src={screenshotSrc("feed.png", screenshotVariant)}
+                  alt="PulseUp feed screen"
+                />
               </PhoneFrame>
             </Float>
 
@@ -117,7 +130,10 @@ export function Hero({ dict }: { dict: Dictionary["hero"] }) {
 
             <Float duration={7} delay={0.6} className="hidden xl:block">
               <PhoneFrame size="sm" className="-ml-10 mb-10 rotate-[14deg] opacity-80 blur-[0.5px]">
-                <AppScreenshot src="/screenshots/pulse-live.png" alt="PulseUp Live screen" />
+                <AppScreenshot
+                  src={screenshotSrc("pulse-live.png", screenshotVariant)}
+                  alt="PulseUp Live screen"
+                />
               </PhoneFrame>
             </Float>
           </div>

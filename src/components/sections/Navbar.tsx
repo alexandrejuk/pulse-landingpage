@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Container } from "@/components/ui/Container";
-import { Logo } from "@/components/ui/Logo";
+import { Logo, type LogoVariant } from "@/components/ui/Logo";
 import { Button } from "@/components/ui/Button";
 import { LocaleSwitcher } from "@/components/ui/LocaleSwitcher";
 import { APP_STORE_URL } from "@/lib/constants";
@@ -13,7 +13,15 @@ import { cn } from "@/lib/utils";
 import { locales, type Locale } from "@/i18n/config";
 import type { Dictionary } from "@/dictionaries";
 
-export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav"] }) {
+export function Navbar({
+  locale,
+  dict,
+  logoVariant = "default",
+}: {
+  locale: Locale;
+  dict: Dictionary["nav"];
+  logoVariant?: LogoVariant;
+}) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -40,7 +48,7 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav
     >
       <Container className="flex items-center justify-between">
         <a href={resolveHref("#top")} aria-label="PulseUp home">
-          <Logo />
+          <Logo variant={logoVariant} />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">
@@ -48,6 +56,8 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav
             <a
               key={link.href}
               href={resolveHref(link.href)}
+              target={link.newTab ? "_blank" : undefined}
+              rel={link.newTab ? "noreferrer" : undefined}
               className="text-sm font-medium text-text-secondary transition-colors hover:text-text-primary"
             >
               {link.label}
@@ -88,6 +98,8 @@ export function Navbar({ locale, dict }: { locale: Locale; dict: Dictionary["nav
                 <a
                   key={link.href}
                   href={resolveHref(link.href)}
+                  target={link.newTab ? "_blank" : undefined}
+                  rel={link.newTab ? "noreferrer" : undefined}
                   onClick={() => setOpen(false)}
                   className="text-base font-medium text-text-secondary hover:text-text-primary"
                 >

@@ -6,7 +6,7 @@ type ButtonSize = "md" | "lg";
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    "bg-gradient-to-r from-primary-light to-primary text-white shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_8px_30px_-4px_rgba(124,58,237,0.55)] hover:shadow-[0_0_0_1px_rgba(255,255,255,0.12),0_10px_40px_-4px_rgba(168,85,247,0.7)] hover:brightness-110",
+    "bg-gradient-to-r from-primary-light to-primary text-white shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_8px_30px_-4px_color-mix(in_srgb,var(--color-primary)_55%,transparent)] hover:shadow-[0_0_0_1px_rgba(255,255,255,0.12),0_10px_40px_-4px_color-mix(in_srgb,var(--color-primary-light)_70%,transparent)] hover:brightness-110",
   secondary: "glass text-text-primary hover:bg-white/10",
   ghost: "text-text-secondary hover:text-text-primary",
 };

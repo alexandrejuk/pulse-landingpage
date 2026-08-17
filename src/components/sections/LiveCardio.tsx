@@ -24,7 +24,7 @@ export function LiveCardio({ dict }: { dict: Dictionary["liveCardio"] }) {
                   <path
                     d="M40 360 C 100 320, 60 240, 140 210 S 260 140, 220 60 S 340 20, 360 40"
                     fill="none"
-                    stroke="#A855F7"
+                    style={{ stroke: "var(--color-primary-light)" }}
                     strokeWidth="5"
                     strokeLinecap="round"
                   />
