@@ -8,7 +8,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
-import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
+import { personaScreenshotSrc, screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [Zap, TrendingUp, Award, Flame, BarChart3, Gift];
@@ -34,7 +34,11 @@ export function Gamification({
         <Float duration={6} delay={0.2}>
           <PhoneFrame size="sm" className="rotate-[8deg] opacity-90">
             <AppScreenshot
-              src={screenshotSrc("reward.png", screenshotVariant)}
+              src={
+                screenshotVariant
+                  ? personaScreenshotSrc(screenshotVariant, "ia")
+                  : screenshotSrc("reward.png")
+              }
               alt="PulseUp rewards screen"
             />
           </PhoneFrame>

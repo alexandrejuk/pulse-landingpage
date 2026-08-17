@@ -12,7 +12,7 @@ import { PlayStoreIcon } from "@/components/ui/PlayStoreIcon";
 import { APP_STORE_URL, PLAY_STORE_URL } from "@/lib/constants";
 import { PartyMock, CardioMock } from "@/components/mocks/ScreenMocks";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
-import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
+import { personaScreenshotSrc, screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const PARTICLES = [
@@ -107,7 +107,11 @@ export function Hero({
             <Float duration={6} delay={0.1} className="hidden sm:block">
               <PhoneFrame size="md" className="-mr-6 mb-6 rotate-[-8deg]">
                 <AppScreenshot
-                  src={screenshotSrc("program.png", screenshotVariant)}
+                  src={
+                    screenshotVariant
+                      ? personaScreenshotSrc(screenshotVariant, "ia")
+                      : screenshotSrc("program.png")
+                  }
                   alt="PulseUp workout detail screen"
                 />
               </PhoneFrame>
@@ -116,7 +120,11 @@ export function Hero({
             <Float duration={5.5} delay={0}>
               <PhoneFrame size="lg" className="z-10">
                 <AppScreenshot
-                  src={screenshotSrc("feed.png", screenshotVariant)}
+                  src={
+                    screenshotVariant
+                      ? personaScreenshotSrc(screenshotVariant, "home")
+                      : screenshotSrc("feed.png")
+                  }
                   alt="PulseUp feed screen"
                 />
               </PhoneFrame>
@@ -131,7 +139,11 @@ export function Hero({
             <Float duration={7} delay={0.6} className="hidden xl:block">
               <PhoneFrame size="sm" className="-ml-10 mb-10 rotate-[14deg] opacity-80 blur-[0.5px]">
                 <AppScreenshot
-                  src={screenshotSrc("pulse-live.png", screenshotVariant)}
+                  src={
+                    screenshotVariant
+                      ? personaScreenshotSrc(screenshotVariant, "pulseLive")
+                      : screenshotSrc("pulse-live.png")
+                  }
                   alt="PulseUp Live screen"
                 />
               </PhoneFrame>

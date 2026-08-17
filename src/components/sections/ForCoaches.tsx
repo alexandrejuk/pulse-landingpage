@@ -5,7 +5,7 @@ import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { GradientBlob } from "@/components/ui/GradientBlob";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
-import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
+import { personaScreenshotSrc, screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [LayoutTemplate, SlidersHorizontal, Users, CalendarRange];
@@ -26,8 +26,12 @@ export function ForCoaches({
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
                 <AppScreenshot
-                  src={screenshotSrc("coach.png", screenshotVariant)}
-                  alt="PulseUp coach workout templates screen"
+                  src={
+                    screenshotVariant
+                      ? personaScreenshotSrc(screenshotVariant, "pulseLive")
+                      : screenshotSrc("coach.png")
+                  }
+                  alt="PulseUp Live screen"
                 />
               </PhoneFrame>
             </Float>

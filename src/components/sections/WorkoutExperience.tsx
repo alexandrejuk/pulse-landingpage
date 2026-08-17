@@ -5,7 +5,7 @@ import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { GradientBlob } from "@/components/ui/GradientBlob";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
-import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
+import { personaScreenshotSrc, screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [ListChecks, BookOpen, Timer, HeartPulse, Activity, MapPin];
@@ -65,7 +65,11 @@ export function WorkoutExperience({
             <Float duration={7} delay={0.3} className="absolute -right-4 top-10 hidden sm:block">
               <PhoneFrame size="sm" className="rotate-[10deg] opacity-90">
                 <AppScreenshot
-                  src={screenshotSrc("cardio-detail.png", screenshotVariant)}
+                  src={
+                    screenshotVariant
+                      ? personaScreenshotSrc(screenshotVariant, "home")
+                      : screenshotSrc("cardio-detail.png")
+                  }
                   alt="PulseUp cardio setup screen"
                 />
               </PhoneFrame>
@@ -73,7 +77,11 @@ export function WorkoutExperience({
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
                 <AppScreenshot
-                  src={screenshotSrc("cardio-list.png", screenshotVariant)}
+                  src={
+                    screenshotVariant
+                      ? personaScreenshotSrc(screenshotVariant, "pulseLive")
+                      : screenshotSrc("cardio-list.png")
+                  }
                   alt="PulseUp cardio selection screen"
                 />
               </PhoneFrame>
@@ -81,7 +89,11 @@ export function WorkoutExperience({
             <Float duration={7} delay={0.5} className="absolute -left-4 bottom-10 hidden sm:block">
               <PhoneFrame size="sm" className="rotate-[-10deg] opacity-90">
                 <AppScreenshot
-                  src={screenshotSrc("workout.png", screenshotVariant)}
+                  src={
+                    screenshotVariant
+                      ? personaScreenshotSrc(screenshotVariant, "extra")
+                      : screenshotSrc("workout.png")
+                  }
                   alt="PulseUp workout completed screen"
                 />
               </PhoneFrame>

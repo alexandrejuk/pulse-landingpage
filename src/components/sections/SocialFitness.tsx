@@ -6,7 +6,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { PhoneFrame } from "@/components/ui/PhoneFrame";
 import { Float } from "@/components/ui/Float";
 import { AppScreenshot } from "@/components/ui/AppScreenshot";
-import { screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
+import { personaScreenshotSrc, screenshotSrc, type ScreenshotVariant } from "@/lib/utils";
 import type { Dictionary } from "@/dictionaries";
 
 const ICONS = [Users, Zap, Globe2, Heart];
@@ -57,7 +57,11 @@ export function SocialFitness({
             <Float duration={6} delay={0}>
               <PhoneFrame size="lg">
                 <AppScreenshot
-                  src={screenshotSrc("discovery.png", screenshotVariant)}
+                  src={
+                    screenshotVariant
+                      ? personaScreenshotSrc(screenshotVariant, "extra")
+                      : screenshotSrc("discovery.png")
+                  }
                   alt="PulseUp discover screen"
                 />
               </PhoneFrame>
