@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "How PulseUp collects, uses, and protects your data.",
 };
 
-const UPDATED = "August 4, 2026";
+const UPDATED = "August 17, 2026";
 const CONTACT_EMAIL = "privacy@pulseup.io";
 
 export default function PrivacyPolicyPage() {
@@ -39,9 +39,21 @@ export default function PrivacyPolicyPage() {
           .
         </li>
         <li>
+          <strong>Sign in with Apple:</strong> if you choose to sign in with Apple, Apple shares
+          your name (only on your first authorization) and email address (or a private relay
+          address, if you choose to hide your email) with us so we can create and authenticate
+          your PulseUp account. We do not receive your Apple ID password.
+        </li>
+        <li>
           <strong>Fitness and health data:</strong> workouts, exercises, sets, reps, cardio
           sessions, GPS location during live-tracked activities, heart rate and other data synced
           from connected wearables, streaks, XP, and achievements.
+        </li>
+        <li>
+          <strong>Pulse AI chat:</strong> messages you send to the Pulse AI assistant, and, when
+          you use the coach or nutritionist workspace, body metrics such as weight, body fat
+          percentage, and muscle percentage, used to generate personalized responses and workout
+          or diet plans.
         </li>
         <li>
           <strong>Social content:</strong> posts, reactions, comments, crew memberships, and other
@@ -81,7 +93,10 @@ export default function PrivacyPolicyPage() {
         </li>
         <li>
           Service providers who process data on our behalf, such as cloud hosting (Google Cloud),
-          authentication (Firebase), and analytics (Google Analytics).
+          authentication (Firebase, Google Sign-In, Sign in with Apple), analytics (Google
+          Analytics), and the Pulse AI assistant (Anthropic, which processes your chat messages
+          and, in the coach/nutritionist workspace, body metrics, solely to generate the
+          assistant&rsquo;s responses and plans -- never for advertising).
         </li>
         <li>Law enforcement or regulators when required by law.</li>
         <li>A successor entity in connection with a merger, acquisition, or sale of assets.</li>
