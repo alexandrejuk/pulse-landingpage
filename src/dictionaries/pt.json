@@ -224,7 +224,7 @@
     "groups": [
       { "title": "Legal", "links": [{ "label": "Política de Privacidade", "href": "/privacy-policy" }, { "label": "Termos", "href": "/terms-of-use" }] },
       { "title": "Suporte", "links": [{ "label": "Central de Ajuda", "href": "https://wa.me/5511998857785" }, { "label": "Contato", "href": "https://wa.me/5511998857785" }] },
-      { "title": "Comunidade", "links": [{ "label": "Instagram", "href": "https://www.instagram.com/pulseup.io/" }, { "label": "YouTube", "href": "https://www.youtube.com/channel/UCVLVAJ_vMuJ29xB5lCdWdlA" }, { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61592854919734" }, { "label": "X", "href": "https://x.com/pulseupio" }] }
+      { "title": "Comunidade", "links": [{ "label": "Instagram", "href": "https://www.instagram.com/pulseup.io/" }, { "label": "YouTube", "href": "https://www.youtube.com/channel/UCVLVAJ_vMuJ29xB5lCdWdlA" }, { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61592854919734" }, { "label": "X", "href": "https://x.com/pulseupio" }, { "label": "TikTok", "href": "https://www.tiktok.com/@pulseup.io" }] }
     ],
     "rights": "Todos os direitos reservados.",
     "madeFor": "Feito para quem treina junto."
