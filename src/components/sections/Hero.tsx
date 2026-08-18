@@ -100,7 +100,11 @@ export function Hero({
           <div className="relative flex items-end justify-center">
             <Float duration={7} delay={0.4} className="hidden xl:block">
               <PhoneFrame size="sm" className="-mr-10 mb-10 rotate-[-14deg] opacity-80 blur-[0.5px]">
-                <CardioMock />
+                {screenshotVariant ? (
+                  <CardioMock />
+                ) : (
+                  <AppScreenshot src={screenshotSrc("live-cardio.png")} alt="PulseUp live cardio map screen" />
+                )}
               </PhoneFrame>
             </Float>
 
@@ -123,16 +127,20 @@ export function Hero({
                   src={
                     screenshotVariant
                       ? personaScreenshotSrc(screenshotVariant, "home")
-                      : screenshotSrc("feed.png")
+                      : screenshotSrc("home.png")
                   }
-                  alt="PulseUp feed screen"
+                  alt="PulseUp home screen"
                 />
               </PhoneFrame>
             </Float>
 
             <Float duration={6} delay={0.2} className="hidden sm:block">
               <PhoneFrame size="md" className="-ml-6 mb-6 rotate-[8deg]">
-                <PartyMock />
+                {screenshotVariant ? (
+                  <PartyMock />
+                ) : (
+                  <AppScreenshot src={screenshotSrc("party.png")} alt="PulseUp party workout lobby screen" />
+                )}
               </PhoneFrame>
             </Float>
 
