@@ -117,6 +117,17 @@
       { "title": "Datas de início e fim definidas", "description": "Toda atribuição tem um cronograma claro, para você e seus alunos sempre saberem o que vem a seguir." }
     ]
   },
+  "pulseAiChat": {
+    "eyebrow": "Pulse AI",
+    "title": "Converse com o Pulse AI, seu assistente de treino.",
+    "description": "Pergunte sobre seus programas, desafios, métricas corporais ou histórico de treino — o Pulse AI responde em tempo real, direto no app.",
+    "highlights": [
+      { "title": "Recomendações de treino personalizadas", "description": "Peça um programa ou desafio que combine com seu objetivo, e o Pulse AI busca no catálogo do PulseUp para encontrar o ideal para você." },
+      { "title": "Métricas corporais, direto no chat", "description": "Registre seu peso, % de gordura, % de músculo e gordura visceral na própria conversa — e receba sua taxa metabólica basal calculada automaticamente." },
+      { "title": "Conhece seu streak de treino", "description": "O Pulse AI abre as conversas já sabendo seu streak, os dias sem treinar e a atividade recente da sua crew para te manter motivado." },
+      { "title": "Honesto sobre seu plano alimentar", "description": "Se um nutricionista já prescreveu um plano para você, o Pulse AI pode lembrar suas metas e macros — mas nunca afirma se você realmente seguiu." }
+    ]
+  },
   "liveCardio": {
     "eyebrow": "Live Cardio",
     "title": "Registre sessões de cardio ao vivo e veja o progresso da sua Crew em tempo real.",
@@ -212,7 +223,7 @@
     "tagline": "O PulseUp é um app de fitness para planos de treino personalizados, rastreamento de cardio, treino social e gerenciamento de programas para personal trainers.",
     "groups": [
       { "title": "Legal", "links": [{ "label": "Política de Privacidade", "href": "/privacy-policy" }, { "label": "Termos", "href": "/terms-of-use" }] },
-      { "title": "Suporte", "links": [{ "label": "Central de Ajuda", "href": "#" }, { "label": "Contato", "href": "#" }] },
+      { "title": "Suporte", "links": [{ "label": "Central de Ajuda", "href": "https://wa.me/5511998857785" }, { "label": "Contato", "href": "https://wa.me/5511998857785" }] },
       { "title": "Comunidade", "links": [{ "label": "Instagram", "href": "https://www.instagram.com/pulseup.io/" }, { "label": "YouTube", "href": "https://www.youtube.com/channel/UCVLVAJ_vMuJ29xB5lCdWdlA" }, { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61592854919734" }, { "label": "X", "href": "https://x.com/pulseupio" }] }
     ],
     "rights": "Todos os direitos reservados.",

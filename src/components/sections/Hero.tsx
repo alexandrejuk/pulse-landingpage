@@ -114,9 +114,9 @@ export function Hero({
                   src={
                     screenshotVariant
                       ? personaScreenshotSrc(screenshotVariant, "ia")
-                      : screenshotSrc("program.png")
+                      : screenshotSrc("pulse-ai.png")
                   }
-                  alt="PulseUp workout detail screen"
+                  alt="PulseUp Pulse AI screen"
                 />
               </PhoneFrame>
             </Float>
