@@ -53,7 +53,7 @@ export default async function NutriPage({
         <Faq dict={page.faq} />
         <FinalCta dict={page.finalCta} />
       </main>
-      <Footer dict={dict.footer} logoVariant="nutri" />
+      <Footer dict={dict.footer} logoVariant="nutri" locale={locale} />
     </div>
   );
 }

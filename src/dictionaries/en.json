@@ -223,7 +223,7 @@
     "tagline": "PulseUp is a fitness app for personalized workout plans, cardio tracking, social training and personal trainer program management.",
     "groups": [
       { "title": "Legal", "links": [{ "label": "Privacy Policy", "href": "/privacy-policy" }, { "label": "Terms", "href": "/terms-of-use" }] },
-      { "title": "Support", "links": [{ "label": "Help Center", "href": "https://wa.me/5511998857785" }, { "label": "Contact", "href": "https://wa.me/5511998857785" }] },
+      { "title": "Support", "links": [{ "label": "Help Center", "href": "https://wa.me/5511998857785?text=Hi!%20I%20need%20help%20with%20PulseUp%20%28from%20the%20English%20site%29." }, { "label": "Contact", "href": "https://wa.me/5511998857785?text=Hi!%20I'd%20like%20to%20get%20in%20touch%20about%20PulseUp%20%28from%20the%20English%20site%29." }] },
       { "title": "Community", "links": [{ "label": "Instagram", "href": "https://www.instagram.com/pulseup.io/" }, { "label": "YouTube", "href": "https://www.youtube.com/channel/UCVLVAJ_vMuJ29xB5lCdWdlA" }, { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61592854919734" }, { "label": "X", "href": "https://x.com/pulseupio" }, { "label": "TikTok", "href": "https://www.tiktok.com/@pulseup.io" }] }
     ],
     "rights": "All rights reserved.",

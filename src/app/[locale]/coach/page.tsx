@@ -53,7 +53,7 @@ export default async function CoachPage({
         <Faq dict={page.faq} />
         <FinalCta dict={page.finalCta} />
       </main>
-      <Footer dict={dict.footer} logoVariant="coach" />
+      <Footer dict={dict.footer} logoVariant="coach" locale={locale} />
     </div>
   );
 }

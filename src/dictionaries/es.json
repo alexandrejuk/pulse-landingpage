@@ -223,7 +223,7 @@
     "tagline": "PulseUp es una app de fitness para planes de entrenamiento personalizados, seguimiento de cardio, entrenamiento social y gestión de programas para entrenadores personales.",
     "groups": [
       { "title": "Legal", "links": [{ "label": "Política de Privacidad", "href": "/privacy-policy" }, { "label": "Términos", "href": "/terms-of-use" }] },
-      { "title": "Soporte", "links": [{ "label": "Centro de Ayuda", "href": "https://wa.me/5511998857785" }, { "label": "Contacto", "href": "https://wa.me/5511998857785" }] },
+      { "title": "Soporte", "links": [{ "label": "Centro de Ayuda", "href": "https://wa.me/5511998857785?text=%C2%A1Hola!%20Necesito%20ayuda%20con%20PulseUp%20%28vengo%20del%20sitio%20en%20espa%C3%B1ol%29." }, { "label": "Contacto", "href": "https://wa.me/5511998857785?text=%C2%A1Hola!%20Quiero%20hablar%20sobre%20PulseUp%20%28vengo%20del%20sitio%20en%20espa%C3%B1ol%29." }] },
       { "title": "Comunidad", "links": [{ "label": "Instagram", "href": "https://www.instagram.com/pulseup.io/" }, { "label": "YouTube", "href": "https://www.youtube.com/channel/UCVLVAJ_vMuJ29xB5lCdWdlA" }, { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61592854919734" }, { "label": "X", "href": "https://x.com/pulseupio" }, { "label": "TikTok", "href": "https://www.tiktok.com/@pulseup.io" }] }
     ],
     "rights": "Todos los derechos reservados.",

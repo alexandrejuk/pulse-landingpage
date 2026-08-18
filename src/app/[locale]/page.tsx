@@ -48,7 +48,7 @@ export default async function Home({
         <Faq dict={dict.faq} />
         <FinalCta dict={dict.finalCta} />
       </main>
-      <Footer dict={dict.footer} />
+      <Footer dict={dict.footer} locale={locale} />
     </div>
   );
 }
