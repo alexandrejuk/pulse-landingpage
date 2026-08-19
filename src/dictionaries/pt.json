@@ -416,6 +416,7 @@
       "title": "Tudo pra montar o plano certo",
       "description": "Ferramentas reais pra criar, calcular e reaproveitar planos alimentares.",
       "items": [
+        "Dashboard pra gerenciar pacientes",
         "Wizard de criação de plano",
         "Banco real de alimentos",
         "Cálculo automático de kcal e macros",

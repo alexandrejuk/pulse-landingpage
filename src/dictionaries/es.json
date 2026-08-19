@@ -416,6 +416,7 @@
       "title": "Todo para armar el plan correcto",
       "description": "Herramientas reales para crear, calcular y reutilizar planes alimentarios.",
       "items": [
+        "Panel para gestionar pacientes",
         "Asistente de creación de plan",
         "Base real de alimentos",
         "Cálculo automático de kcal y macros",
