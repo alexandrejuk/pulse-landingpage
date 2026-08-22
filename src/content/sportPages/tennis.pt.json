@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Tênis — Prancheta Tática Online e Gratuita",
+    "description": "Desenhe direção de saque, padrões de bola e posicionamento na quadra, anime a trajetória e compartilhe o ponto com o seu atleta — grátis, direto do navegador."
+  },
+  "hero": {
+    "headline": "Leia a quadra. Domine o ponto.",
+    "subheadline": "Desenhe direção de saque, padrões de bola e posicionamento na quadra, depois anime a trajetória pra o ponto acontecer exatamente como você visualiza."
+  },
+  "value": {
+    "title": "Feito pra como um ponto de tênis realmente se desenrola",
+    "description": "Dois pontinhos na quadra não mostram um saque aberto no ad court abrindo a próxima bola. O Pulse Tactical mostra.",
+    "points": [
+      "Desenhe a quadra inteira, da linha de fundo ao meio de saque, pra simples ou duplas",
+      "Mapeie direção e trajetória da bola, não só onde o jogador está parado",
+      "Anime o ponto pra o saque, a devolução e a próxima bola se conectarem em sequência"
+    ]
+  },
+  "board": { "labels": ["SAQUE + 1", "LINHA DE FUNDO", "QUADRA ABERTA"] },
+  "plays": [
+    {
+      "name": "Saque + 1",
+      "description": "Saque aberto no ad court, depois entra na quadra pra atacar o lado aberto na próxima bola.",
+      "path": [{ "x": 20, "y": 90 }, { "x": 75, "y": 50 }, { "x": 40, "y": 20 }]
+    },
+    {
+      "name": "Bola Cruzada",
+      "description": "Troca de bola cruzada pra controlar o ponto de trás da linha de fundo.",
+      "path": [{ "x": 15, "y": 85 }, { "x": 85, "y": 15 }]
+    },
+    {
+      "name": "Bola Paralela",
+      "description": "Muda a direção na paralela pra pegar o adversário fora de posição.",
+      "path": [{ "x": 20, "y": 85 }, { "x": 20, "y": 15 }]
+    },
+    {
+      "name": "Quadra Aberta",
+      "description": "Puxa o adversário pro lado, depois fecha na quadra aberta do outro lado.",
+      "path": [{ "x": 10, "y": 80 }, { "x": 90, "y": 50 }, { "x": 15, "y": 15 }]
+    }
+  ],
+  "features": [
+    "Diagramas de quadra completa pra simples e duplas",
+    "Setas de trajetória e curvas de bola",
+    "Direção de saque e posicionamento de devolução",
+    "Anime o ponto inteiro, bola por bola",
+    "Exportação em GIF pra compartilhar com o seu atleta"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Monte a quadra", "description": "Posicione os jogadores e marque o saque." },
+      { "title": "Mapeie o ponto", "description": "Desenhe direção, trajetória e posicionamento na quadra." },
+      { "title": "Jogue o ponto", "description": "Anime o ponto exatamente como ele deve acontecer." },
+      { "title": "Envie pro seu atleta", "description": "Exporte em GIF e compartilhe antes do jogo." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Pronto pra montar o próximo ponto?",
+    "description": "Monte, anime e compartilhe com o seu atleta — grátis, direto do navegador."
+  }
+}

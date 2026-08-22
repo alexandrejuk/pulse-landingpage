@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Béisbol — Pizarra Táctica Online y Gratuita",
+    "description": "Dibuja shifts defensivos, cobertura de toque y jugadas de pickoff, anima la trayectoria de la bola y comparte la jugada con tu roster — gratis, directo desde el navegador."
+  },
+  "hero": {
+    "headline": "Piensa por delante. Juega el próximo lanzamiento.",
+    "subheadline": "Dibuja shifts defensivos, cobertura de toque y jugadas de pickoff, luego anima la trayectoria de la bola para que cada lectura quede clara antes del próximo lanzamiento."
+  },
+  "value": {
+    "title": "Hecho para cómo el béisbol realmente lee una situación",
+    "description": "Nueve muñequitos quietos en el diamante no muestran un shift, un corte de relevo ni un corredor disparando hacia segunda. Pulse Tactical sí.",
+    "points": [
+      "Dibuja el posicionamiento defensivo completo en el diamante, de la alineación estándar al shift",
+      "Muestra la trayectoria de la bola y las corridas de las bases, no solo dónde están parados los jugadores",
+      "Anima la secuencia para que los cortes, los relevos y los double plays queden claros antes del próximo lanzamiento"
+    ]
+  },
+  "board": { "labels": ["SHIFT DEFENSIVO", "DOUBLE PLAY", "DIAMANTE"] },
+  "plays": [
+    {
+      "name": "Shift Defensivo",
+      "description": "La defensa se corre hacia el lado de jalón, el segunda base cubre el jardín derecho corto.",
+      "path": [{ "x": 70, "y": 60 }, { "x": 55, "y": 45 }, { "x": 75, "y": 30 }]
+    },
+    {
+      "name": "Cobertura de Toque",
+      "description": "Las esquinas se cierran sobre las líneas, el shortstop cubre la tercera mientras el pitcher fildea el toque.",
+      "path": [{ "x": 50, "y": 85 }, { "x": 35, "y": 65 }, { "x": 20, "y": 55 }]
+    },
+    {
+      "name": "Robo de Base",
+      "description": "El corredor dispara hacia segunda con el lanzamiento, el tiro del catcher lo gana en la base.",
+      "path": [{ "x": 75, "y": 70 }, { "x": 60, "y": 40 }, { "x": 50, "y": 15 }]
+    },
+    {
+      "name": "Double Play",
+      "description": "El shortstop entrega el pívot en segunda, el relevo le gana al corredor en primera.",
+      "path": [{ "x": 30, "y": 30 }, { "x": 50, "y": 15 }, { "x": 75, "y": 35 }]
+    }
+  ],
+  "features": [
+    "Posicionamiento defensivo en el diamante completo",
+    "Flechas de trayectoria de bola y tiro (cortes, relevos)",
+    "Corridas de bases y timing de robo",
+    "Diagramas de cobertura de toque y double play",
+    "Anima la jugada y exporta en GIF para el roster"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Arma la defensa", "description": "Coloca a tus jugadores y la alineación que vas a correr." },
+      { "title": "Traza la jugada", "description": "Dibuja tiros, cortes y corridas de bases." },
+      { "title": "Juega la secuencia", "description": "Anima la jugada exactamente como debe suceder." },
+      { "title": "Envíasela al roster", "description": "Exporta en GIF y compártela con tus jugadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "¿Listo para armar tu próxima jugada?",
+    "description": "Constrúyela, anímala y compártela con tu roster — gratis, directo desde el navegador."
+  }
+}

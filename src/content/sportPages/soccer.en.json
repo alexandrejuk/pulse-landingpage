@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical for Soccer — Free Online Tactics Board",
+    "description": "Draw formations, passing lanes and set pieces, animate the movement and share the play with your team — free, right in the browser."
+  },
+  "hero": {
+    "headline": "Plan the play. Own the pitch.",
+    "subheadline": "Draw formations, pressing triggers and set pieces, then animate the run so your team sees exactly what you mean."
+  },
+  "value": {
+    "title": "Built for how soccer actually moves",
+    "description": "A static XI on a whiteboard can't show pressing, transitions or a run in behind. Pulse Tactical can.",
+    "points": [
+      "Draw a full XI across any formation, from 4-3-3 to 4-4-2",
+      "Show pressing triggers and transitions, not just a static shape",
+      "Animate set pieces so every run and pass is clear before matchday"
+    ]
+  },
+  "board": { "labels": ["4-3-3", "PRESSING TRIGGER", "FULL PITCH"] },
+  "plays": [
+    {
+      "name": "4-3-3 Build-Up",
+      "description": "Play out from the back through the pivot into the front three.",
+      "path": [{ "x": 15, "y": 80 }, { "x": 50, "y": 55 }, { "x": 82, "y": 25 }]
+    },
+    {
+      "name": "Corner Kick",
+      "description": "Near-post run to drag the marker, back-post runner arrives free.",
+      "path": [{ "x": 85, "y": 15 }, { "x": 55, "y": 35 }, { "x": 30, "y": 20 }]
+    },
+    {
+      "name": "Pressing Trap",
+      "description": "Force the pass wide, then close the trap in the corner.",
+      "path": [{ "x": 20, "y": 30 }, { "x": 45, "y": 45 }, { "x": 75, "y": 70 }]
+    },
+    {
+      "name": "Overlapping Run",
+      "description": "Full-back overlaps to open the wide passing lane.",
+      "path": [{ "x": 20, "y": 85 }, { "x": 55, "y": 70 }, { "x": 88, "y": 45 }]
+    }
+  ],
+  "features": [
+    "Formations & positioning",
+    "Passing lane arrows & curved runs",
+    "Set-piece diagrams (corners, free kicks)",
+    "Player runs & movement paths",
+    "GIF export & share with the squad"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Set the formation", "description": "Place your back line, midfield and attack." },
+      { "title": "Map the movement", "description": "Draw passing lanes, runs and pressing triggers." },
+      { "title": "Play it out", "description": "Animate the sequence exactly as it should happen." },
+      { "title": "Send it to the squad", "description": "Export as a GIF and share it with your players." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to draw your next play?",
+    "description": "Build it, animate it and share it with your team — free, right in the browser."
+  }
+}

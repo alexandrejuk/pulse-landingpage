@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Tenis — Pizarra Táctica Online y Gratuita",
+    "description": "Dibuja la dirección del saque, patrones de golpe y posicionamiento en la cancha, anima la trayectoria de la pelota y comparte el punto con tu jugador — gratis, directo desde el navegador."
+  },
+  "hero": {
+    "headline": "Lee la cancha. Controla el punto.",
+    "subheadline": "Dibuja la dirección del saque, patrones de golpe y posicionamiento en la cancha, luego anima la trayectoria para que el punto se juegue exactamente como lo ves."
+  },
+  "value": {
+    "title": "Hecho para cómo se desarrolla realmente un punto de tenis",
+    "description": "Dos puntitos en la cancha no muestran un saque abierto al ad court que abre la siguiente bola. Pulse Tactical sí.",
+    "points": [
+      "Dibuja la cancha completa, de la línea de fondo al cuadro de saque, para individuales o dobles",
+      "Marca la dirección y la trayectoria de la pelota, no solo dónde está parado el jugador",
+      "Anima el punto para que el saque, la devolución y el siguiente golpe se conecten en secuencia"
+    ]
+  },
+  "board": { "labels": ["SAQUE + 1", "LÍNEA DE FONDO", "CANCHA ABIERTA"] },
+  "plays": [
+    {
+      "name": "Saque + 1",
+      "description": "Saque abierto al ad court, después entra a la cancha para atacar el lado abierto con la siguiente bola.",
+      "path": [{ "x": 20, "y": 90 }, { "x": 75, "y": 50 }, { "x": 40, "y": 20 }]
+    },
+    {
+      "name": "Cruzado",
+      "description": "Pelotea cruzado para controlar el punto desde atrás de la línea de fondo.",
+      "path": [{ "x": 15, "y": 85 }, { "x": 85, "y": 15 }]
+    },
+    {
+      "name": "Paralelo",
+      "description": "Cambia de dirección con el paralelo para agarrar al rival fuera de posición.",
+      "path": [{ "x": 20, "y": 85 }, { "x": 20, "y": 15 }]
+    },
+    {
+      "name": "Cancha Abierta",
+      "description": "Estira al rival hacia un lado y después define en la cancha abierta del otro lado.",
+      "path": [{ "x": 10, "y": 80 }, { "x": 90, "y": 50 }, { "x": 15, "y": 15 }]
+    }
+  ],
+  "features": [
+    "Diagramas de cancha completa para individuales y dobles",
+    "Flechas de trayectoria y golpes con efecto",
+    "Dirección de saque y posicionamiento de devolución",
+    "Anima un punto completo, golpe por golpe",
+    "Exportación en GIF para compartir con tu jugador"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Arma la cancha", "description": "Coloca a los jugadores y marca el saque." },
+      { "title": "Traza el punto", "description": "Dibuja dirección, trayectoria y posicionamiento en la cancha." },
+      { "title": "Juega el punto", "description": "Anima el punto exactamente como debe suceder." },
+      { "title": "Envíaselo a tu jugador", "description": "Exporta en GIF y compártelo antes del partido." }
+    ]
+  },
+  "finalCta": {
+    "headline": "¿Listo para armar tu próximo punto?",
+    "description": "Constrúyelo, anímalo y compártelo con tu jugador — gratis, directo desde el navegador."
+  }
+}

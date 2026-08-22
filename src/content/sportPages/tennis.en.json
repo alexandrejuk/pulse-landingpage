@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical for Tennis — Free Online Tactics Board",
+    "description": "Draw serve placement, shot patterns and court positioning, animate the ball's path and share the point with your player — free, right in the browser."
+  },
+  "hero": {
+    "headline": "Read the court. Control the point.",
+    "subheadline": "Draw serve placement, shot patterns and court positioning, then animate the ball's path so the point plays out exactly like you see it."
+  },
+  "value": {
+    "title": "Built for how a tennis point actually develops",
+    "description": "Two dots on a court can't show a serve out wide opening the next ball. Pulse Tactical can.",
+    "points": [
+      "Draw the full court, from baseline to service box, for singles or doubles",
+      "Map shot direction and ball trajectory, not just where a player stands",
+      "Animate the point so the serve, the return and the next shot connect in sequence"
+    ]
+  },
+  "board": { "labels": ["SERVE + 1", "BASELINE", "OPEN COURT"] },
+  "plays": [
+    {
+      "name": "Serve + 1",
+      "description": "Serve out wide to the ad court, then step in to attack the open court with the next ball.",
+      "path": [{ "x": 20, "y": 90 }, { "x": 75, "y": 50 }, { "x": 40, "y": 20 }]
+    },
+    {
+      "name": "Cross Court",
+      "description": "Rally cross court to control the point from behind the baseline.",
+      "path": [{ "x": 15, "y": 85 }, { "x": 85, "y": 15 }]
+    },
+    {
+      "name": "Down the Line",
+      "description": "Change direction down the line to catch the opponent out of position.",
+      "path": [{ "x": 20, "y": 85 }, { "x": 20, "y": 15 }]
+    },
+    {
+      "name": "Open Court",
+      "description": "Pull the opponent wide, then finish into the open court on the other side.",
+      "path": [{ "x": 10, "y": 80 }, { "x": 90, "y": 50 }, { "x": 15, "y": 15 }]
+    }
+  ],
+  "features": [
+    "Full court diagrams for singles & doubles",
+    "Shot trajectory arrows & curved shot paths",
+    "Serve placement & return positioning",
+    "Animate a full point, shot by shot",
+    "GIF export & share with your player"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Set the court", "description": "Place the players and mark the serve." },
+      { "title": "Map the point", "description": "Draw shot direction, trajectory and court positioning." },
+      { "title": "Play it out", "description": "Animate the point exactly as it should unfold." },
+      { "title": "Send it to your player", "description": "Export as a GIF and share it before the match." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to draw your next point?",
+    "description": "Build it, animate it and share it with your player — free, right in the browser."
+  }
+}

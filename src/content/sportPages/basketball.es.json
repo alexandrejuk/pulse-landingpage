@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Baloncesto — Pizarra Táctica Online y Gratuita",
+    "description": "Dibuja jugadas de media cancha, bloqueos y cortes, anima la posesión y comparte la jugada con tu plantel — gratis, directo desde el navegador."
+  },
+  "hero": {
+    "headline": "Dibuja la jugada. Ejecuta la jugada.",
+    "subheadline": "Dibuja jugadas de media cancha, bloqueos y cortes, luego anima el movimiento para que tu equipo vea exactamente dónde tiene que estar."
+  },
+  "value": {
+    "title": "Hecho para cómo se ocupa realmente la cancha en el baloncesto",
+    "description": "Cinco muñequitos quietos en la pizarra no muestran un bloqueo, un corte ni la defensa cambiando la marca. Pulse Tactical sí.",
+    "points": [
+      "Dibuja jugadas de media cancha con espaciamiento real, del Horns a un 1-4 bajo",
+      "Muestra bloqueos, cortes y hand-offs, no solo jugadores quietos",
+      "Anima las jugadas de saque de banda para que el timing quede claro antes del inicio"
+    ]
+  },
+  "board": { "labels": ["PICK & ROLL", "MEDIA CANCHA", "BLOQUEO"] },
+  "plays": [
+    {
+      "name": "Pick & Roll",
+      "description": "El base sale del bloqueo, el pívot cae al aro mientras la defensa cambia la marca.",
+      "path": [{ "x": 50, "y": 85 }, { "x": 35, "y": 55 }, { "x": 55, "y": 15 }]
+    },
+    {
+      "name": "Horns",
+      "description": "Dos pívots en los codos, el base ataca el medio saliendo del bloqueo o del hand-off.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 30, "y": 60 }, { "x": 60, "y": 25 }]
+    },
+    {
+      "name": "Ataque en Movimiento",
+      "description": "Cortes y bloqueos continuos lejos del balón hasta que la defensa se rompe.",
+      "path": [{ "x": 15, "y": 80 }, { "x": 50, "y": 60 }, { "x": 25, "y": 35 }, { "x": 60, "y": 15 }]
+    },
+    {
+      "name": "Saque de Fondo",
+      "description": "El equipo se cierra bajo el aro, el primer corte limpia para el tirador que sale del doble bloqueo.",
+      "path": [{ "x": 50, "y": 95 }, { "x": 20, "y": 70 }, { "x": 80, "y": 40 }]
+    }
+  ],
+  "features": [
+    "Jugadas de media cancha y espaciamiento de jugadores",
+    "Flechas de bloqueo y corte (pick, curl, hand-off)",
+    "Diagramas de saque de banda y situaciones especiales",
+    "Anima la posesión cuadro a cuadro, con velocidad ajustable",
+    "Exportación en GIF para compartir con el plantel"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Arma la media cancha", "description": "Coloca tus cinco jugadores y el espaciamiento contra la defensa." },
+      { "title": "Dibuja la acción", "description": "Agrega bloqueos, cortes, hand-offs y líneas de pase." },
+      { "title": "Juega la posesión", "description": "Anima la secuencia exactamente como debe suceder." },
+      { "title": "Envíala al plantel", "description": "Exporta en GIF y compártela con tus jugadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "¿Listo para crear tu próxima jugada?",
+    "description": "Créala, anímala y compártela con tu plantel — gratis, directo desde el navegador."
+  }
+}

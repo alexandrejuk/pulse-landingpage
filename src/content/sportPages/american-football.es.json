@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Fútbol Americano — Pizarra Táctica Online y Gratuita",
+    "description": "Dibuja formaciones, rutas y esquemas de bloqueo, anima el movimiento y comparte la jugada con tu equipo — gratis, directo desde el navegador."
+  },
+  "hero": {
+    "headline": "Dibuja la ruta. Ejecuta la jugada.",
+    "subheadline": "Dibuja formaciones, rutas y esquemas de bloqueo, luego anima el movimiento para que cada lectura quede clara antes del snap."
+  },
+  "value": {
+    "title": "Hecho para cómo se desarrolla realmente una jugada de fútbol americano",
+    "description": "Las X y O quietas en el snap no muestran una ruta que se abre ni una cobertura que rota tarde. Pulse Tactical sí.",
+    "points": [
+      "Dibuja cualquier formación, del Shotgun al under center, en ataque o en defensa",
+      "Muestra rutas, esquemas de bloqueo y motion, no solo dónde se alinean los jugadores",
+      "Anima la jugada para que la lectura del quarterback y la rotación de la cobertura queden claras antes del snap"
+    ]
+  },
+  "board": { "labels": ["SHOTGUN", "RPO", "COVER 2"] },
+  "plays": [
+    {
+      "name": "Shotgun",
+      "description": "El quarterback se alinea en shotgun, el receptor corre un slant mientras el corredor frena el blitz.",
+      "path": [{ "x": 70, "y": 85 }, { "x": 55, "y": 55 }, { "x": 35, "y": 25 }]
+    },
+    {
+      "name": "RPO",
+      "description": "El quarterback lee al defensor de la caja, entrega por dentro o se abre para tirar el bubble screen.",
+      "path": [{ "x": 50, "y": 85 }, { "x": 75, "y": 70 }, { "x": 90, "y": 55 }]
+    },
+    {
+      "name": "Cover 2",
+      "description": "Dos safeties profundos dividen el campo mientras los corners cubren el flat.",
+      "path": [{ "x": 30, "y": 90 }, { "x": 30, "y": 50 }, { "x": 20, "y": 15 }]
+    },
+    {
+      "name": "Inside Zone",
+      "description": "La línea ofensiva bloquea en zona hacia el lado de la jugada, el corredor presiona el hueco y corta en el double team.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 45, "y": 55 }, { "x": 55, "y": 20 }]
+    }
+  ],
+  "features": [
+    "Formaciones de ataque y defensa (X y O)",
+    "Árbol de rutas y flechas de esquema de bloqueo",
+    "Motion antes del snap",
+    "Diagramas de cobertura defensiva",
+    "Anima la jugada y exporta en GIF para el roster"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Arma la formación", "description": "Alinea tu ataque o tu defensa antes del snap." },
+      { "title": "Dibuja las rutas", "description": "Agrega rutas, asignaciones de bloqueo y motion." },
+      { "title": "Ejecuta la jugada", "description": "Anima el snap exactamente como debe suceder." },
+      { "title": "Envíasela al roster", "description": "Exporta en GIF y compártela con tus jugadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "¿Listo para armar tu próxima jugada?",
+    "description": "Constrúyela, anímala y compártela con tu roster — gratis, directo desde el navegador."
+  }
+}

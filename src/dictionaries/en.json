@@ -592,5 +592,11 @@
       "ctaPrimary": "Open Pulse Tactical",
       "footnote": "Free · Browser-based · No installation"
     }
+  },
+  "sportPage": {
+    "playsEyebrow": "COMMON PLAYS",
+    "playsTitle": "{sport} plays",
+    "featuresEyebrow": "FEATURES",
+    "featuresTitle": "Built for {sport}"
   }
 }

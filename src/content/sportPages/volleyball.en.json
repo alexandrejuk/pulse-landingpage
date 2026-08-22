@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical for Volleyball — Free Online Tactics Board",
+    "description": "Draw rotations, serve-receive patterns and attack combinations, animate the movement and share the play with your squad — free, right in the browser."
+  },
+  "hero": {
+    "headline": "Every rotation. Every movement.",
+    "subheadline": "Draw rotations, serve-receive patterns and attack combinations, then animate the movement so every player knows exactly where to be."
+  },
+  "value": {
+    "title": "Built for how volleyball actually rotates",
+    "description": "A frozen 6-2 on paper can't show a libero swap, a back-row attack or a setter dump. Pulse Tactical can.",
+    "points": [
+      "Draw all six rotations with real position numbers, from serve receive to transition",
+      "Show setter releases, libero swaps and attack combinations, not just a static line-up",
+      "Animate the sequence so every approach, set and block assignment is clear before serve"
+    ]
+  },
+  "board": { "labels": ["ROTATION 1", "SERVE RECEIVE", "6-2"] },
+  "plays": [
+    {
+      "name": "Serve Receive",
+      "description": "Passers set up in a five-person pattern, libero takes the deep middle.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 60, "y": 55 }, { "x": 50, "y": 15 }]
+    },
+    {
+      "name": "Rotation 1",
+      "description": "Setter releases from position 1 to the net as the front row clears for the attack.",
+      "path": [{ "x": 85, "y": 85 }, { "x": 60, "y": 40 }, { "x": 30, "y": 10 }]
+    },
+    {
+      "name": "Quick Attack",
+      "description": "Middle hits a one-tempo set while the outside runs the combo route behind.",
+      "path": [{ "x": 50, "y": 60 }, { "x": 50, "y": 30 }, { "x": 50, "y": 10 }]
+    },
+    {
+      "name": "Blocking Scheme",
+      "description": "Middle blocker reads the set and shifts to close the block with the outside.",
+      "path": [{ "x": 30, "y": 10 }, { "x": 55, "y": 10 }, { "x": 80, "y": 10 }]
+    }
+  ],
+  "features": [
+    "Full-court rotations with real position numbers",
+    "Setter release & attack approach arrows",
+    "Serve-receive & blocking scheme diagrams",
+    "Animate the rally frame by frame",
+    "GIF export & share with the squad"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Set the rotation", "description": "Place your six positions and who's front row, back row." },
+      { "title": "Map the movement", "description": "Draw approaches, sets, blocks and libero swaps." },
+      { "title": "Run the rally", "description": "Animate the sequence exactly as it should happen." },
+      { "title": "Send it to the squad", "description": "Export as a GIF and share it with your players." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to draw your next rotation?",
+    "description": "Build it, animate it and share it with your squad — free, right in the browser."
+  }
+}

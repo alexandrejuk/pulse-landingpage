@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Hockey sobre Hielo — Pizarra Táctica Online y Gratuita",
+    "description": "Dibuja rutas de patinaje, líneas de pase y sistemas de power play, anima la jugada y comparte con tu equipo — gratis, directo desde el navegador."
+  },
+  "hero": {
+    "headline": "Domina el hielo.",
+    "subheadline": "Dibuja rutas de patinaje, líneas de pase y sistemas de unidades especiales, luego anima la jugada para que cada cambio y lectura queden claros antes del faceoff."
+  },
+  "value": {
+    "title": "Hecho para cómo se mueve realmente el hockey a máxima velocidad",
+    "description": "Un diagrama de salida de zona congelado no muestra un pase largo por la zona neutral ni un forecheck cerrando sobre el disco. Pulse Tactical sí.",
+    "points": [
+      "Dibuja la pista completa, desde tu línea azul hasta la zona ofensiva",
+      "Muestra rutas de patinaje y líneas de pase, no solo dónde arrancan los jugadores",
+      "Anima power plays y salidas de zona para que cada lectura quede clara antes del faceoff"
+    ]
+  },
+  "board": { "labels": ["POWER PLAY", "SALIDA DE ZONA", "LÍNEA AZUL"] },
+  "plays": [
+    {
+      "name": "Power Play",
+      "description": "Arma el umbrella, mueve el disco hasta la punta para el remate directo entre el tráfico.",
+      "path": [{ "x": 20, "y": 80 }, { "x": 60, "y": 60 }, { "x": 80, "y": 20 }]
+    },
+    {
+      "name": "Salida de Zona",
+      "description": "El defensor recupera el disco detrás del arco y encuentra al ala que sale por la banda.",
+      "path": [{ "x": 30, "y": 95 }, { "x": 15, "y": 70 }, { "x": 60, "y": 45 }]
+    },
+    {
+      "name": "Forecheck",
+      "description": "El primer atacante presiona al que tiene el disco, el segundo cierra la línea de pase.",
+      "path": [{ "x": 80, "y": 20 }, { "x": 60, "y": 35 }, { "x": 40, "y": 50 }]
+    },
+    {
+      "name": "Faceoff",
+      "description": "El centro gana el saque y manda el disco a la punta para el remate rápido por el círculo.",
+      "path": [{ "x": 50, "y": 50 }, { "x": 35, "y": 65 }, { "x": 20, "y": 80 }]
+    }
+  ],
+  "features": [
+    "Diagramas de pista completa con líneas azules y círculos de faceoff",
+    "Flechas de ruta de patinaje y línea de pase",
+    "Sistemas de power play y penalty kill",
+    "Diagramas de salida de zona y forecheck",
+    "Anima el cambio y exporta en GIF para el equipo"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Arma la pista", "description": "Coloca tu línea y el sistema que vas a correr." },
+      { "title": "Traza el movimiento", "description": "Dibuja rutas de patinaje, líneas de pase y cobertura." },
+      { "title": "Juega el cambio", "description": "Anima la jugada exactamente como debe suceder." },
+      { "title": "Envíasela al equipo", "description": "Exporta en GIF y compártela con tus jugadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "¿Listo para armar tu próximo cambio?",
+    "description": "Constrúyelo, anímalo y compártelo con tu equipo — gratis, directo desde el navegador."
+  }
+}

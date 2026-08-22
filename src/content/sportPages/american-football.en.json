@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical for American Football — Free Online Tactics Board",
+    "description": "Draw formations, routes and blocking schemes, animate the motion and share the play with your roster — free, right in the browser."
+  },
+  "hero": {
+    "headline": "Draw the route. Run the play.",
+    "subheadline": "Draw formations, routes and blocking schemes, then animate the motion so every read is clear before the snap."
+  },
+  "value": {
+    "title": "Built for how a football play actually unfolds",
+    "description": "X's and O's frozen at the snap can't show a route breaking open or a coverage rotating late. Pulse Tactical can.",
+    "points": [
+      "Draw any formation, from Shotgun spread to under center, offense or defense",
+      "Show routes, blocking schemes and motion, not just where players line up",
+      "Animate the play so the quarterback's read and the coverage rotation are clear before the snap"
+    ]
+  },
+  "board": { "labels": ["SHOTGUN", "RPO", "COVER 2"] },
+  "plays": [
+    {
+      "name": "Shotgun",
+      "description": "Quarterback lines up in shotgun, receiver runs a slant while the back checks the blitz.",
+      "path": [{ "x": 70, "y": 85 }, { "x": 55, "y": 55 }, { "x": 35, "y": 25 }]
+    },
+    {
+      "name": "RPO",
+      "description": "Quarterback reads the box defender, handing off inside or pulling to throw the bubble screen.",
+      "path": [{ "x": 50, "y": 85 }, { "x": 75, "y": 70 }, { "x": 90, "y": 55 }]
+    },
+    {
+      "name": "Cover 2",
+      "description": "Two deep safeties split the field while corners squat on the flat.",
+      "path": [{ "x": 30, "y": 90 }, { "x": 30, "y": 50 }, { "x": 20, "y": 15 }]
+    },
+    {
+      "name": "Inside Zone",
+      "description": "Offensive line zone-blocks to the play side, back presses the hole and cuts off the double team.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 45, "y": 55 }, { "x": 55, "y": 20 }]
+    }
+  ],
+  "features": [
+    "Formations for offense & defense (X's and O's)",
+    "Route trees & blocking scheme arrows",
+    "Motion before the snap",
+    "Defensive coverage diagrams",
+    "Animate the play & export as a GIF for the roster"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Set the formation", "description": "Line up your offense or defense before the snap." },
+      { "title": "Draw the routes", "description": "Add routes, blocking assignments and motion." },
+      { "title": "Run the play", "description": "Animate the snap exactly as it should unfold." },
+      { "title": "Send it to the roster", "description": "Export as a GIF and share it with your players." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to draw your next play?",
+    "description": "Build it, animate it and share it with your roster — free, right in the browser."
+  }
+}

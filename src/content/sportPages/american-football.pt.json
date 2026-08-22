@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Futebol Americano — Prancheta Tática Online e Gratuita",
+    "description": "Desenhe formações, rotas e esquemas de bloqueio, anime a movimentação e compartilhe a jogada com o seu elenco — grátis, direto do navegador."
+  },
+  "hero": {
+    "headline": "Desenhe a rota. Jogue a jogada.",
+    "subheadline": "Desenhe formações, rotas e esquemas de bloqueio, depois anime a movimentação pra cada leitura ficar clara antes do snap."
+  },
+  "value": {
+    "title": "Feito pra como uma jogada de futebol americano realmente acontece",
+    "description": "X's e O's parados no snap não mostram uma rota abrindo ou uma cobertura rodando tarde. O Pulse Tactical mostra.",
+    "points": [
+      "Desenhe qualquer formação, do Shotgun ao under center, no ataque ou na defesa",
+      "Mostre rotas, esquemas de bloqueio e motion, não só onde os jogadores alinham",
+      "Anime a jogada pra a leitura do quarterback e a rotação da cobertura ficarem claras antes do snap"
+    ]
+  },
+  "board": { "labels": ["SHOTGUN", "RPO", "COVER 2"] },
+  "plays": [
+    {
+      "name": "Shotgun",
+      "description": "Quarterback alinha no shotgun, recebedor corre um slant enquanto o running back trava o blitz.",
+      "path": [{ "x": 70, "y": 85 }, { "x": 55, "y": 55 }, { "x": 35, "y": 25 }]
+    },
+    {
+      "name": "RPO",
+      "description": "Quarterback lê o defensor da caixa, entrega a bola por dentro ou puxa pra jogar o bubble screen.",
+      "path": [{ "x": 50, "y": 85 }, { "x": 75, "y": 70 }, { "x": 90, "y": 55 }]
+    },
+    {
+      "name": "Cover 2",
+      "description": "Dois safeties fundos dividem o campo enquanto os corners seguram o flat.",
+      "path": [{ "x": 30, "y": 90 }, { "x": 30, "y": 50 }, { "x": 20, "y": 15 }]
+    },
+    {
+      "name": "Inside Zone",
+      "description": "A linha ofensiva bloqueia em zona pro lado da jogada, o running back pressiona o buraco e corta no double team.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 45, "y": 55 }, { "x": 55, "y": 20 }]
+    }
+  ],
+  "features": [
+    "Formações de ataque e defesa (X's e O's)",
+    "Árvore de rotas e setas de esquema de bloqueio",
+    "Motion antes do snap",
+    "Diagramas de cobertura defensiva",
+    "Anime a jogada e exporte em GIF pro elenco"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Monte a formação", "description": "Alinhe seu ataque ou defesa antes do snap." },
+      { "title": "Desenhe as rotas", "description": "Adicione rotas, atribuições de bloqueio e motion." },
+      { "title": "Jogue a jogada", "description": "Anime o snap exatamente como ele deve acontecer." },
+      { "title": "Envie pro elenco", "description": "Exporte em GIF e compartilhe com seus jogadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Pronto pra montar a próxima jogada?",
+    "description": "Monte, anime e compartilhe com o seu elenco — grátis, direto do navegador."
+  }
+}

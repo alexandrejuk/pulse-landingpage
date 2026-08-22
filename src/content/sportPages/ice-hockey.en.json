@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical for Ice Hockey — Free Online Tactics Board",
+    "description": "Draw skating paths, passing lanes and special-teams systems, animate the play and share it with your squad — free, right in the browser."
+  },
+  "hero": {
+    "headline": "Own the ice.",
+    "subheadline": "Draw skating paths, passing lanes and special-teams systems, then animate the play so every line change and read is clear before puck drop."
+  },
+  "value": {
+    "title": "Built for how hockey actually moves at full speed",
+    "description": "A frozen breakout diagram can't show a stretch pass through the neutral zone or a forecheck collapsing on the puck. Pulse Tactical can.",
+    "points": [
+      "Draw the full rink, from your own blue line to the offensive zone",
+      "Show skating paths and passing lanes, not just where players start",
+      "Animate power plays and breakouts so every read is clear before puck drop"
+    ]
+  },
+  "board": { "labels": ["POWER PLAY", "BREAKOUT", "BLUE LINE"] },
+  "plays": [
+    {
+      "name": "Power Play",
+      "description": "Set up the umbrella, work the puck to the point for a one-timer through traffic.",
+      "path": [{ "x": 20, "y": 80 }, { "x": 60, "y": 60 }, { "x": 80, "y": 20 }]
+    },
+    {
+      "name": "Breakout",
+      "description": "Defenseman retrieves below the goal line and hits the winger breaking up the wall.",
+      "path": [{ "x": 30, "y": 95 }, { "x": 15, "y": 70 }, { "x": 60, "y": 45 }]
+    },
+    {
+      "name": "Forecheck",
+      "description": "First forechecker pressures the puck carrier, second seals off the passing lane.",
+      "path": [{ "x": 80, "y": 20 }, { "x": 60, "y": 35 }, { "x": 40, "y": 50 }]
+    },
+    {
+      "name": "Faceoff",
+      "description": "Center wins the draw back to the point for a quick shot through the circle.",
+      "path": [{ "x": 50, "y": 50 }, { "x": 35, "y": 65 }, { "x": 20, "y": 80 }]
+    }
+  ],
+  "features": [
+    "Full rink diagrams with blue lines & faceoff circles",
+    "Skating path & passing lane arrows",
+    "Power play & penalty kill systems",
+    "Breakout & forecheck diagrams",
+    "Animate the shift & export as a GIF for the squad"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Set the rink", "description": "Place your line and the system you're running." },
+      { "title": "Map the movement", "description": "Draw skating paths, passing lanes and coverage." },
+      { "title": "Run the shift", "description": "Animate the play exactly as it should unfold." },
+      { "title": "Send it to the squad", "description": "Export as a GIF and share it with your players." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to draw your next shift?",
+    "description": "Build it, animate it and share it with your squad — free, right in the browser."
+  }
+}

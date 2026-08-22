@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Fútbol — Pizarra Táctica Online y Gratuita",
+    "description": "Dibuja formaciones, líneas de pase y balones parados, anima el movimiento y comparte la jugada con tu equipo — gratis, directo desde el navegador."
+  },
+  "hero": {
+    "headline": "Crea la jugada. Domina la cancha.",
+    "subheadline": "Dibuja formaciones, disparadores de presión y balones parados, luego anima el movimiento para que tu equipo vea exactamente lo que quieres decir."
+  },
+  "value": {
+    "title": "Hecho para cómo se mueve realmente el fútbol",
+    "description": "Un once estático en la pizarra no muestra la presión, la transición ni un desmarque a la espalda de la defensa. Pulse Tactical sí.",
+    "points": [
+      "Dibuja el equipo completo en cualquier formación, del 4-3-3 al 4-4-2",
+      "Muestra disparadores de presión y transiciones, no solo una forma estática",
+      "Anima los balones parados para que cada carrera y pase quede claro antes del partido"
+    ]
+  },
+  "board": { "labels": ["4-3-3", "DISPARADOR DE PRESIÓN", "CANCHA COMPLETA"] },
+  "plays": [
+    {
+      "name": "Salida 4-3-3",
+      "description": "Sale jugando desde atrás, pasa por el pivote y llega al ataque.",
+      "path": [{ "x": 15, "y": 80 }, { "x": 50, "y": 55 }, { "x": 82, "y": 25 }]
+    },
+    {
+      "name": "Tiro de Esquina",
+      "description": "Carrera al primer palo arrastra la marca, el segundo llega libre.",
+      "path": [{ "x": 85, "y": 15 }, { "x": 55, "y": 35 }, { "x": 30, "y": 20 }]
+    },
+    {
+      "name": "Trampa de Presión",
+      "description": "Fuerza el pase hacia el lado y cierra la trampa en la esquina.",
+      "path": [{ "x": 20, "y": 30 }, { "x": 45, "y": 45 }, { "x": 75, "y": 70 }]
+    },
+    {
+      "name": "Sobreposición del Lateral",
+      "description": "El lateral sube para abrir la línea de pase por la banda.",
+      "path": [{ "x": 20, "y": 85 }, { "x": 55, "y": 70 }, { "x": 88, "y": 45 }]
+    }
+  ],
+  "features": [
+    "Formaciones y posicionamiento",
+    "Flechas de línea de pase y carreras curvas",
+    "Diagramas de balón parado (córner, tiro libre)",
+    "Carreras y caminos de movimiento",
+    "Exportación en GIF para compartir con el equipo"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Arma la formación", "description": "Coloca la defensa, el mediocampo y el ataque." },
+      { "title": "Traza el movimiento", "description": "Dibuja líneas de pase, carreras y disparadores de presión." },
+      { "title": "Juega la secuencia", "description": "Anima la jugada exactamente como debe suceder." },
+      { "title": "Envíala al equipo", "description": "Exporta en GIF y compártela con tus jugadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "¿Listo para crear tu próxima jugada?",
+    "description": "Créala, anímala y compártela con tu equipo — gratis, directo desde el navegador."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Vóley — Pizarra Táctica Online y Gratuita",
+    "description": "Dibuja rotaciones, recepción de saque y combinaciones de ataque, anima el movimiento y comparte la jugada con tu equipo — gratis, directo desde el navegador."
+  },
+  "hero": {
+    "headline": "Cada rotación. Cada movimiento.",
+    "subheadline": "Dibuja rotaciones, patrones de recepción y combinaciones de ataque, luego anima el movimiento para que cada jugador sepa exactamente dónde tiene que estar."
+  },
+  "value": {
+    "title": "Hecho para cómo realmente rota el vóley en cancha",
+    "description": "Un 6-2 quieto en el papel no muestra un cambio de líbero, un ataque de zaguero ni una dejada del colocador. Pulse Tactical sí.",
+    "points": [
+      "Dibuja las seis rotaciones con la numeración real de las posiciones, de la recepción a la transición",
+      "Muestra la salida del colocador, el cambio del líbero y las combinaciones de ataque, no solo un equipo quieto",
+      "Anima la secuencia para que cada carrera de ataque, colocación y bloqueo quede clara antes del saque"
+    ]
+  },
+  "board": { "labels": ["ROTACIÓN 1", "RECEPCIÓN", "6-2"] },
+  "plays": [
+    {
+      "name": "Recepción de Saque",
+      "description": "Los receptores se ubican en cinco, el líbero cubre el fondo de la cancha.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 60, "y": 55 }, { "x": 50, "y": 15 }]
+    },
+    {
+      "name": "Rotación 1",
+      "description": "El colocador sale de la posición 1 hacia la red mientras la línea de frente libera para el ataque.",
+      "path": [{ "x": 85, "y": 85 }, { "x": 60, "y": 40 }, { "x": 30, "y": 10 }]
+    },
+    {
+      "name": "Ataque Rápido",
+      "description": "El central ataca en un tiempo mientras la punta hace la carrera de la combinación por detrás.",
+      "path": [{ "x": 50, "y": 60 }, { "x": 50, "y": 30 }, { "x": 50, "y": 10 }]
+    },
+    {
+      "name": "Esquema de Bloqueo",
+      "description": "El central lee la colocación y se desplaza para cerrar el bloqueo con la punta.",
+      "path": [{ "x": 30, "y": 10 }, { "x": 55, "y": 10 }, { "x": 80, "y": 10 }]
+    }
+  ],
+  "features": [
+    "Rotaciones completas con la numeración real de las posiciones",
+    "Flechas de salida del colocador y carrera de ataque",
+    "Diagramas de recepción de saque y esquema de bloqueo",
+    "Anima el rally cuadro a cuadro",
+    "Exportación en GIF para compartir con el equipo"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Arma la rotación", "description": "Coloca las seis posiciones y quién está en la red o en el fondo." },
+      { "title": "Traza el movimiento", "description": "Dibuja carreras de ataque, colocaciones, bloqueos y cambios de líbero." },
+      { "title": "Juega el rally", "description": "Anima la secuencia exactamente como debe suceder." },
+      { "title": "Envíala al equipo", "description": "Exporta en GIF y compártela con tus jugadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "¿Listo para armar tu próxima rotación?",
+    "description": "Trázala, anímala y compártela con tu equipo — gratis, directo desde el navegador."
+  }
+}

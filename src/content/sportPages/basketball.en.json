@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical for Basketball — Free Online Tactics Board",
+    "description": "Draw half-court sets, screens and cuts, animate the possession and share the play with your roster — free, right in the browser."
+  },
+  "hero": {
+    "headline": "Draw the play. Run the play.",
+    "subheadline": "Draw half-court sets, screens and cuts, then animate the movement so your team sees exactly where to be."
+  },
+  "value": {
+    "title": "Built for how basketball actually spaces the floor",
+    "description": "Five dots frozen on a whiteboard can't show a screen, a cut or the defense rotating. Pulse Tactical can.",
+    "points": [
+      "Draw half-court sets with real spacing, from Horns to a low 1-4",
+      "Show screens, cuts and handoffs, not just where players stand",
+      "Animate inbound plays so the timing is clear before tip-off"
+    ]
+  },
+  "board": { "labels": ["PICK & ROLL", "HALF COURT", "SCREEN"] },
+  "plays": [
+    {
+      "name": "Pick & Roll",
+      "description": "Ball-handler drives off the screen, the big rolls to the rim as the defense rotates.",
+      "path": [{ "x": 50, "y": 85 }, { "x": 35, "y": 55 }, { "x": 55, "y": 15 }]
+    },
+    {
+      "name": "Horns",
+      "description": "Two bigs at the elbows, guard attacks the middle off a pindown or dribble handoff.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 30, "y": 60 }, { "x": 60, "y": 25 }]
+    },
+    {
+      "name": "Motion Offense",
+      "description": "Continuous cuts and screens away from the ball until the defense breaks.",
+      "path": [{ "x": 15, "y": 80 }, { "x": 50, "y": 60 }, { "x": 25, "y": 35 }, { "x": 60, "y": 15 }]
+    },
+    {
+      "name": "Baseline Inbound",
+      "description": "Stack under the rim, first cut clears for the shooter curling off a double screen.",
+      "path": [{ "x": 50, "y": 95 }, { "x": 20, "y": 70 }, { "x": 80, "y": 40 }]
+    }
+  ],
+  "features": [
+    "Half-court sets & player spacing",
+    "Screen and cut arrows (picks, curls, handoffs)",
+    "Inbound & special-situation diagrams",
+    "Animate possessions frame by frame, adjustable speed",
+    "GIF export & share with the roster"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Set the half court", "description": "Place your five, spacing and the defense you're attacking." },
+      { "title": "Draw the action", "description": "Add screens, cuts, handoffs and passing lanes." },
+      { "title": "Run the possession", "description": "Animate the sequence exactly how it should unfold." },
+      { "title": "Send it to the roster", "description": "Export as a GIF and share it with your players." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Ready to draw your next possession?",
+    "description": "Build it, animate it and share it with your roster — free, right in the browser."
+  }
+}

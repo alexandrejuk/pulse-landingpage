@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Hóquei no Gelo — Prancheta Tática Online e Gratuita",
+    "description": "Desenhe rotas de patinação, linhas de passe e sistemas de power play, anime a jogada e compartilhe com o seu time — grátis, direto do navegador."
+  },
+  "hero": {
+    "headline": "Domine o gelo.",
+    "subheadline": "Desenhe rotas de patinação, linhas de passe e sistemas de special teams, depois anime a jogada pra cada troca e leitura ficar clara antes do faceoff."
+  },
+  "value": {
+    "title": "Feito pra como o hóquei realmente se move em alta velocidade",
+    "description": "Um diagrama de saída de zona parado não mostra um passe esticado pela zona neutra ou um forecheck fechando em cima do disco. O Pulse Tactical mostra.",
+    "points": [
+      "Desenhe a pista inteira, da sua linha azul até a zona ofensiva",
+      "Mostre rotas de patinação e linhas de passe, não só onde os jogadores começam",
+      "Anime power plays e saídas de zona pra cada leitura ficar clara antes do faceoff"
+    ]
+  },
+  "board": { "labels": ["POWER PLAY", "SAÍDA DE ZONA", "LINHA AZUL"] },
+  "plays": [
+    {
+      "name": "Power Play",
+      "description": "Monta o umbrella, trabalha o disco até a ponta pro one-timer no meio do tráfego.",
+      "path": [{ "x": 20, "y": 80 }, { "x": 60, "y": 60 }, { "x": 80, "y": 20 }]
+    },
+    {
+      "name": "Saída de Zona",
+      "description": "Zagueiro busca o disco atrás do gol e serve o ponta que sai pela lateral da pista.",
+      "path": [{ "x": 30, "y": 95 }, { "x": 15, "y": 70 }, { "x": 60, "y": 45 }]
+    },
+    {
+      "name": "Forecheck",
+      "description": "Primeiro atacante pressiona quem tá com o disco, o segundo fecha a linha de passe.",
+      "path": [{ "x": 80, "y": 20 }, { "x": 60, "y": 35 }, { "x": 40, "y": 50 }]
+    },
+    {
+      "name": "Faceoff",
+      "description": "Centro ganha a disputa e manda pra ponta pro arremesso rápido pelo círculo.",
+      "path": [{ "x": 50, "y": 50 }, { "x": 35, "y": 65 }, { "x": 20, "y": 80 }]
+    }
+  ],
+  "features": [
+    "Diagramas de pista completa com linhas azuis e círculos de faceoff",
+    "Setas de rota de patinação e linha de passe",
+    "Sistemas de power play e penalty kill",
+    "Diagramas de saída de zona e forecheck",
+    "Anime o turno e exporte em GIF pro time"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Monte a pista", "description": "Posicione sua linha e o sistema que vai rodar." },
+      { "title": "Mapeie a movimentação", "description": "Desenhe rotas de patinação, linhas de passe e cobertura." },
+      { "title": "Jogue o turno", "description": "Anime a jogada exatamente como ela deve acontecer." },
+      { "title": "Envie pro time", "description": "Exporte em GIF e compartilhe com seus jogadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Pronto pra montar o próximo turno?",
+    "description": "Monte, anime e compartilhe com o seu time — grátis, direto do navegador."
+  }
+}

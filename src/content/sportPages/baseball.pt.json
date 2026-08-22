@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Beisebol — Prancheta Tática Online e Gratuita",
+    "description": "Desenhe shifts defensivos, cobertura de bunt e jogadas de pickoff, anime a trajetória da bola e compartilhe a jogada com o seu elenco — grátis, direto do navegador."
+  },
+  "hero": {
+    "headline": "Pense à frente. Jogue o próximo arremesso.",
+    "subheadline": "Desenhe shifts defensivos, cobertura de bunt e jogadas de pickoff, depois anime a trajetória da bola pra cada leitura ficar clara antes do próximo arremesso."
+  },
+  "value": {
+    "title": "Feito pra como o beisebol realmente lê uma situação",
+    "description": "Nove bonequinhos parados no diamante não mostram um shift, um corte de relay ou um corredor disparando pra segunda. O Pulse Tactical mostra.",
+    "points": [
+      "Desenhe o posicionamento defensivo completo no diamante, do alinhamento padrão ao shift",
+      "Mostre a trajetória da bola e as corridas de base, não só onde os defensores estão parados",
+      "Anime a sequência pra cortes, relays e double plays ficarem claros antes do próximo arremesso"
+    ]
+  },
+  "board": { "labels": ["SHIFT DEFENSIVO", "DOUBLE PLAY", "DIAMANTE"] },
+  "plays": [
+    {
+      "name": "Shift Defensivo",
+      "description": "Defesa desloca pro lado de puxada, o segunda base cobre o direito curto.",
+      "path": [{ "x": 70, "y": 60 }, { "x": 55, "y": 45 }, { "x": 75, "y": 30 }]
+    },
+    {
+      "name": "Cobertura de Bunt",
+      "description": "Os cantos avançam pelas linhas, o shortstop cobre a terceira enquanto o pitcher pega o bunt.",
+      "path": [{ "x": 50, "y": 85 }, { "x": 35, "y": 65 }, { "x": 20, "y": 55 }]
+    },
+    {
+      "name": "Roubo de Base",
+      "description": "Corredor dispara pra segunda no arremesso, o lançamento do catcher chega antes dele na base.",
+      "path": [{ "x": 75, "y": 70 }, { "x": 60, "y": 40 }, { "x": 50, "y": 15 }]
+    },
+    {
+      "name": "Double Play",
+      "description": "Shortstop entrega o pivô na segunda, o relay chega antes do corredor na primeira.",
+      "path": [{ "x": 30, "y": 30 }, { "x": 50, "y": 15 }, { "x": 75, "y": 35 }]
+    }
+  ],
+  "features": [
+    "Posicionamento defensivo no diamante completo",
+    "Setas de trajetória de bola e lançamento (cortes, relays)",
+    "Corridas de base e timing de roubo",
+    "Diagramas de cobertura de bunt e double play",
+    "Anime a jogada e exporte em GIF pro elenco"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Monte a defesa", "description": "Posicione seus defensores e o alinhamento que vai rodar." },
+      { "title": "Mapeie a jogada", "description": "Desenhe lançamentos, cortes e corridas de base." },
+      { "title": "Jogue a sequência", "description": "Anime a jogada exatamente como ela deve acontecer." },
+      { "title": "Envie pro elenco", "description": "Exporte em GIF e compartilhe com seus jogadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Pronto pra montar a próxima jogada?",
+    "description": "Monte, anime e compartilhe com o seu elenco — grátis, direto do navegador."
+  }
+}

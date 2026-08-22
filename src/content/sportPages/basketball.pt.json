@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Basquete — Prancheta Tática Online e Gratuita",
+    "description": "Desenhe jogadas de meia quadra, bloqueios e cortes, anime a posse e compartilhe a jogada com o seu elenco — grátis, direto do navegador."
+  },
+  "hero": {
+    "headline": "Desenhe a jogada. Execute a jogada.",
+    "subheadline": "Desenhe jogadas de meia quadra, bloqueios e cortes, depois anime o movimento pra o seu time ver exatamente onde precisa estar."
+  },
+  "value": {
+    "title": "Feito pra como o basquete realmente ocupa a quadra",
+    "description": "Cinco bonequinhos parados no quadro não mostram um bloqueio, um corte ou a defesa trocando a marcação. O Pulse Tactical mostra.",
+    "points": [
+      "Desenhe jogadas de meia quadra com espaçamento real, do Horns a um 1-4 baixo",
+      "Mostre bloqueios, cortes e handoffs, não só bonequinhos parados",
+      "Anime jogadas de reposição pra o timing ficar claro antes da bola entrar"
+    ]
+  },
+  "board": { "labels": ["PICK & ROLL", "MEIA QUADRA", "BLOQUEIO"] },
+  "plays": [
+    {
+      "name": "Pick & Roll",
+      "description": "Armador sai do bloqueio, o pivô rola pra cesta enquanto a defesa troca a marcação.",
+      "path": [{ "x": 50, "y": 85 }, { "x": 35, "y": 55 }, { "x": 55, "y": 15 }]
+    },
+    {
+      "name": "Horns",
+      "description": "Dois pivôs no garrafão alto, armador ataca o meio saindo do bloqueio ou do handoff.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 30, "y": 60 }, { "x": 60, "y": 25 }]
+    },
+    {
+      "name": "Ataque em Movimento",
+      "description": "Cortes e bloqueios contínuos longe da bola até a defesa quebrar.",
+      "path": [{ "x": 15, "y": 80 }, { "x": 50, "y": 60 }, { "x": 25, "y": 35 }, { "x": 60, "y": 15 }]
+    },
+    {
+      "name": "Reposição de Fundo",
+      "description": "Time fecha embaixo da cesta, primeiro corte limpa pro arremessador que sai do duplo bloqueio.",
+      "path": [{ "x": 50, "y": 95 }, { "x": 20, "y": 70 }, { "x": 80, "y": 40 }]
+    }
+  ],
+  "features": [
+    "Jogadas de meia quadra e espaçamento dos jogadores",
+    "Setas de bloqueio e corte (pick, curl, handoff)",
+    "Diagramas de reposição e situações especiais",
+    "Anime a posse quadro a quadro, com velocidade ajustável",
+    "Exportação em GIF pra compartilhar com o elenco"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Monte a meia quadra", "description": "Posicione seus cinco jogadores e o espaçamento contra a defesa." },
+      { "title": "Desenhe a ação", "description": "Adicione bloqueios, cortes, handoffs e linhas de passe." },
+      { "title": "Jogue a posse", "description": "Anime a sequência exatamente como ela deve acontecer." },
+      { "title": "Envie pro elenco", "description": "Exporte em GIF e compartilhe com seus jogadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Pronto pra montar a próxima jogada?",
+    "description": "Monte, anime e compartilhe com o seu elenco — grátis, direto do navegador."
+  }
+}

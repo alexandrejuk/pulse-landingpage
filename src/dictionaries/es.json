@@ -592,5 +592,11 @@
       "ctaPrimary": "Abrir Pulse Tactical",
       "footnote": "Gratis · Directo desde el navegador · Sin instalación"
     }
+  },
+  "sportPage": {
+    "playsEyebrow": "JUGADAS COMUNES",
+    "playsTitle": "Jugadas de {sport}",
+    "featuresEyebrow": "FUNCIONES",
+    "featuresTitle": "Hecho para {sport}"
   }
 }

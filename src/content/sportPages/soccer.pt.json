@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Futebol — Prancheta Tática Online e Gratuita",
+    "description": "Desenhe formações, linhas de passe e bolas paradas, anime a movimentação e compartilhe a jogada com o seu time — grátis, direto do navegador."
+  },
+  "hero": {
+    "headline": "Monte a jogada. Domine o campo.",
+    "subheadline": "Desenhe formações, gatilhos de pressão e bolas paradas, depois anime o movimento pra o seu time ver exatamente o que você quer dizer."
+  },
+  "value": {
+    "title": "Feito pra como o futebol realmente se move",
+    "description": "Um XI estático no quadro branco não mostra pressão, transição ou um corte nas costas da defesa. O Pulse Tactical mostra.",
+    "points": [
+      "Desenhe o time inteiro em qualquer formação, do 4-3-3 ao 4-4-2",
+      "Mostre gatilhos de pressão e transições, não só uma formação parada",
+      "Anime bolas paradas pra cada corte e passe ficar claro antes do jogo"
+    ]
+  },
+  "board": { "labels": ["4-3-3", "GATILHO DE PRESSÃO", "CAMPO INTEIRO"] },
+  "plays": [
+    {
+      "name": "Saída de Bola 4-3-3",
+      "description": "Sai jogando de trás, passa pelo volante e chega no ataque.",
+      "path": [{ "x": 15, "y": 80 }, { "x": 50, "y": 55 }, { "x": 82, "y": 25 }]
+    },
+    {
+      "name": "Escanteio",
+      "description": "Corrida no primeiro pau puxa a marcação, o segundo chega livre.",
+      "path": [{ "x": 85, "y": 15 }, { "x": 55, "y": 35 }, { "x": 30, "y": 20 }]
+    },
+    {
+      "name": "Armadilha de Pressão",
+      "description": "Força o passe pro lado e fecha a armadilha no canto.",
+      "path": [{ "x": 20, "y": 30 }, { "x": 45, "y": 45 }, { "x": 75, "y": 70 }]
+    },
+    {
+      "name": "Sobreposição de Lateral",
+      "description": "Lateral sobe pra abrir a linha de passe pelo lado.",
+      "path": [{ "x": 20, "y": 85 }, { "x": 55, "y": 70 }, { "x": 88, "y": 45 }]
+    }
+  ],
+  "features": [
+    "Formações e posicionamento",
+    "Setas de linha de passe e corridas curvas",
+    "Diagramas de bola parada (escanteio, falta)",
+    "Corridas e caminhos de movimento",
+    "Exportação em GIF pra compartilhar com o time"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Monte a formação", "description": "Posicione a defesa, o meio-campo e o ataque." },
+      { "title": "Mapeie a movimentação", "description": "Desenhe linhas de passe, corridas e gatilhos de pressão." },
+      { "title": "Jogue a sequência", "description": "Anime a jogada exatamente como ela deve acontecer." },
+      { "title": "Envie pro time", "description": "Exporte em GIF e compartilhe com seus jogadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Pronto pra montar a próxima jogada?",
+    "description": "Monte, anime e compartilhe com o seu time — grátis, direto do navegador."
+  }
+}

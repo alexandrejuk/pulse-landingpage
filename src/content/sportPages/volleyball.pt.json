@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "Pulse Tactical para Vôlei — Prancheta Tática Online e Gratuita",
+    "description": "Desenhe rodízios, recepção de saque e combinações de ataque, anime a movimentação e compartilhe a jogada com o seu time — grátis, direto do navegador."
+  },
+  "hero": {
+    "headline": "Cada rodízio. Cada movimento.",
+    "subheadline": "Desenhe rodízios, padrões de recepção e combinações de ataque, depois anime o movimento pra cada jogador saber exatamente onde precisa estar."
+  },
+  "value": {
+    "title": "Feito pra como o vôlei realmente gira em quadra",
+    "description": "Um 6-2 parado no papel não mostra uma troca de líbero, um ataque de fundo de quadra ou uma largada do levantador. O Pulse Tactical mostra.",
+    "points": [
+      "Desenhe os seis rodízios com a numeração real das posições, da recepção à transição",
+      "Mostre a saída do levantador, a troca do líbero e as combinações de ataque, não só um time parado",
+      "Anime a sequência pra cada corrida de ataque, levantamento e bloqueio ficar claro antes do saque"
+    ]
+  },
+  "board": { "labels": ["RODÍZIO 1", "RECEPÇÃO", "6-2"] },
+  "plays": [
+    {
+      "name": "Recepção de Saque",
+      "description": "Passadores se posicionam em cinco, líbero cobre o fundo da quadra.",
+      "path": [{ "x": 50, "y": 90 }, { "x": 60, "y": 55 }, { "x": 50, "y": 15 }]
+    },
+    {
+      "name": "Rodízio 1",
+      "description": "Levantador sai da posição 1 pra rede enquanto a linha de frente libera pro ataque.",
+      "path": [{ "x": 85, "y": 85 }, { "x": 60, "y": 40 }, { "x": 30, "y": 10 }]
+    },
+    {
+      "name": "Ataque Rápido",
+      "description": "Meio de rede ataca em um tempo enquanto a ponta faz a corrida da combinação por trás.",
+      "path": [{ "x": 50, "y": 60 }, { "x": 50, "y": 30 }, { "x": 50, "y": 10 }]
+    },
+    {
+      "name": "Esquema de Bloqueio",
+      "description": "Central lê o levantamento e desloca pra fechar o bloqueio com a ponta.",
+      "path": [{ "x": 30, "y": 10 }, { "x": 55, "y": 10 }, { "x": 80, "y": 10 }]
+    }
+  ],
+  "features": [
+    "Rodízios completos com a numeração real das posições",
+    "Setas de saída do levantador e corrida de ataque",
+    "Diagramas de recepção de saque e esquema de bloqueio",
+    "Anime o rally quadro a quadro",
+    "Exportação em GIF pra compartilhar com o time"
+  ],
+  "howItWorks": {
+    "steps": [
+      { "title": "Monte o rodízio", "description": "Posicione as seis posições e quem está na rede ou no fundo." },
+      { "title": "Mapeie a movimentação", "description": "Desenhe corridas de ataque, levantamentos, bloqueios e trocas de líbero." },
+      { "title": "Jogue o rally", "description": "Anime a sequência exatamente como ela deve acontecer." },
+      { "title": "Envie pro time", "description": "Exporte em GIF e compartilhe com seus jogadores." }
+    ]
+  },
+  "finalCta": {
+    "headline": "Pronto pra montar o próximo rodízio?",
+    "description": "Monte, anime e compartilhe com o seu time — grátis, direto do navegador."
+  }
+}
