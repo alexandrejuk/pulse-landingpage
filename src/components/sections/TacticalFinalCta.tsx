@@ -3,13 +3,14 @@ import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { Reveal } from "@/components/ui/Reveal";
 import { GradientBlob } from "@/components/ui/GradientBlob";
-import { APP_STORE_URL } from "@/lib/constants";
 import type { Dictionary } from "@/dictionaries";
 
-// Same reasoning as TacticalHero: the primary CTA is a real, working link
+// Same reasoning as TacticalHero: the CTA is a real, working link
 // (board.pulseup.io) today, not a store placeholder, so this page can't
 // reuse the shared FinalCta -- it hardcodes both its buttons to
-// APP_STORE_URL/PLAY_STORE_URL.
+// APP_STORE_URL/PLAY_STORE_URL. Just one button here, per the brief --
+// footnote covers what the shared component would've used a second
+// (App/Play Store) button for.
 const BOARD_URL = "https://board.pulseup.io";
 
 export function TacticalFinalCta({ dict }: { dict: Dictionary["tacticalPage"]["finalCta"] }) {
@@ -35,14 +36,14 @@ export function TacticalFinalCta({ dict }: { dict: Dictionary["tacticalPage"]["f
               </p>
             </Reveal>
             <Reveal delay={0.16}>
-              <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <div className="mt-10 flex justify-center">
                 <Button href={BOARD_URL} size="lg" icon={<ArrowRight className="h-4 w-4" />}>
                   {dict.ctaPrimary}
                 </Button>
-                <Button href={APP_STORE_URL} variant="secondary" size="lg">
-                  {dict.ctaSecondary}
-                </Button>
               </div>
+            </Reveal>
+            <Reveal delay={0.22}>
+              <p className="mt-5 font-mono text-xs text-text-tertiary">{dict.footnote}</p>
             </Reveal>
           </div>
         </div>

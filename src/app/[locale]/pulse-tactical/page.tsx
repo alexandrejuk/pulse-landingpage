@@ -4,11 +4,12 @@ import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/dictionaries";
 import { Navbar } from "@/components/sections/Navbar";
 import { TacticalHero } from "@/components/sections/TacticalHero";
-import { WhatIsPulseUp } from "@/components/sections/WhatIsPulseUp";
-import { TacticalGallery } from "@/components/sections/TacticalGallery";
-import { FeatureGrid } from "@/components/sections/FeatureGrid";
-import { Gamification } from "@/components/sections/Gamification";
-import { Faq } from "@/components/sections/Faq";
+import { TacticalStats } from "@/components/sections/TacticalStats";
+import { TacticalSportsSwitcher } from "@/components/sections/TacticalSportsSwitcher";
+import { TacticalFeatures } from "@/components/sections/TacticalFeatures";
+import { TacticalAnimationShowcase } from "@/components/sections/TacticalAnimationShowcase";
+import { TacticalCommunity } from "@/components/sections/TacticalCommunity";
+import { TacticalHowItWorks } from "@/components/sections/TacticalHowItWorks";
 import { TacticalFinalCta } from "@/components/sections/TacticalFinalCta";
 import { Footer } from "@/components/sections/Footer";
 
@@ -95,11 +96,12 @@ export default async function PulseTacticalPage({
       <Navbar locale={locale as Locale} dict={dict.nav} />
       <main className="flex-1">
         <TacticalHero dict={page.hero} />
-        <WhatIsPulseUp dict={page.whatIs} />
-        <TacticalGallery dict={page.gallery} />
-        <FeatureGrid dict={page.featureGrid} />
-        <Gamification dict={page.howItWorks} />
-        <Faq dict={page.faq} />
+        <TacticalStats dict={page.stats} />
+        <TacticalSportsSwitcher dict={page.sports} />
+        <TacticalFeatures dict={page.features} />
+        <TacticalAnimationShowcase dict={page.animation} />
+        <TacticalCommunity dict={page.community} />
+        <TacticalHowItWorks dict={page.howItWorks} />
         <TacticalFinalCta dict={page.finalCta} />
       </main>
       <Footer dict={dict.footer} locale={locale} />

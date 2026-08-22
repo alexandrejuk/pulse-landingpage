@@ -483,12 +483,14 @@
     },
     "hero": {
       "eyebrow": "PULSE TACTICAL · GRATUITO",
-      "titleLine1": "A prancheta tática do seu time,",
-      "titleLine2": "online e animada.",
-      "subtitle": "Monte jogadas com jogadores, bola e anotações, anime a sequência e compartilhe com seu time — direto do navegador, sem instalar nada.",
-      "ctaPrimary": "Abrir o Pulse Tactical",
-      "ctaSecondary": "Baixar o PulseUp"
+      "titleLine1": "Monte a jogada.",
+      "titleLine2": "Veja ela se mover.",
+      "subtitle": "Monte táticas, anime cada movimento e compartilhe a jogada com o seu time.",
+      "ctaPrimary": "Abrir o Tactical",
+      "ctaSecondary": "Ver recursos",
+      "meta": { "play": "JOGADA #024", "formation": "FORMAÇÃO 4—3—3", "duration": "08.4 SEG", "fps": "60 FPS" }
     },
+    "stats": { "items": ["7 Esportes", "Jogadas Animadas", "Gratuito", "Sem Instalação"] },
     "whatIs": {
       "title": "O que é o Pulse Tactical?",
       "intro": "O Pulse Tactical é a prancheta tática online do PulseUp: um editor no navegador para montar jogadas com jogadores, bola e anotações, animá-las e compartilhar com o time — em board.pulseup.io, com a mesma conta do app.",
@@ -507,11 +509,11 @@
         "Biblioteca própria (\"Minhas Táticas\") pra reaproveitar e compartilhar"
       ]
     },
-    "gallery": {
-      "eyebrow": "JOGADAS REAIS",
-      "title": "Veja o Pulse Tactical em ação",
-      "description": "Táticas de verdade, criadas e animadas por coaches na plataforma — um exemplo de cada esporte.",
-      "sports": [
+    "sports": {
+      "eyebrow": "ESPORTES",
+      "title": "Um board. Todos os jogos.",
+      "description": "Mesmo editor, mesmas ferramentas — o board se adapta ao campo.",
+      "list": [
         { "key": "soccer", "label": "Futebol" },
         { "key": "basketball", "label": "Basquete" },
         { "key": "volleyball", "label": "Vôlei" },
@@ -521,34 +523,40 @@
         { "key": "baseball", "label": "Beisebol" }
       ]
     },
-    "featureGrid": {
+    "features": {
       "eyebrow": "RECURSOS",
-      "title": "Tudo pra montar uma jogada",
-      "description": "As mesmas ferramentas que os coaches já usam pra publicar táticas na plataforma.",
-      "items": [
-        "Jogadores e bola arrastáveis",
-        "Setas, linhas, saltos e curvas",
-        "Lançamento e lançamento curvo",
-        "Cones, barreiras e gol",
-        "Texto, formas e bandeiras",
-        "Animação com duração e FPS",
-        "Exportação em GIF",
-        "Biblioteca com busca e filtros",
-        "7 esportes diferentes",
-        "Login com a conta do PulseUp"
-      ]
+      "title": "Quatro ferramentas. Um board.",
+      "cards": [
+        { "key": "build", "title": "MONTAR", "subtitle": "Jogadores, bola e objetos." },
+        { "key": "draw", "title": "DESENHAR", "subtitle": "Cada movimento importa." },
+        { "key": "animate", "title": "ANIMAR", "subtitle": "Não só explique. Mostre em movimento." },
+        { "key": "share", "title": "COMPARTILHAR", "subtitle": "Do board direto pro seu time." }
+      ],
+      "shareSteps": ["CRIAR", "ANIMAR", "SALVAR", "GIF / COMPARTILHAR"]
+    },
+    "animation": {
+      "eyebrow": "ANIMAÇÃO",
+      "title": "De ideia estática à jogada em movimento.",
+      "description": "O Pulse Tactical não é só um quadro tático. Ele mostra a jogada se movendo.",
+      "staticLabel": "ESTÁTICO",
+      "animatedLabel": "ANIMADO",
+      "staticSteps": ["Jogador", "Bola", "Jogador"],
+      "animatedSteps": ["Jogador se move", "Passe", "Recebedor se move", "Finalização"]
+    },
+    "community": {
+      "eyebrow": "COMUNIDADE",
+      "title": "Não comece do zero.",
+      "description": "Explore táticas, salve ideias e aprenda com jogadas criadas pela comunidade.",
+      "badge": "Community"
     },
     "howItWorks": {
       "eyebrow": "COMO FUNCIONA",
-      "title": "De uma jogada em branco ao time treinando",
-      "description": "Do editor até o grupo do time, em poucos passos.",
+      "title": "Da ideia ao movimento.",
       "steps": [
-        "Entre com a conta do PulseUp",
-        "Escolha o esporte e o campo",
-        "Posicione jogadores e bola",
-        "Desenhe a jogada",
-        "Anime e exporte em GIF",
-        "Salve e compartilhe"
+        { "n": "01", "title": "Imagine", "description": "Pense na jogada." },
+        { "n": "02", "title": "Monte", "description": "Posicione jogadores e objetos." },
+        { "n": "03", "title": "Anime", "description": "Crie o movimento." },
+        { "n": "04", "title": "Compartilhe", "description": "Mostre ao seu time exatamente o que você imaginou." }
       ]
     },
     "faq": {
@@ -579,10 +587,10 @@
     },
     "finalCta": {
       "tagline": "PULSE TACTICAL · GRATUITO",
-      "title": "Monte a próxima jogada do seu time",
-      "description": "Crie, anime e compartilhe táticas com o time — grátis, direto do navegador.",
+      "title": "A próxima jogada do seu time começa aqui.",
+      "description": "Crie. Anime. Compartilhe.",
       "ctaPrimary": "Abrir o Pulse Tactical",
-      "ctaSecondary": "Baixar o PulseUp"
+      "footnote": "Gratuito · Direto do navegador · Sem instalação"
     }
   }
 }

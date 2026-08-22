@@ -483,12 +483,14 @@
     },
     "hero": {
       "eyebrow": "PULSE TACTICAL · FREE",
-      "titleLine1": "Your team's tactics board,",
-      "titleLine2": "online and animated.",
-      "subtitle": "Build plays with players, ball, and annotations, animate the sequence, and share it with your team — right in the browser, nothing to install.",
-      "ctaPrimary": "Open Pulse Tactical",
-      "ctaSecondary": "Download PulseUp"
+      "titleLine1": "Plan the play.",
+      "titleLine2": "See it move.",
+      "subtitle": "Build tactics, animate every movement and share the play with your team.",
+      "ctaPrimary": "Open Tactical",
+      "ctaSecondary": "Explore features",
+      "meta": { "play": "PLAY #024", "formation": "FORMATION 4—3—3", "duration": "08.4 SEC", "fps": "60 FPS" }
     },
+    "stats": { "items": ["7 Sports", "Animated Plays", "Free", "No Install"] },
     "whatIs": {
       "title": "What is Pulse Tactical?",
       "intro": "Pulse Tactical is PulseUp's online tactics board: a browser editor for building plays with players, ball, and annotations, animating them, and sharing them with your team — at board.pulseup.io, with the same account as the app.",
@@ -507,11 +509,11 @@
         "Your own library (\"My Plays\") to reuse and share"
       ]
     },
-    "gallery": {
-      "eyebrow": "REAL PLAYS",
-      "title": "See Pulse Tactical in action",
-      "description": "Real plays, built and animated by coaches on the platform — one example per sport.",
-      "sports": [
+    "sports": {
+      "eyebrow": "SPORTS",
+      "title": "One board. Every game.",
+      "description": "Same editor, same tools — the board adapts to the field.",
+      "list": [
         { "key": "soccer", "label": "Soccer" },
         { "key": "basketball", "label": "Basketball" },
         { "key": "volleyball", "label": "Volleyball" },
@@ -521,34 +523,40 @@
         { "key": "baseball", "label": "Baseball" }
       ]
     },
-    "featureGrid": {
+    "features": {
       "eyebrow": "FEATURES",
-      "title": "Everything you need to build a play",
-      "description": "The same tools coaches already use to publish plays on the platform.",
-      "items": [
-        "Draggable players and ball",
-        "Arrows, lines, jumps, and curves",
-        "Throw and curved throw",
-        "Cones, barriers, and goal",
-        "Text, shapes, and flags",
-        "Animation with duration and FPS",
-        "GIF export",
-        "Library with search and filters",
-        "7 different sports",
-        "Log in with your PulseUp account"
-      ]
+      "title": "Four tools. One board.",
+      "cards": [
+        { "key": "build", "title": "BUILD", "subtitle": "Players, ball and objects." },
+        { "key": "draw", "title": "DRAW", "subtitle": "Every movement matters." },
+        { "key": "animate", "title": "ANIMATE", "subtitle": "Don't just explain it. Play it." },
+        { "key": "share", "title": "SHARE", "subtitle": "From the board to your team." }
+      ],
+      "shareSteps": ["CREATE", "ANIMATE", "SAVE", "GIF / SHARE"]
+    },
+    "animation": {
+      "eyebrow": "ANIMATION",
+      "title": "From static idea to moving play.",
+      "description": "Pulse Tactical isn't just a tactical board. It shows the play moving.",
+      "staticLabel": "STATIC",
+      "animatedLabel": "ANIMATED",
+      "staticSteps": ["Player", "Ball", "Player"],
+      "animatedSteps": ["Player moves", "Pass", "Receiver moves", "Finish"]
+    },
+    "community": {
+      "eyebrow": "COMMUNITY",
+      "title": "Don't start from zero.",
+      "description": "Explore plays, save ideas and learn from tactics created by the community.",
+      "badge": "Community"
     },
     "howItWorks": {
       "eyebrow": "HOW IT WORKS",
-      "title": "From a blank play to the team training",
-      "description": "From the editor to the team group chat, in a few steps.",
+      "title": "From idea to movement.",
       "steps": [
-        "Log in with your PulseUp account",
-        "Pick the sport and the field",
-        "Position the players and ball",
-        "Draw the play",
-        "Animate and export as a GIF",
-        "Save and share"
+        { "n": "01", "title": "Imagine", "description": "Think about the play." },
+        { "n": "02", "title": "Build", "description": "Place players and objects." },
+        { "n": "03", "title": "Animate", "description": "Create the movement." },
+        { "n": "04", "title": "Share", "description": "Show your team exactly what you imagined." }
       ]
     },
     "faq": {
@@ -579,10 +587,10 @@
     },
     "finalCta": {
       "tagline": "PULSE TACTICAL · FREE",
-      "title": "Build your team's next play",
-      "description": "Create, animate, and share plays with your team — free, right in the browser.",
+      "title": "Your next play starts here.",
+      "description": "Create it. Animate it. Share it.",
       "ctaPrimary": "Open Pulse Tactical",
-      "ctaSecondary": "Download PulseUp"
+      "footnote": "Free · Browser-based · No installation"
     }
   }
 }
