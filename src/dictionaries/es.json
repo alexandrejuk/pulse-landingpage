@@ -10,7 +10,8 @@
       { "label": "FAQ", "href": "#faq" },
       { "label": "Socios", "href": "/parceiros" },
       { "label": "Coach", "href": "/coach", "newTab": true },
-      { "label": "Nutricionista", "href": "/nutri", "newTab": true }
+      { "label": "Nutricionista", "href": "/nutri", "newTab": true },
+      { "label": "Pulse Tactical", "href": "/pulse-tactical", "newTab": true }
     ],
     "download": "Descargar PulseUp"
   },
@@ -222,6 +223,7 @@
   "footer": {
     "tagline": "PulseUp es una app de fitness para planes de entrenamiento personalizados, seguimiento de cardio, entrenamiento social y gestión de programas para entrenadores personales.",
     "groups": [
+      { "title": "Producto", "links": [{ "label": "Coach", "href": "/coach" }, { "label": "Nutricionista", "href": "/nutri" }, { "label": "Pulse Tactical", "href": "/pulse-tactical" }] },
       { "title": "Legal", "links": [{ "label": "Política de Privacidad", "href": "/privacy-policy" }, { "label": "Términos", "href": "/terms-of-use" }] },
       { "title": "Soporte", "links": [{ "label": "Centro de Ayuda", "href": "https://wa.me/5511998857785?text=%C2%A1Hola!%20Necesito%20ayuda%20con%20PulseUp%20%28vengo%20del%20sitio%20en%20espa%C3%B1ol%29." }, { "label": "Contacto", "href": "https://wa.me/5511998857785?text=%C2%A1Hola!%20Quiero%20hablar%20sobre%20PulseUp%20%28vengo%20del%20sitio%20en%20espa%C3%B1ol%29." }] },
       { "title": "Comunidad", "links": [{ "label": "Instagram", "href": "https://www.instagram.com/pulseup.io/" }, { "label": "YouTube", "href": "https://www.youtube.com/channel/UCVLVAJ_vMuJ29xB5lCdWdlA" }, { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61592854919734" }, { "label": "X", "href": "https://x.com/pulseupio" }, { "label": "TikTok", "href": "https://www.tiktok.com/@pulseup.io" }] }
@@ -472,6 +474,115 @@
       "description": "Arma, calcula y reutiliza planes alimentarios — todo en un solo lugar.",
       "appStore": "Descargar en App Store",
       "playStore": "Disponible en Google Play"
+    }
+  },
+  "tacticalPage": {
+    "meta": {
+      "title": "Pulse Tactical — Pizarra Táctica Online y Gratuita",
+      "description": "Crea jugadas animadas con jugadores, balón y anotaciones, y compártelas con tu equipo — gratis, directo desde el navegador, en board.pulseup.io."
+    },
+    "hero": {
+      "eyebrow": "PULSE TACTICAL · GRATIS",
+      "titleLine1": "La pizarra táctica de tu equipo,",
+      "titleLine2": "online y animada.",
+      "subtitle": "Crea jugadas con jugadores, balón y anotaciones, anima la secuencia y compártela con tu equipo — directo desde el navegador, sin instalar nada.",
+      "ctaPrimary": "Abrir Pulse Tactical",
+      "ctaSecondary": "Descargar PulseUp"
+    },
+    "whatIs": {
+      "title": "¿Qué es Pulse Tactical?",
+      "intro": "Pulse Tactical es la pizarra táctica online de PulseUp: un editor en el navegador para crear jugadas con jugadores, balón y anotaciones, animarlas y compartirlas con tu equipo — en board.pulseup.io, con la misma cuenta de la app.",
+      "forUsersTitle": "Lo que el atleta encuentra",
+      "forUsersItems": [
+        "Una biblioteca con las jugadas del equipo y de la comunidad",
+        "Búsqueda por nombre y una pestaña solo con tus jugadas",
+        "Jugadas animadas, con jugadores, balón y flechas de movimiento",
+        "Acceso con la misma cuenta de PulseUp, sin otro registro"
+      ],
+      "forCoachesTitle": "Lo que el coach crea",
+      "forCoachesItems": [
+        "Editor completo: jugadores, balón, conos, barreras y más",
+        "7 deportes, cada uno con su propio campo o cancha",
+        "Animación con duración y FPS ajustables, exportada en GIF",
+        "Biblioteca propia (\"Mis Jugadas\") para reutilizar y compartir"
+      ]
+    },
+    "gallery": {
+      "eyebrow": "JUGADAS REALES",
+      "title": "Mira Pulse Tactical en acción",
+      "description": "Jugadas reales, creadas y animadas por coaches en la plataforma — un ejemplo de cada deporte.",
+      "sports": [
+        { "key": "soccer", "label": "Fútbol" },
+        { "key": "basketball", "label": "Baloncesto" },
+        { "key": "volleyball", "label": "Vóleibol" },
+        { "key": "tennis", "label": "Tenis" },
+        { "key": "americanFootball", "label": "Fútbol Americano" },
+        { "key": "iceHockey", "label": "Hockey sobre Hielo" },
+        { "key": "baseball", "label": "Béisbol" }
+      ]
+    },
+    "featureGrid": {
+      "eyebrow": "FUNCIONES",
+      "title": "Todo para crear una jugada",
+      "description": "Las mismas herramientas que los coaches ya usan para publicar jugadas en la plataforma.",
+      "items": [
+        "Jugadores y balón arrastrables",
+        "Flechas, líneas, saltos y curvas",
+        "Lanzamiento y lanzamiento curvo",
+        "Conos, barreras y arco",
+        "Texto, formas y banderas",
+        "Animación con duración y FPS",
+        "Exportación en GIF",
+        "Biblioteca con búsqueda y filtros",
+        "7 deportes diferentes",
+        "Inicia sesión con tu cuenta de PulseUp"
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "CÓMO FUNCIONA",
+      "title": "De una jugada en blanco al equipo entrenando",
+      "description": "Del editor al grupo del equipo, en pocos pasos.",
+      "steps": [
+        "Inicia sesión con tu cuenta de PulseUp",
+        "Elige el deporte y el campo",
+        "Posiciona jugadores y balón",
+        "Dibuja la jugada",
+        "Anima y exporta en GIF",
+        "Guarda y comparte"
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Pulse Tactical es gratis?",
+          "a": "Sí. Pulse Tactical es gratis y usa la misma cuenta que PulseUp — no necesita otro registro ni una suscripción aparte."
+        },
+        {
+          "q": "¿Necesito instalar algo?",
+          "a": "No. Pulse Tactical funciona directo en el navegador, en board.pulseup.io — funciona en cualquier computadora, sin instalación."
+        },
+        {
+          "q": "¿Puedo editar una jugada de otra persona?",
+          "a": "Puedes, pero editarla no cambia el original: al modificar una jugada que no es tuya, se crea una copia en tu propia biblioteca, y la jugada original sigue intacta para quien la creó."
+        },
+        {
+          "q": "¿Qué deportes soporta Pulse Tactical?",
+          "a": "Fútbol, baloncesto, vóleibol, tenis, fútbol americano, hockey sobre hielo y béisbol, cada uno con su campo o cancha correspondiente."
+        },
+        {
+          "q": "¿Quién puede ver las jugadas que creo?",
+          "a": "Las jugadas creadas por cualquier cuenta, coach o atleta, entran en la biblioteca compartida, visible para todos; \"Mis Jugadas\" muestra solo las que tú mismo creaste."
+        }
+      ]
+    },
+    "finalCta": {
+      "tagline": "PULSE TACTICAL · GRATIS",
+      "title": "Crea la próxima jugada de tu equipo",
+      "description": "Crea, anima y comparte jugadas con tu equipo — gratis, directo desde el navegador.",
+      "ctaPrimary": "Abrir Pulse Tactical",
+      "ctaSecondary": "Descargar PulseUp"
     }
   }
 }
